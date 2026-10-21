@@ -39,6 +39,18 @@ const handleSubmit = async () => {
         }
       })
       if (signUpError) throw signUpError
+      // If auto-confirm is enabled or session exists, ensure profile row in public.profiles
+      if (data.user && data.session) {
+        try {
+          await supabase.from('profiles').upsert({
+            id: data.user.id,
+            username: username.value || email.value.split('@')[0],
+            role: 'coach',
+          }, { onConflict: 'id', ignoreDuplicates: true })
+        } catch {
+          // Handled by Postgres trigger / API
+        }
+      }
       successMsg.value = '¡Cuenta creada! Revisa tu correo de confirmación o inicia sesión directamente.'
       isRegister.value = false
     } else {
@@ -47,6 +59,18 @@ const handleSubmit = async () => {
         password: password.value
       })
       if (signInError) throw signInError
+      // Ensure profile row exists in public.profiles upon login
+      if (data.user) {
+        try {
+          await supabase.from('profiles').upsert({
+            id: data.user.id,
+            username: data.user.user_metadata?.username || data.user.email?.split('@')[0] || 'Entrenador',
+            role: 'coach',
+          }, { onConflict: 'id', ignoreDuplicates: true })
+        } catch {
+          // Handled by Postgres trigger / API
+        }
+      }
       router.push('/profile')
     }
   } catch (err: any) {

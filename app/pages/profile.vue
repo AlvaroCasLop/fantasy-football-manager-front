@@ -51,6 +51,17 @@ const loadProfile = async () => {
   loading.value = true
   error.value = null
   try {
+    if (user.value?.id) {
+      try {
+        await supabase.from('profiles').upsert({
+          id: user.value.id,
+          username: user.value.user_metadata?.username || user.value.email?.split('@')[0] || 'Entrenador',
+          role: 'coach',
+        }, { onConflict: 'id', ignoreDuplicates: true })
+      } catch {
+        // Handled by Postgres trigger / API
+      }
+    }
     const data = await api.getMyProfile()
     profile.value = data
     if (data) {
