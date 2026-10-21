@@ -62,7 +62,7 @@ cp .env.example .env
 
 Configura tus credenciales:
 ```env
-NUXT_PUBLIC_API_BASE=http://localhost:8000/api/v1
+NUXT_API_BASE=http://localhost:8000/api/v1
 SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_KEY=your-anon-key
 ```
@@ -102,5 +102,5 @@ npm run build
 
 El proyecto incluye la configuración `vercel.json` compatible con el preset Nitro de Nuxt 4:
 1. Conecta el repositorio en el panel de Vercel.
-2. Añade las variables de entorno `NUXT_PUBLIC_API_BASE`, `SUPABASE_URL` y `SUPABASE_KEY`.
+2. Añade las variables de entorno `NUXT_API_BASE`, `SUPABASE_URL` y `SUPABASE_KEY`.
 3. Vercel ejecutará automáticamente `npm run build` y desplegará la función SSR.
