@@ -1,6 +1,6 @@
-# Fantasy Football Manager — Frontend
+# Blood Bowl Manager — Frontend de Gestión Deportiva
 
-Frontend oficial de gestión para ligas, franquicias y torneos de **Blood Bowl (Reglamento 2025)**, conectado a [fantasy-football-manager-api](https://github.com/AlvaroCasLop/fantasy-football-manager-api).
+Interfaz web de gestión deportiva con estética de fantasía oscura para **Blood Bowl** (Reglamento 2025). Diseñada con paneles compactos, tablas densas y legibles, estadísticas destacadas y un sistema de diseño táctico.
 
 ---
 
@@ -8,47 +8,47 @@ Frontend oficial de gestión para ligas, franquicias y torneos de **Blood Bowl (
 
 | Componente | Tecnología | Para qué |
 | :--- | :--- | :--- |
-| **Framework** | Nuxt 4 + Vue 3 | SSR, navegación reactiva y arquitectura modular |
-| **Lenguaje** | TypeScript | Tipado estricto en clientes API y modelos de datos |
-| **Estilos** | Tailwind CSS | Paleta temática *Dark Fantasy* (crimson, oro viejo, carbón) |
-| **Componentes UI** | shadcn-vue / Radix Vue | Tablas, tarjetas, diálogos, insignias y botones |
-| **Autenticación** | Supabase Auth + `@nuxtjs/supabase` | Gestión de sesión de entrenadores y propagación JWT Bearer |
-| **API Backend** | FastAPI | Comunicación con `fantasy-football-manager-api` |
-| **Hosting** | Vercel | Despliegue SSR serverless optimizado (`vercel.json`) |
-| **Tests** | Vitest + Playwright | Pruebas unitarias de utilidades y pruebas E2E de interfaz |
+| **Framework** | **Nuxt 4 + Vue 3** | SSR, rutas reactivas y arquitectura modular (`future.compatibilityVersion: 4`) |
+| **Lenguaje** | **TypeScript** | Tipado estricto en modelos de dominio y composables |
+| **Estilos** | **Tailwind CSS** | Paleta táctica: fondo `#111318`, sidebar `#171A21`, paneles `#1D212B`, bordes `#303644`, carmesí `#B8323C` |
+| **Componentes UI** | **shadcn-vue / Radix Vue** | Tablas, tarjetas, diálogos, insignias y botones |
+| **Iconos** | **Lucide Vue Next** | Iconografía deportiva y contextual coherente |
+| **Hosting** | **Vercel** | Despliegue SSR serverless optimizado (`vercel.json`) |
+| **Tests** | **Vitest + Playwright** | Pruebas unitarias de utilidades y pruebas de navegador E2E |
 
 ---
 
-## 📂 Arquitectura de Páginas y Módulos
+## 🎨 Sistema de Diseño (Fantasía Oscura)
 
-```
-app/
-├── assets/css/main.css       # Estilos globales, paleta temática y utilidades de cristal
-├── components/ui/            # Componentes shadcn-vue (Button, Badge, Card, Table, Input)
-├── composables/
-│   └── useApi.ts             # Cliente tipado para todos los endpoints de FastAPI
-├── layouts/
-│   └── default.vue           # Barra superior con estado API en vivo, navegación y pie
-├── lib/
-│   └── utils.ts              # cn (clsx + tailwind-merge) y formateador de oro (formatGold)
-└── pages/
-    ├── index.vue             # Portada épica, acceso rápido con código y métricas
-    ├── leagues/
-    │   ├── index.vue         # Listado, búsqueda y creación de ligas
-    │   └── [id].vue          # Clasificación, Líderes, Jornadas, Recompensas y Equipos
-    ├── teams/
-    │   ├── index.vue         # Franquicias registradas, filtros por raza y creación
-    │   └── [id].vue          # Plantilla oficial (16 jugadores), TV, tesorería y fichajes
-    ├── hall-of-fame.vue      # Salón de la Fama de Nuffle (SPP, Anotadores, Bajas, Equipos)
-    ├── reference/
-    │   └── index.vue         # Compendio de 29 razas, habilidades, jugadores estrella e incentivos
-    ├── login.vue             # Inicio de sesión y registro de entrenadores con Supabase
-    └── profile.vue           # Perfil del entrenador, palmarés, vitrina de trofeos y NAF
-```
+- **Fondo principal**: `#111318` (`bg-ground`)
+- **Sidebar**: `#171A21` (`bg-sidebar`)
+- **Tarjetas y paneles**: `#1D212B` (`bg-surface`) con hover en `#242936`
+- **Bordes sutiles**: `#303644` (`border-border`)
+- **Texto principal**: `#F1F3F5` y secundario `#A1A8B5`
+- **Acento**: Carmesí `#B8323C` (`accent-crimson`)
+- **Indicadores**: Verde apagado (`#3FA26C`), ámbar (`#D97706`), peligro (`#B8323C`)
 
 ---
 
-## 🚀 Inicio Rápido
+## 📂 Rutas Implementadas
+
+| Ruta | Descripción |
+| :--- | :--- |
+| `/` | **Dashboard inicial** con 4 tarjetas de resumen, tabla de ligas recientes, próximos partidos y feed de actividad |
+| `/ligas` | Catálogo de competiciones con buscador por nombre y filtro por formato |
+| `/ligas/[slug]` | Ficha de liga con pestañas de Clasificación, Jornadas y Equipos inscritos |
+| `/equipos` | Franquicias federadas, búsqueda, filtro por raza y TV |
+| `/equipos/[id]` | Plantilla oficial (16 jugadores), línea de atributos (MA, ST, AG, PA, AV), habilidades, SPP, TV y tesorería |
+| `/entrenadores` | Directorio de técnicos federados, palmarés, lema y NAF ID |
+| `/partidos` | Calendario de enfrentamientos oficiales con filtros por estado |
+| `/partidos/[id]` | Acta oficial de encuentro (marcador, estadio, MVP y anotaciones) |
+| `/estadisticas` | Tablas de máximos anotadores (TD), carniceros del campo (bajas) y estrellas (SPP) |
+| `/configuracion` | Ajustes de reglamento BB2025, recompensas y endpoint de backend FastAPI |
+| `/login` | Inicio de sesión y registro de entrenadores |
+
+---
+
+## 🚀 Cómo Arrancar el Proyecto
 
 ### 1. Requisitos Previos
 - Node.js 18+ o 20+
@@ -60,7 +60,7 @@ Copia el archivo `.env.example` a `.env`:
 cp .env.example .env
 ```
 
-Configura tus credenciales:
+Variables recomendadas:
 ```env
 NUXT_API_BASE=http://localhost:8000/api/v1
 SUPABASE_URL=https://your-project.supabase.co
@@ -98,9 +98,14 @@ npm run build
 
 ---
 
-## ☁️ Despliegue en Vercel
+## 🧩 Funciones que Actualmente Utilizan Datos Ficticios Tipados
 
-El proyecto incluye la configuración `vercel.json` compatible con el preset Nitro de Nuxt 4:
-1. Conecta el repositorio en el panel de Vercel.
-2. Añade las variables de entorno `NUXT_API_BASE`, `SUPABASE_URL` y `SUPABASE_KEY`.
-3. Vercel ejecutará automáticamente `npm run build` y desplegará la función SSR.
+Para garantizar que la interfaz sea plenamente interactiva sin depender de conexión a base de datos en esta fase, se utilizan datos de demostración tipados en `app/data/mockBloodBowlData.ts` orquestados mediante el composable `app/composables/useBloodBowl.ts`:
+
+1. **Dashboard Stats**: Conteo de 4 ligas activas, 32 equipos, 86 partidos disputados y 12 pendientes.
+2. **Tabla de Ligas**: Competiciones demostrativas (*Liga del Viejo Mundo*, *Copa de los Reinos*, *Liga de la Ciudad Maldita*, *Torneo de los Condenados*). La acción de *Crear Liga* añade reactivamente nuevas ligas al estado de sesión.
+3. **Próximos Partidos**: Enfrentamientos ficticios entre franquicias emblemáticas (*Reikland Reavers* vs *Gouged Eye*, *Skavenblight Scramblers* vs *Dwarf Giants*, etc.).
+4. **Feed de Actividad**: Eventos de actas validadas, lesiones y altas de equipos.
+5. **Roster de Equipos**: Plantillas de ejemplo con atributos oficiales Blood Bowl 2025 (MA, ST, AG, PA, AV).
+
+> **Migración a FastAPI**: Todos los componentes consumen el composable `useBloodBowl()`, permitiendo conectar los endpoints de `fantasy-football-manager-api` simplemente sustituyendo las fuentes del composable por `$fetch` sin reescribir la capa de presentación.
