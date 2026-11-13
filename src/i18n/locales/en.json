@@ -1,0 +1,4022 @@
+{
+  "app": {
+    "name": "Fantasy Football Manager",
+    "description": "Manage your leagues and tournaments",
+    "mascot": {
+      "alt": "Gnome Mascot"
+    },
+    "home": {
+      "factions_ticker": {
+        "necromantic": "Necromantic Horror",
+        "khemri": "Khemri",
+        "underworld": "Underworld Denizens",
+        "kael_alliance": "Kael Alliance",
+        "imperial_nobility": "Imperial Nobility",
+        "chaos_dwarfs": "Chaos Dwarfs"
+      },
+      "logo_short": "FFM"
+    },
+    "layout": {
+      "meta_description": "Manage Fantasy Football matches in real time"
+    }
+  },
+  "nav": {
+    "back_to_dashboard": "Back to Dashboard",
+    "logout": "Logout",
+    "language": "Language",
+    "profile": "Profile",
+    "teams": "Teams",
+    "leagues": "Leagues",
+    "tournaments": "Tournaments",
+    "glossary": "Rule Glossary",
+    "hall_of_fame": "Hall of Fame",
+    "quick_match": "Quick Match",
+    "glossary_short": "Glossary",
+    "coach": "Coach",
+    "restart_match": "Restart Match",
+    "restart_confirm": "Are you sure you want to start a new match? All current data will be erased.",
+    "confirm": "Confirm",
+    "got_it": "Got it",
+    "available": "Available",
+    "my_club": "My Club",
+    "competition": "Competition",
+    "tools": "Tools",
+    "whiteboard": "Whiteboard",
+    "community": "Community",
+    "find_coaches": "Find Coaches",
+    "plans": "Plans",
+    "coach_with_name": "{label}: {name}",
+    "menu_toggle": "Toggle menu"
+  },
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "available_short": "avail.",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saved": "Saved!",
+    "now": "Now",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "close": "Close",
+    "got_it": "Got it",
+    "confirm": "Confirm",
+    "victories": "Victories",
+    "draws": "Draws",
+    "losses": "Losses",
+    "played": "Played",
+    "date_locale": "en-US",
+    "unknown_date": "Unknown date",
+    "image_cropper_modal": {
+      "title": "Crop and Adjust Banner",
+      "hint": "Drag the image and use the slider to frame your banner perfectly inside the box.",
+      "image_alt": "Image to crop",
+      "zoom_label": "Zoom:",
+      "confirm_btn": "Confirm and Crop"
+    }
+  },
+  "analytics": {
+    "tv_evolution_title": "Team Value (TV) Evolution",
+    "match_number": "Match #",
+    "race_comparison_title": "Meta Comparison: {race}",
+    "race_average": "Race Average",
+    "win_rate": "Win Rate",
+    "tds_per_match": "TDs / Match",
+    "cas_per_match": "Cas / Match",
+    "meta_hint": "Data based on {count} teams of this race in the system.",
+    "performance_summary": "Performance Summary",
+    "current_tv": "Current TV",
+    "vs_meta": "vs Meta"
+  },
+  "loading": {
+    "stadium": "Loading stadium..."
+  },
+  "login": {
+    "title_signup": "JOIN THE CUP",
+    "title_login": "FANTASY FOOTBALL MANAGER",
+    "subtitle_signup": "Create your coach profile",
+    "subtitle_login": "Return to the battlefield",
+    "username_label": "Coach Name",
+    "username_placeholder": "Lord Grumbold",
+    "email_label": "Email",
+    "email_placeholder": "coach{'@'}fantasyfootball.com",
+    "password_label": "Password",
+    "password_placeholder": "••••••••",
+    "button_loading": "Loading...",
+    "button_signup": "Register Guild",
+    "button_login": "Enter the Stadium",
+    "footer_signup": "Already have a team?",
+    "footer_login": "New to the league?",
+    "toggle_signup": "Login",
+    "toggle_login": "Create your Coach account",
+    "alert_signup_success": "Registration successful! Check your email to confirm (if activated).",
+    "error_default": "An error occurred",
+    "forgot_password_link": "Forgot password?",
+    "title_forgot": "RECOVER ACCOUNT",
+    "subtitle_forgot": "Send password reset link",
+    "button_forgot": "Send Reset Link",
+    "alert_forgot_success": "If the email is registered, you will receive a reset link shortly.",
+    "back_to_login": "Back to Login"
+  },
+  "reset": {
+    "title": "SET NEW PASSWORD",
+    "subtitle": "Choose a strong password",
+    "password_label": "New Password",
+    "password_placeholder": "••••••••",
+    "confirm_password_label": "Confirm New Password",
+    "confirm_password_placeholder": "••••••••",
+    "button": "Update Password",
+    "error_mismatch": "Passwords do not match.",
+    "error_empty": "Password cannot be empty.",
+    "error_no_session": "No active reset session or it has expired. Please request a new link.",
+    "success": "Password updated successfully! Redirecting..."
+  },
+  "dashboard": {
+    "welcome": "Welcome, Coach",
+    "leagues_title": "Your Leagues",
+    "tournaments_title": "Your Tournaments",
+    "create_league": "+ New League",
+    "create_tournament": "+ New Tournament",
+    "no_leagues": "You are not participating in any league yet",
+    "no_tournaments": "You are not participating in any tournament yet",
+    "leagues_joined": "Leagues joined"
+  },
+  "league": {
+    "details": {
+      "back": "Back to Dashboard",
+      "active_competition": "Active Competition",
+      "delete_league": "Delete League",
+      "register_match": "Register Match",
+      "join_league": "Join League",
+      "empty_description": "Welcome to the carnage. Only the strongest will survive.",
+      "delete_confirm": "Are you sure you want to DELETE the league {name} and all its information (teams, matches, etc)? This action is irreversible.",
+      "need_teams_tooltip": "You need at least 2 teams",
+      "team_name_label": "Team Name",
+      "team_name_placeholder": "The Orc Crushers",
+      "team_race_label": "Team Race",
+      "alerts": {
+        "commissioners_update_error": "Error updating commissioners: {error}",
+        "sponsorships_update_error": "Error updating sponsorships: {error}",
+        "stadiums_update_error": "Error updating stadiums: {error}",
+        "recalculate_confirm": "Do you want to recalculate all stats (TD for/against, Wins, Casualties, etc.) for this league's teams based on the matches played?",
+        "recalculate_success": "Stats recalculated successfully.",
+        "recalculate_error": "Error recalculating stats: {error}",
+        "replace_success": "Team replaced successfully. All upcoming fixtures have been updated.",
+        "replace_error": "Error replacing team: {error}",
+        "phase2_success": "Phase 2 (Inter-Conference) generated successfully.",
+        "phase2_error": "Error generating Phase 2: {error}",
+        "participant_limit": "This league has reached the participant limit ({max}) for its creator's plan. Upgrade the league's plan to add more.",
+        "join_error": "Error registering team: {error}",
+        "reject_confirm": "Are you sure you want to reject this match report and return the match to scheduled?",
+        "reject_success": "Report rejected. The match is scheduled again.",
+        "reject_error": "Error rejecting: {error}",
+        "generic_error": "Error: {error}"
+      },
+      "rules_doc": {
+        "upload_error": "Error uploading the document: {error}",
+        "db_save_error": "Error saving to the database: {error}",
+        "upload_unexpected_error": "An error occurred while uploading the document: {error}",
+        "delete_confirm": "Are you sure you want to delete the league rules document?",
+        "delete_error": "Error deleting document: {error}",
+        "delete_unexpected_error": "An error occurred while deleting the document."
+      },
+      "round_names": {
+        "interconference": "Inter-Conference Phase - Round {round}",
+        "double_r2": "Double Playoffs - R2",
+        "double_losers_final": "Double Playoffs - Losers' Final",
+        "double_grand_final": "Double Playoffs - Grand Final",
+        "playoffs_next": "Playoffs - Next Round",
+        "playoffs_final": "Playoffs - Grand Final",
+        "playoffs_semis": "Playoffs - Semi-finals"
+      },
+      "banner": {
+        "alt": "League banner",
+        "change": "Change Banner",
+        "add": "📷 Add League Banner",
+        "upload_error": "Error uploading banner: {error}",
+        "db_save_error": "Error saving to DB: {error}"
+      },
+      "my_team": {
+        "label": "Your team in this league",
+        "tv": "TV {value}k",
+        "view_roster": "📋 View My Team's Roster"
+      },
+      "mode_badge": {
+        "sevens": "⚡ BLOOD BOWL SEVENS (7v7)",
+        "bb7": "🏈 BLOOD BOWL 7 (BB7)"
+      },
+      "close_league": {
+        "confirm": "Are you sure you want to close the league? No more matches can be played and the podium positions can no longer change.",
+        "error": "Error closing the league: {error}",
+        "button": "🏁 Close League"
+      },
+      "recalculate": {
+        "in_progress": "Recalculating...",
+        "button": "Recalculate Stats"
+      },
+      "tabs": {
+        "pending_badge": "{count} pending",
+        "live_badge": "LIVE"
+      },
+      "standings": {
+        "tiebreakers_list": "Pts > TD Diff. > TD For > Head-to-head > CAS Diff. > CAS For > Fewest TD Against > Fewest CAS Against > TV",
+        "no_conferences": "No conferences have been assigned.",
+        "no_conferences_hint": "Generate the schedule to distribute the teams.",
+        "view_conferences": "Conferences",
+        "view_combined": "Combined Standings",
+        "conference_title": "{name} Conference",
+        "group_title": "Group {name}",
+        "phase1_badge": "Phase 1",
+        "combined_title": "Overall Standings (Phase 1 + 2)",
+        "all_conferences": "All Conferences",
+        "team_count": "{count} team | {count} teams"
+      },
+      "stats": {
+        "top_scorer_title": "Top Scorer",
+        "top_scorer_subtitle": "TDs per Team",
+        "no_teams": "No teams registered...",
+        "top_passer_title": "Top Passer",
+        "top_passer_subtitle": "Passes per Team",
+        "passes_short": "PAS",
+        "most_violent_title": "Most Violent",
+        "most_violent_subtitle": "Casualties per Team",
+        "dirtiest_title": "Dirtiest",
+        "dirtiest_subtitle": "Fouls per Team",
+        "worst_sprinter_title": "Worst Sprinter",
+        "worst_sprinter_subtitle": "Rush Falls (GFI)",
+        "falls_short": "Falls"
+      },
+      "hall_of_fame": {
+        "podium_title": "🏆 PODIUM LEADERS 🏆",
+        "podium_hidden_title": "Podium Hidden",
+        "podium_hidden_text": "The champions' podium will be revealed publicly as soon as the league creator officially closes the competition.",
+        "no_teams": "No teams registered in the league yet.",
+        "runner_up": "Runner-up",
+        "points": "{points} PTS",
+        "leader_badge": "LEADER",
+        "champion": "Champion",
+        "third_place": "Third Place",
+        "individual_stats_title": "Individual Stats (Players)"
+      },
+      "rules": {
+        "doc_title": "Official Rules & Regulations",
+        "doc_attached": "Document Attached",
+        "doc_description": "Official document with the regulations, competition rules, tiebreakers and detailed rulebook.",
+        "replace": "Replace",
+        "deleting": "Deleting...",
+        "delete": "Delete",
+        "doc_ext_fallback": "DOC",
+        "doc_name_fallback": "League_Rules.pdf",
+        "doc_available": "Rules available to view and download",
+        "view_doc": "View Document",
+        "download_name": "league_rules.pdf",
+        "download": "Download",
+        "toggle_viewer_title": "Toggle built-in viewer",
+        "hide_viewer": "Hide Viewer",
+        "preview": "Preview",
+        "pdf_viewer": "Built-in PDF Viewer",
+        "close_viewer": "✕ Close",
+        "iframe_title": "League rules viewer",
+        "uploading_doc": "Uploading document...",
+        "upload_doc": "Upload rules document",
+        "upload_hint": "Click to select or drag the official rules file here (PDF, Word, etc.).",
+        "allowed_formats": "Allowed formats: PDF, Word (.docx, .doc), Text",
+        "no_doc": "The league organizer hasn't attached a rules document yet.",
+        "tier_skills_title": "Skills per Tier (Draft)",
+        "max_stars_col": "Max Stars",
+        "tier_badge": "T{tier}",
+        "roster_restrictions": "Roster Restrictions",
+        "star_players": "★ Star Players",
+        "star_banned": "Banned",
+        "star_max_cost": "Max cost: {cost}k gp",
+        "individually_banned_stars": "★ Individually Banned Star Players",
+        "banned_inducements": "Banned Inducements",
+        "sponsorships_title": "Team Sponsorships",
+        "sponsorships_desc": "Post-match roll for one-off and ongoing sponsorships",
+        "active": "Active",
+        "disabled": "Disabled",
+        "disable_sponsorships": "Disable sponsorships",
+        "enable_sponsorships": "Enable sponsorships",
+        "stadiums_title": "Stadiums of the Old World (Death Zone)",
+        "stadiums_desc": "Pre-match pitch and fan rules, home stadium advantages and team residency",
+        "disable_stadiums": "Disable stadiums",
+        "enable_stadiums": "Enable stadiums",
+        "additional_rules": "Additional Rules"
+      },
+      "calendar": {
+        "pending_reports_title": "Match reports pending approval",
+        "add_manual_round": "Add Manual Round",
+        "must_complete_matches": "You must complete all matches played so far",
+        "generate_interconference": "Generate Inter-Conference Round",
+        "phase_badge": "Phase {phase}",
+        "date_range": "{start} to {end}",
+        "round_no_matches": "📌 No matches scheduled for this round.",
+        "pending_locked_alert": "This match report is pending approval by the league administrator or commissioners and cannot be modified.",
+        "pending": "🕒 Pending",
+        "vs": "VS",
+        "review_approve": "Review / Approve",
+        "reject_title": "Reject and return match",
+        "pending_reports_text": "There is {count} match pending review. Click \"Review / Approve\" on the match card. | There are {count} matches pending review. Click \"Review / Approve\" on the match card.",
+        "extended": "Extended (+{count} day) | Extended (+{count} days)"
+      },
+      "matches": {
+        "vs": "vs"
+      },
+      "playoffs": {
+        "must_finish_regular": "You must finish all regular season matches before generating the playoffs"
+      },
+      "teams": {
+        "free_skill_management_title": "Free Lineman Skill Management",
+        "free_skill_management_desc": "As organizer, you can check or uncheck which teams are allowed to redeem the skill.",
+        "enable_all_error": "Error enabling all: {error}",
+        "enable_all": "✅ Enable All",
+        "disable_all_error": "Error disabling all: {error}",
+        "disable_all": "🚫 Disable All",
+        "logo_alt": "Logo",
+        "wins_short": "W",
+        "draws_short": "D",
+        "losses_short": "L",
+        "free_skill_toggle_error": "Error updating free skill permission: {error}",
+        "free_skill_toggle_title": "Allow/disable 1 free lineman skill for this team",
+        "free_skill_badge": "🎁 Free Skill: {value}",
+        "yes_caps": "YES",
+        "no_caps": "NO",
+        "replace": "🔄 Replace"
+      },
+      "sidebar": {
+        "copy_code_title": "Copy code"
+      },
+      "match_detail": {
+        "injury_niggling": "Niggling Injury",
+        "injury_stat_loss": "Stat Loss",
+        "injury_badly_hurt": "Badly Hurt",
+        "unknown_player": "Unknown Player",
+        "player_fallback": "Player #{id}",
+        "td_info": "{count} TD",
+        "cas_info": "{count} CAS",
+        "fouls_info": "{count} FOU",
+        "sprint_falls_info": "{count} RSH",
+        "completions_info": "{count} CMP",
+        "superb_passes_info": "{count} SPS",
+        "interceptions_info": "{count} INT",
+        "highlights": {
+          "scorers": "Scorers",
+          "hard_play": "Hard Hits",
+          "infirmary": "Infirmary",
+          "sprint_falls": "Rush Falls (GFI)",
+          "other_actions": "Other Actions"
+        },
+        "no_events": "No events recorded",
+        "reject_report": "❌ Reject Report",
+        "review_approve": "🔍 Review and Approve",
+        "unknown_race": "Unknown"
+      },
+      "join": {
+        "race_option": "{race} (Tier {tier})"
+      },
+      "replace_modal": {
+        "title": "Replace Team",
+        "description": "Replace <1>{team}</1> with a free team in all of the league's upcoming matches.",
+        "select_label": "Select Free Team",
+        "no_free_teams": "There are no free teams (without an associated league). Please create a team first.",
+        "placeholder_option": "-- Choose replacement team --",
+        "replacing": "⏳ Replacing...",
+        "confirm": "🔄 Confirm"
+      },
+      "commissioners_modal": {
+        "title": "🛡️ Manage Commissioners",
+        "description": "Commissioners can <1>only</1> review, reject and approve match reports in this league.",
+        "no_coaches": "No coaches registered in the league.",
+        "commissioner_badge": "🛡️ Commissioner",
+        "team_info": "Team: {team} ({race})",
+        "remove": "Remove Commissioner",
+        "assign": "+ Assign Commissioner"
+      },
+      "standings_table": {
+        "pos": "Pos",
+        "pts": "Pts",
+        "played": "P",
+        "wins": "W",
+        "draws": "D",
+        "losses": "L",
+        "td_for": "TDF",
+        "td_for_title": "Touchdowns For",
+        "td_against": "TDA",
+        "td_against_title": "Touchdowns Against",
+        "td_diff": "TDD",
+        "td_diff_title": "Touchdown Difference",
+        "cas_for": "CASF",
+        "cas_for_title": "Casualties For",
+        "cas_against": "CASA",
+        "cas_against_title": "Casualties Against",
+        "cas_diff": "CASD",
+        "cas_diff_title": "Casualty Difference",
+        "sprint_falls": "RSH",
+        "sprint_falls_title": "Rush Falls (GFI - No SPP)",
+        "position": "{pos}"
+      },
+      "bracket": {
+        "unknown_team": "??"
+      },
+      "group_card": {
+        "at_a_glance": "👁️ At a Glance",
+        "full_table": "📊 Full Table",
+        "pts": "PTS",
+        "record": "{wins}W-{draws}D-{losses}L",
+        "team_count": "{count} Team | {count} Teams"
+      },
+      "not_found": "The linked league could not be found."
+    },
+    "tabs": {
+      "standings": "Ranking",
+      "matches": "Matches",
+      "calendar": "Schedule",
+      "teams": "Teams",
+      "playoffs": "Playoffs",
+      "stats": "Stats",
+      "hall_of_fame": "Hall of Fame",
+      "bounties": "Bounties",
+      "rules": "Rules"
+    },
+    "stats": {
+      "top_spp": "Most Experienced",
+      "top_scorers": "Top Scorers",
+      "top_passers": "Top Passers",
+      "most_violent": "Most Violent",
+      "dirtiest": "Dirtiest",
+      "total_spp": "Star Player Points (SPP)",
+      "total_td": "Total Touchdowns",
+      "total_passes": "Completed Passes",
+      "total_cas": "Casualties Caused",
+      "total_fouls": "Fouls Committed",
+      "no_spp_yet": "No SPP earned yet...",
+      "no_stats_yet": "No one has scored yet...",
+      "no_passes_yet": "No completed passes yet...",
+      "no_violence_yet": "Fields are too peaceful...",
+      "no_fouls_yet": "Surprisingly clean..."
+    },
+    "standings": {
+      "title": "Standings Table",
+      "regular_season": "Regular Season",
+      "groups_title": "Group Phase",
+      "no_groups": "No groups have been assigned yet.",
+      "gen_schedule_hint": "Generate the schedule to distribute teams into groups.",
+      "td_diff": "TD Diff",
+      "empty": "No teams registered yet."
+    },
+    "calendar": {
+      "title": "Match Schedule",
+      "subtitle": "Official match organization",
+      "generate": "Generate Schedule",
+      "general": "General Schedule",
+      "personal": "My Matches",
+      "no_schedule": "No schedule has been generated yet.",
+      "wait_hint": "Wait for all teams to register for the commissioner to generate the rounds.",
+      "matches_played": "{played} / {total} Played",
+      "roster_blocked_alert": "The match cannot start because the following teams have not closed their initial roster:\n- {teams}",
+      "mistakes_blocked_alert": "The match cannot start because the following teams have a pending expensive mistakes roll:\n- {teams}",
+      "edit_round": "Edit Matchday",
+      "edit_round_title": "Edit Matchday",
+      "round_name": "Matchday Name",
+      "round_number": "Matchday Number",
+      "phase": "Phase",
+      "matches": "Matches in this Matchday",
+      "add_match": "Add Match",
+      "select_home": "Select Home...",
+      "select_away": "Select Away...",
+      "swap_teams": "Swap Home / Away",
+      "move_to_round": "Move to another matchday",
+      "delete_match": "Delete match",
+      "delete_round": "Delete Matchday",
+      "save_changes": "Save Changes",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "played_badge": "Played",
+      "pending_badge": "Pending",
+      "scheduled_badge": "Scheduled",
+      "played_warning": "This match has already been recorded and has linked statistics; teams cannot be changed directly.",
+      "delete_round_confirm": "Are you sure you want to delete matchday \"{name}\"? Its {count} scheduled matches will also be deleted.",
+      "delete_round_has_played": "Cannot delete this matchday because it contains {count} completed or pending match(es). Please reassign them to another matchday before deleting.",
+      "same_team_error": "Home and away teams cannot be the same.",
+      "select_both_teams_error": "You must select both teams for the match.",
+      "duplicate_team_warning": "Warning: Teams with more than one match in this matchday: {teams}",
+      "permission_denied": "You don't have permission to manage this match."
+    },
+    "playoffs": {
+      "title": "Playoff Phase",
+      "subtitle": "The path to eternal glory",
+      "generate": "Generate Playoffs",
+      "no_playoffs": "No playoffs have been generated yet.",
+      "finish_regular_hint": "Finish the regular season for the commissioner to activate the Playoffs.",
+      "finished": "Finished"
+    },
+    "teams": {
+      "valuation": "Valuation",
+      "view_roster": "View Roster",
+      "improve": "Improve"
+    },
+    "sidebar": {
+      "invite_code": "Invite Code",
+      "invite_hint": "Share this code with other players so they can join the league.",
+      "copy": "Copy",
+      "news_title": "Official Bulletin",
+      "news_item_title": "Open Registration",
+      "news_item_desc": "Join the competition and show who's boss on the battlefield."
+    },
+    "matches": {
+      "title": "Match History",
+      "empty": "No matches played yet.",
+      "friendly": "Friendly Matches / No Round",
+      "digital_chronicle": "Digital Stadium Chronicle",
+      "table": {
+        "date": "Date",
+        "matchup": "Matchup",
+        "score": "Score",
+        "weather": "Weather",
+        "detail": "Detail"
+      }
+    },
+    "match_wizard": {
+      "edit_match": "Edit Match",
+      "error": "Error loading match data.",
+      "played_title": "Played",
+      "wins_title": "Wins",
+      "draws_title": "Draws",
+      "losses_title": "Losses",
+      "points_title": "Points",
+      "player_row": {
+        "badges": {
+          "dead": "Dead",
+          "journeyman": "Journeyman",
+          "star_player": "Star Player"
+        },
+        "stat_loss_short": {
+          "ma": "-1 MA",
+          "st": "-1 ST",
+          "ag": "-1 AG",
+          "pa": "-1 PA",
+          "av": "-1 AV"
+        },
+        "hatred_selected_title": "Hatred: {tag}",
+        "hatred_assign_title": "Assign Hatred tag",
+        "recommended_hatred_short": "⭐ {tag} (Opponent)",
+        "hatred_tags_group": "Hatred tags",
+        "mvp_selected_title": "MVP player (+4 SPP)",
+        "mvp_limit_title": "MVP limit reached",
+        "mvp_assign_title": "Assign MVP (+4 SPP)",
+        "hatred_option": "Hatred: {tag} ({tag_en})",
+        "hatred_auto_bh_hint": "Assigning Hatred automatically records a Badly Hurt (BH) result for this match."
+      },
+      "events_table": {
+        "team_tds": "{count} TD",
+        "roll_mvp_title": "Randomly pick the MVP with a dice roll",
+        "roll_mvp": "🎲 Roll MVP",
+        "conceded_no_mvp": "⚠️ This team conceded. It does not receive an MVP.",
+        "headers": {
+          "td_title": "Touchdowns (+3 SPP)",
+          "comp": "COMP",
+          "comp_title": "Completions (+1 SPP)",
+          "superb_pass": "S.PASS",
+          "superb_pass_title": "Superb Passes (+2 SPP)",
+          "cas_title": "Casualties Caused (+2 SPP)",
+          "int": "INT",
+          "int_title": "Interceptions (+2 SPP)",
+          "foul": "FOUL",
+          "gfi": "GFI",
+          "gfi_title": "Rush falls (GFI - no SPP)",
+          "injury_hatred": "INJURY / HATRED",
+          "injury_hatred_title": "Injury suffered and Hatred",
+          "mvp_title": "Most Valuable Player (+4 SPP)",
+          "spp_title": "Star Player Points earned"
+        },
+        "totals": "Totals ({count} pl.)",
+        "injuries_count": "{count} casualty | {count} casualties"
+      },
+      "free_recruit": {
+        "name_placeholder": "Rookie name..."
+      },
+      "journeymen_hire": {
+        "title": "Hire Journeymen Permanently ({team})",
+        "description": "You can hire the Journeymen who played this match so they join the roster permanently (they keep their SPP/stats).",
+        "name_placeholder": "Player name...",
+        "cost": "Cost: {cost} GP",
+        "spp_earned": "+{count} SPP earned",
+        "dead_in_match": "💀 Died in the match",
+        "insufficient_treasury": "Insufficient Treasury"
+      },
+      "journeymen": {
+        "default_name": "Journeyman {number}"
+      },
+      "fan_reaction": {
+        "concession_message": "Concession: your fans are furious and abandon the team in protest (-{loss} Dedicated Fans).",
+        "both_conceded_message": "Empty match: loss recorded (-2 TDs against). Loses 1 Dedicated Fan and {penalty}k GP from the Treasury."
+      },
+      "errors": {
+        "save_match_failed": "Error saving match",
+        "match_not_identified": "The match could not be identified."
+      },
+      "reject": {
+        "confirm": "Are you sure you want to reject this match report and return the match to scheduled?",
+        "success": "Match report rejected. The match is scheduled again.",
+        "error": "Error rejecting: {error}"
+      },
+      "admin_review": {
+        "title": "Admin Mode — Reviewing match report submitted for approval",
+        "description": "Check the recorded scores and stats. You can approve the report directly or reject it to send it back to the coaches.",
+        "reject_button": "❌ Reject Report"
+      },
+      "completed_by_other": {
+        "title": "The match has been finalised from another session",
+        "description": "The other coach or an admin has already saved the official report. Saving from this window has been disabled to avoid duplicating stats."
+      },
+      "step1": {
+        "tv_value": "TV {tv}k",
+        "petty_cash_available_suffix": "(Available)",
+        "petty_cash_used": "Petty Cash Used",
+        "treasury_spent": "Treasury spent"
+      },
+      "step3": {
+        "status": {
+          "both_conceded": "🚫 Empty Match (Both Concede)",
+          "team_conceded": "⚠️ {team} conceded"
+        },
+        "concession": {
+          "label": "🏳️ Concession?",
+          "team_conceded": "{team} conceded",
+          "both": "Empty Match (Both)"
+        },
+        "auto_td_hint": "ℹ️ Touchdowns are counted automatically from each player's TDs.",
+        "both_conceded_warning": "🚫 <1>Empty Match:</1> Both teams take a loss with 2 Touchdowns against, and each loses 1 Dedicated Fan and D3 x 10k GP from their Treasury. No MVP and no gate winnings.",
+        "concession_warning": "⚠️ Standard Concession penalties will apply on save: no MVP, 0 winnings, loss of D3 Dedicated Fans and possible retirement of players with 3+ advancements.",
+        "view": {
+          "show_team": "Show team:",
+          "both_title": "Show both teams side by side (ideal for widescreen displays)",
+          "both": "View Both Side by Side"
+        },
+        "mobile": {
+          "both_conceded_no_mvp": "🚫 Empty Match. Neither team receives an MVP.",
+          "select_player": "Select player:",
+          "select_player_placeholder": "-- Pick a player from the list --",
+          "player_option": "#{number} {name} ({position})",
+          "editing_stats": "Editing stats:",
+          "close": "Close [x]",
+          "no_stats": "No stats for this team",
+          "recorded_stats": "Recorded stats ({count}):",
+          "mvp_badge": "★ MVP",
+          "spp_gained": "+{count} SPP",
+          "badges": {
+            "td": "⚽ {count} TD",
+            "comp": "🎯 {count} Comp",
+            "superb_pass": "✨ {count} S.Pass",
+            "cas": "💥 {count} Cas",
+            "int": "🧤 {count} Int",
+            "foul": "🦶 {count} Foul",
+            "sprint_fall": "🏃 {count} Rush Fall",
+            "stat_loss_suffix": " (-1 {stat})"
+          },
+          "clear_stats": "Clear stats",
+          "edit": "Edit",
+          "spp": "0 SPP"
+        }
+      },
+      "winnings": {
+        "total_gp": "+{amount} GP",
+        "forfeited_residency": "(Winnings forfeited to buy stadium residency)",
+        "breakdown_base": "(Base: {amount}",
+        "breakdown_sponsor": "+ Spons.: {amount}",
+        "breakdown_stadium": "+ Stadium: {amount}"
+      },
+      "finalize": {
+        "retirement": {
+          "title": "Player Retirement due to Concession (2025 Rules)",
+          "description": "Under the Blood Bowl rules, players with 3 or more advancements/skills may leave the team in disgust at the concession (a roll of 1-3 on a D6).",
+          "none": "There are no experienced players (with 3+ advancements) on the conceding team.",
+          "die": "Roll: {roll}",
+          "leaves": "Leaves the team 🏃‍♂️",
+          "stays": "Stays",
+          "advancements": "{position} ({count} advancement) | {position} ({count} advancements)"
+        },
+        "bb7_summary": {
+          "title": "Blood Bowl Sevens Sequence Summary",
+          "skill_improvement": "Skill improvement: ",
+          "awarded_skill": "{skill} ({type}, +{tv}k TV)",
+          "double": "Double",
+          "single": "Single",
+          "none_assigned": "None assigned",
+          "retained": "Retained ({count}): {players}",
+          "retained_player": "{name} (-{cost}k GP)",
+          "dismissed": "Leaving for the top division ({count}): {players}",
+          "all_stay": "All veterans stay with the team."
+        },
+        "stadium_summary": {
+          "title": "Stadium Summary (Death Zone)",
+          "completely_normal": "Completely normal",
+          "resident_stadium": "Home Stadium ({team})",
+          "residency_acquired": "Acquired residency of the stadium {how}",
+          "residency_cost": "(forfeiting winnings)",
+          "residency_free": "(free)",
+          "offer_declined": "Paid offer declined",
+          "residency_rejected": "Residency attempt rejected (roll too low)",
+          "no_request": "No residency request"
+        },
+        "coach_warning": "On saving, this match report will be sent to the league admin for approval. Changes to stats, level-ups and Treasury will not be applied to teams or players until it is approved."
+      },
+      "buttons": {
+        "reject": "❌ Reject",
+        "approve_finalize": "✅ Approve and Finalise",
+        "submit_for_approval": "Submit for Approval"
+      }
+    },
+    "commissioners": {
+      "manage": "Manage Commissioners"
+    },
+    "playoff_generator": {
+      "errors": {
+        "need_2_final": "At least 2 teams are needed for the Direct Final.",
+        "need_4_semis": "At least 4 teams are needed for Semi-finals.",
+        "need_8_quarters": "At least 8 teams are needed for Quarter-finals.",
+        "need_4_double": "At least 4 teams are needed for Double Elimination.",
+        "generic": "Error generating playoffs"
+      },
+      "round_names": {
+        "grand_final": "Playoffs - Grand Final",
+        "semis": "Playoffs - Semi-finals",
+        "quarters": "Playoffs - Quarter-finals",
+        "double_r1_winners": "Double Playoffs - R1 Winners"
+      },
+      "subtitle": "Choose the playoff format for this league.",
+      "select_format": "Select Format",
+      "formats": {
+        "final_directa": "Direct Final (Top 2)",
+        "semis": "Semi-finals (Top 4)",
+        "requires_4": "— Requires 4 teams",
+        "cuartos": "Quarter-finals (Top 8)",
+        "requires_8": "— Requires 8 teams",
+        "doble_elim": "Double Elimination (Top 4)"
+      },
+      "format_detail_title": "Format Details",
+      "details": {
+        "final_directa": "A single decisive match between the 1st and 2nd placed teams.",
+        "semis": "Traditional pairings: 1st vs 4th and 2nd vs 3rd. The winners play the final.",
+        "cuartos": "8-team bracket: 1st vs 8th, 2nd vs 7th, 3rd vs 6th and 4th vs 5th. Winners advance.",
+        "doble_elim_intro": "Playoffs with a losers' bracket:",
+        "doble_elim_r1": "• R1: 1st vs 4th and 2nd vs 3rd.",
+        "doble_elim_r2": "• R2: Winners' Final and Losers' Semi-final.",
+        "doble_elim_r3": "• R3: Losers' Final (winners' bracket loser vs losers' bracket winner).",
+        "doble_elim_r4": "• R4: Grand Final (winners' bracket champion vs losers' bracket champion)."
+      },
+      "create": "⚔️ Create Playoffs"
+    },
+    "inter_conference_match_wizard": {
+      "errors": {
+        "select_both": "Please select one team from each region.",
+        "already_paired": "One of the selected teams has already been paired in this round.",
+        "no_pairings": "There are no pairings to save.",
+        "save_unknown": "Unknown error while saving the round."
+      },
+      "round_name": "Inter-Conference Phase - Round {round}",
+      "success": "Inter-Conference round created successfully.",
+      "title": "Generate Inter-Conference Round",
+      "subtitle": "Create dynamic pairings between the East and West Regions based on stats.",
+      "modes": {
+        "ranking": "By Ranking",
+        "swiss": "Swiss (Points)",
+        "manual": "Manual"
+      },
+      "region_east": "East Region",
+      "select_team": "Select team...",
+      "team_option": "{name} ({points} pts)",
+      "region_west": "West Region",
+      "proposed_pairings": "Proposed Pairings",
+      "no_pairings": "No pairings configured for this round.",
+      "east_badge": "East",
+      "vs": "VS",
+      "west_badge": "West",
+      "generating": "Generating Round...",
+      "generate": "Generate Inter-Conference Round"
+    },
+    "bounties": {
+      "unknown_team": "Unknown Team",
+      "alerts": {
+        "invalid_form": "Please select a player and specify a valid bounty.",
+        "create_error": "Error placing a bounty on the player: {error}",
+        "process_error": "Error processing the bounty: {error}",
+        "delete_confirm": "Remove the bounty on {player}'s head?",
+        "delete_error": "Error removing bounty: {error}",
+        "generic_error": "Error: {error}"
+      },
+      "title": "Bounty Board",
+      "description": "Official list of players with a price on their head in this league. The team or coach who takes out or retires these targets will claim the bounty set by the Commissioners.",
+      "place_bounty_button": "Place a Bounty",
+      "loading": "Loading bounty board...",
+      "empty_title": "There are no active bounties right now",
+      "empty_text": "The commissioners haven't put a price on any player's head yet.",
+      "wanted": "Wanted",
+      "no_team": "No Team",
+      "unknown_player": "Unknown Player",
+      "spp": "{count} SPP",
+      "reward_label": "Bounty",
+      "gp": "GP",
+      "published_on": "Posted {date}",
+      "withdraw": "Withdraw Bounty",
+      "modal": {
+        "title": "Place a Bounty",
+        "player_label": "League Player *",
+        "player_placeholder": "-- Select Player --",
+        "player_option": "#{number} {name} ({position}) - {team}",
+        "amount_label": "Bounty Amount (in GP) *",
+        "amount_placeholder": "E.g. 50000",
+        "condition_label": "Additional Detail or Condition (Optional)",
+        "condition_placeholder": "E.g. Only if retired by a permanent injury or death during an official match.",
+        "publish": "Post Bounty"
+      }
+    },
+    "round_editor_modal": {
+      "delete_match_confirm": "Do you want to delete this scheduled match?",
+      "errors": {
+        "delete_round": "Error deleting the round.",
+        "empty_name": "The round name cannot be empty.",
+        "team_fallback": "A team",
+        "self_match": "{team} cannot play against itself.",
+        "save": "Error saving changes."
+      },
+      "description": "Edit the name and order number, and manage this round's pairings and matches.",
+      "details_title": "Round Details",
+      "name_placeholder": "E.g. Round 1",
+      "phase_1": "Phase 1 (Regular)",
+      "phase_2": "Phase 2 (Inter-Conference)",
+      "start_date": "From (Start Date)",
+      "end_date": "To (End Date)",
+      "extension_days": "Extension (Days)",
+      "played_count": "{count} played",
+      "no_matches": "No matches assigned to this round. You can add one below.",
+      "will_move_to": "➜ Will move to {round}",
+      "another_round": "another round",
+      "team_option": "{name} ({race})",
+      "vs": "VS",
+      "add_match_to_round": "Add Match to this Round",
+      "deleting": "Deleting..."
+    },
+    "sponsorship_stage": {
+      "team": {
+        "win_badge": "🏆 Win (+3)",
+        "no_win_badge": "No win (+0)",
+        "summary": "Fan Factor: <1>{fans}</1> · TDs: <3>{tds}</3> · CAS: <5>{cas}</5>",
+        "income_label": "Sponsorship income"
+      },
+      "existing": {
+        "title": "Active Ongoing Sponsors ({count})",
+        "mandatory_roll": "Mandatory D6 roll for each",
+        "matches_active": "Matches active: {count}",
+        "rescinded_future": "⚠️ Contract terminated for future matches",
+        "injured_player": "<1>Injured player:</1> {player}",
+        "injured_mng_hint": "Misses the next game (MNG) with no permanent effects.",
+        "roll_first_title": "You must make the D6 roll first",
+        "cancel_rescind": "↩️ Cancel Termination",
+        "rescind": "🚫 Terminate Sponsorship (from the next match)"
+      },
+      "rolls": {
+        "roll_d3_income": "🎲 Roll D3 Income",
+        "money_result": "Roll: {roll} → +{amount} GP",
+        "roll_mishap": "🎲 Roll Mishap (D6)",
+        "risk_result": "Roll: {roll} {outcome}",
+        "mishap": "💥 Mishap!",
+        "no_mishap": "✅ No mishap",
+        "die_value": "Roll: <1>{roll}</1>",
+        "mishap_title": "2. Mishap roll (D6)",
+        "mishap_hint": "On a 2+ all is well. On a 1, a player misses the next game (MNG).",
+        "roll_d6_mishap": "🎲 Roll D6 Mishap",
+        "no_mishap_2plus": "✅ 2+: No mishap",
+        "injured_by_mishap": "<1>Player injured by mishap:</1> {player}",
+        "injured_mng_hint": "Misses the next game as if injured, with no lasting effects (MNG)."
+      },
+      "no_player_available": "No player available",
+      "acquisition": {
+        "title": "Roll for a New Sponsorship",
+        "formula": "Formula: D16 + Fan Factor ({fans}) + {win} + {tds} (TDs) + {cas} (CAS) + 2 (League) ≥ 20",
+        "formula_win": "3 (Win)",
+        "reroll": "🎲 Re-roll D16",
+        "roll": "🎲 Roll D16"
+      },
+      "modifiers": {
+        "die": "Roll (D16)",
+        "fan_factor": "Fan Factor",
+        "win": "Win",
+        "tds": "TDs ({count})",
+        "cas": "CAS ({count})",
+        "league": "League"
+      },
+      "result": {
+        "total": "Total: <1>{total}</1> / 20 required",
+        "success_hint": "Success! You can choose a Spot or Ongoing Sponsorship for your team.",
+        "fail_hint": "The minimum threshold of 20 was not reached to get a sponsorship this match.",
+        "success_badge": "Success! (≥20)",
+        "fail_badge": "No sponsorship (<20)"
+      },
+      "choice": {
+        "title": "Coach's sponsorship choice:",
+        "spot": "Spot Sponsorship",
+        "spot_desc": "A single payment of D6 × 10,000 GP and a D6 risk roll.",
+        "continuous": "Ongoing Sponsorship",
+        "continuous_desc": "D3 × 10,000 GP per match. It lasts over time. Can be terminated from the next match.",
+        "reject": "Decline Offers",
+        "reject_desc": "Don't accept a sponsorship this match to avoid mishaps."
+      },
+      "spot": {
+        "title": "Spot Sponsorship Resolution",
+        "single_match": "Single match only",
+        "payment_title": "1. Sponsor payment (D6 × 10,000 GP)",
+        "payment_hint": "It is added immediately to this match's winnings.",
+        "roll_d6_income": "🎲 Roll D6 Income"
+      },
+      "continuous": {
+        "title": "Ongoing Sponsorship Agreement",
+        "permanent": "Permanent until terminated",
+        "brand_label": "Sponsor brand:",
+        "brand_placeholder": "Brand name...",
+        "random_title": "Generate random name",
+        "random": "🎲 Random",
+        "payment_title": "1. Payment per match (D3 × 10,000 GP)",
+        "payment_hint": "It is added to this match's winnings and to every future match.",
+        "rescind_condition": "<1>Termination condition:</1> This newly signed contract cannot be terminated this match. It can be terminated from the next match after making the D6 roll."
+      },
+      "header": {
+        "title": "Post-game Sequence: Sponsorship Acquisition",
+        "description": "Before hiring or firing players, coaches may try to get a sponsorship by rolling <1>D16 + Fan Factor + Modifiers</1>. If the result is <3>20 or more</3>, they can choose between a <5>Spot Sponsorship</5> (D6 × 10,000 GP) or an <7>Ongoing Sponsorship</7> (D3 × 10,000 GP per match)."
+      },
+      "tabs": {
+        "both": "Both Teams"
+      }
+    },
+    "bb7_post_match_stage": {
+      "alerts": {
+        "need_three_options": "You must set all 3 skill options before rolling."
+      },
+      "fallback_position": "Lineman",
+      "team": {
+        "subtitle": "Blood Bowl Sevens (BB7) Post-game Sequence"
+      },
+      "skill": {
+        "title": "Phase 1: Post-game Skill Acquisition",
+        "description": "Choose 1 player who was selected for the match. Declare a skill category. 3 options are chosen (2 by the coach and 1 by the opponent) and a D3 is rolled to determine the skill learned.",
+        "step_player": "1. Selected player",
+        "select_player_placeholder": "-- Select a selected player --",
+        "player_option": "#{number} {name} ({position}) {bb7}",
+        "bb7_skills_count": "[{count} BB7 skills]",
+        "step_category": "2. Skill category (declare category)",
+        "double_cost": "Secondary (+20k/+30k)",
+        "single_cost": "Primary (+10k/+20k)",
+        "step_options": "3. Skill option choice ({category})",
+        "option": "Option {n}",
+        "opponent": "Opponent",
+        "choose_skill": "-- Choose skill --",
+        "choose_opponent_skill": "-- Choose opponent's skill --",
+        "rolling": "Rolling D3...",
+        "roll": "Roll D3 to pick skill",
+        "result": "D3 result = {roll} (Option {roll})",
+        "cost": "(+{cost}k GP)"
+      },
+      "poaching": {
+        "title": "Phase 2: Poaching check by higher leagues",
+        "description": "Players with learned skills may receive offers from higher leagues. Roll <1>a D6</1> for each one: if the result is <3>higher</3> than the number of skills they have learned, they stay with the team. Otherwise you must pay their current value + 15,000 GP to keep them, or the player leaves the club.",
+        "none": "No player on the team has previous BB7 skills for this check.",
+        "requirement": "Needs a roll > {count} on a D6 ({target}+) to stay at no cost",
+        "roll": "Roll D6",
+        "passed": "Stays with the team (D6 = {roll})",
+        "failed": "⚠️ D6 = {roll} (Poached by a higher league)",
+        "retain": "💰 Retain ({cost}k GP)",
+        "dismiss": "👋 Let go",
+        "skills_learned": "{count} skill learned | {count} skills learned"
+      },
+      "header": {
+        "badge": "Blood Bowl Sevens (BB7) Mode",
+        "title": "Post-game Sequence",
+        "description": "Skill acquisition roll (D3 among both coaches' options) and retention check against higher-league clubs."
+      }
+    },
+    "stadium_residency_stage": {
+      "default_stadium_name": "{team} Stadium",
+      "income": {
+        "desperate_publicity": "Desperate for Publicity (+D6 × 10,000 GP)",
+        "integrated_merch": "Integrated Merchandising Stalls (+D3 × 10,000 GP)",
+        "description": "The stadium attribute grants extra direct income on top of the match winnings.",
+        "single_roll": "Single roll for both clubs",
+        "single_roll_desc": "The owners pay each team the D6 result multiplied by 10,000 gold pieces.",
+        "per_team": "+{amount}k GP to each team",
+        "roll_publicity": "🎲 Roll D6 Publicity",
+        "merch_label": "Merchandising: D3 × 10,000 GP",
+        "merch_amount": "+{amount}k GP",
+        "roll_d3": "🎲 Roll D3"
+      },
+      "residency": {
+        "title": "Become the Stadium's Resident Team",
+        "description": "A team may apply to become resident at the stadium where it just played if the stadium has an attribute and nobody resides there.",
+        "normal_field": "This pitch is completely normal (no special attributes), so residency cannot be requested under the official rules.",
+        "already_taken": "This stadium already has an official resident club in the league ({team}), so no other team can apply for residency here.",
+        "modifier": "Modifier: {value}",
+        "already_resident": "ℹ️ This team is already resident at “{stadium}”. If it acquires this new stadium, its official home will change.",
+        "mods": {
+          "win": "+1 (Win)",
+          "loss": "-1 (Loss)",
+          "draw": "0 (Draw)",
+          "sponsorship_value": "+{value} ({type})",
+          "sponsorship_major": "Major",
+          "sponsorship_continuous": "Ongoing",
+          "sponsorship_none": "None",
+          "dedicated_fans": "Dedicated Fans",
+          "fans_value": "+{value} ({count} fans)"
+        },
+        "roll": "🎲 Roll Residency (D6 + {modifier})",
+        "roll_result": "Roll: <1>{roll}</1> + {modifier} =",
+        "rejected": "❌ <1>Rejected (≤ 5):</1> The owners are not interested in granting the team residency.",
+        "cost": "⚠️ <1>“It'll cost you” (6 - 8):</1> The owners accept the offer if the team gives up all its winnings from this match (<3>{amount} GP</3>).",
+        "accept_pay": "Accept and Pay",
+        "reject_offer": "Decline Offer",
+        "accepted": "🏛️ Residency accepted (cost: {amount}k GP forfeited).",
+        "declined": "Offer declined by the coach. Winnings kept.",
+        "unconditional_title": "🎉 <1>Unconditional offer! (≥ 9):</1>",
+        "unconditional_desc": "The owners are delighted. {team} becomes the resident club of this stadium at no cost!"
+      }
+    },
+    "stadium_stage": {
+      "title": "Stadiums of the Old World (Death Zone)",
+      "description": "Determine the pitch and the stadium's special rules before the Kick-off.",
+      "use_home_stadium": "🏠 Home Stadium: {name}",
+      "rolling": "Rolling dice...",
+      "reroll": "🎲 Re-roll",
+      "roll": "🎲 Roll Stadium (2D6)",
+      "empty": {
+        "home_has_stadium": "The home team has a resident stadium. You can choose to play at their ground or roll on the neutral tables.",
+        "roll_hint": "Press “Roll Stadium (2D6)” to determine this match's stadium."
+      },
+      "official_home": "Official home of {team}",
+      "resident_hint": "The home team plays at its resident ground. The visiting team receives +50k GP of Petty Cash.",
+      "roll_result": "2D6 roll: {roll} — {description}",
+      "attribute_label": "D6 attribute ({roll}):",
+      "normal_description": "Regulation facilities and turf in perfect condition. No additional special rules apply to the pitch or the fans.",
+      "tactical_summary": "⚡ Tactical summary:",
+      "home_advantage": "<1>Home advantage:</1> If a home team player is pushed into the crowd, roll a D6: on a 5+ the home fans protect them and they return to the Reserves with no risk of injury.",
+      "away_petty_cash": "+50k GP away Petty Cash ({team})",
+      "banner": {
+        "home_stadium": "Home Stadium"
+      }
+    },
+    "mvp_selection": {
+      "alerts": {
+        "not_enough_players": "❌ Error: not enough players. You must enter all 6 shirt numbers.",
+        "duplicates": "❌ Error: there are duplicate numbers. Each shirt number must be unique."
+      },
+      "title": "👑 MATCH MVP 👑",
+      "instructions": "Enter the 6 candidate shirt numbers (required)",
+      "multiple_mvps": "{count} MVPs will be picked from this same group!",
+      "number_placeholder": "#",
+      "rolling_big": "ROLLING...",
+      "rolling": "🎲 Rolling...",
+      "roll": "🎲 Roll Dice",
+      "continue": "Continue",
+      "result": "MVP CHOSEN! | MVPs CHOSEN!"
+    },
+    "dashboard": {
+      "badges": {
+        "sevens": "⚡ SEVENS",
+        "bb7": "🏈 BB7"
+      },
+      "alerts": {
+        "league_limit": "You have reached your plan's limit of created leagues ({max}). Upgrade your subscription to create more."
+      },
+      "create": {
+        "game_mode_label": "Game Mode",
+        "modes": {
+          "standard_title": "Standard (11v11)",
+          "standard_desc": "Traditional full-pitch format.",
+          "sevens_title": "Blood Bowl Sevens (7v7)",
+          "sevens_desc": "Quick 7v7 matches.",
+          "bb7_title": "Blood Bowl 7 (BB7)",
+          "bb7_desc": "BB7 format: free Linemen, Team Re-rolls 100k, Apothecary 80k and Veteran Lineman."
+        },
+        "budget_label": "Starting Budget / Draft",
+        "budget_option": "{amount}k gp",
+        "tier_rules_title": "Tier Rules (Draft)",
+        "tier_rules_hint": "Set the number of skills and Star Players allowed for each Tier at sign-up.",
+        "tier_preset_label": "Tier List Preset",
+        "tier_presets": {
+          "none": "No tiers (no distinction by tier)",
+          "official_2026": "Official (March 2026 - 3 Tiers)",
+          "legacy": "Legacy / NAF (2021-2025 - 4 Tiers)",
+          "custom": "Custom (edit each faction's tier individually)"
+        },
+        "custom_tiers_title": "Assign Custom Tiers",
+        "tier_n": "Tier {n}",
+        "tier_primary": "Primary Skills",
+        "tier_secondary": "Secondary Skills",
+        "tier_max_stars": "Max. Star Players",
+        "restrictions_title": "★ Restriction Rules",
+        "ban_stars_title": "🚫 Ban Star Players",
+        "ban_stars_desc": "Full ban across the league",
+        "free_lineman_skill_title": "1 Free Primary Skill for 1 Lineman",
+        "free_lineman_skill_desc": "Each team may pick 1 Lineman to receive 1 free primary skill at the start of the league.",
+        "sponsorships_title": "Sponsorship Rolls",
+        "sponsorships_desc": "Enables earning and managing one-off and ongoing sponsorships after each match.",
+        "stadiums_title": "Stadiums of the Old World (Death Zone)",
+        "stadiums_desc": "Enables stadium types, pitch surface and pre-match fan rules, and the option for teams to have a home ground.",
+        "max_star_cost_label": "Maximum Star Player cost (gp, empty = no limit)",
+        "max_star_cost_placeholder": "e.g. 200000",
+        "banned_stars_label": "Individually Banned Star Players",
+        "star_search_placeholder": "🔍 Search Star Player...",
+        "banned_inducements_label": "Banned Inducements",
+        "skill_limits_title": "⚔️ Skill Stacking Limits",
+        "skill_limits_off": "✅ No skill limits",
+        "skill_limits_on": "🚫 No skill limit",
+        "max_primary_label": "Max. Primary Skills per Player",
+        "max_secondary_label": "Max. Secondary Skills per Player",
+        "max_combos_label": "Max. Combos (Primary + Secondary) per Player",
+        "max_players_with_combo_label": "How many players may have a combo?",
+        "no_skill_limits_info": "Player skills will have no stacking limit in this league.",
+        "awards_title": "🏆 Awards and Honours",
+        "mvps_per_match_label": "MVPs per match",
+        "custom_rules_label": "Additional Rules (free text)",
+        "custom_rules_placeholder": "Describe any additional league rules here...",
+        "rules_doc_label": "Rules Document (optional)",
+        "rules_doc_change": "Change File",
+        "rules_doc_select": "Select Document (PDF/Word)",
+        "rules_doc_hint": "You can attach the rules PDF now or upload it later from the league's Rules section.",
+        "locked": {
+          "title": "Special Rules",
+          "desc": "Customise budgets, tiers, Star Player restrictions and more with a higher plan.",
+          "unlock": "Unlock",
+          "preview": "Budget / Tier Rules / Restrictions"
+        },
+        "banned_stars_count": "{count} banned | {count} banned"
+      }
+    },
+    "schedule_generator": {
+      "round_default_name": "Round {n}",
+      "round_name_group": "Group {group} - Round {n}",
+      "round_name_conf_group": "Conf. {conf} - Group {group} - Round {n}",
+      "conferences": {
+        "east": "East",
+        "west": "West"
+      },
+      "group_summary_conf": "{conf} - G.{group}",
+      "group_label": "Group {group}",
+      "errors": {
+        "min_teams_groups": "At least 2 teams are needed to assign groups.",
+        "save_groups": "Error saving the group assignment.",
+        "min_teams_schedule": "At least 2 teams are needed to generate a schedule.",
+        "format_not_implemented": "This format is not implemented yet.",
+        "generate_unknown": "Unknown error while generating the schedule.",
+        "no_rounds": "You must create at least one round.",
+        "team_vs_itself": "In {round}, {team} cannot play against itself.",
+        "unknown_team": "A team",
+        "group_too_small": "{group} has fewer than 2 teams ({count}). Each group needs at least 2 teams to play matches.",
+        "group_label_conf": "Conference {conf} - Group {group}"
+      },
+      "title_manual": "Add Manual Round (Round {n})",
+      "title": "Set Up Schedule",
+      "subtitle_manual": "Choose the pairings and matches for this round.",
+      "subtitle": "Define how the {count} registered teams will face each other.",
+      "format_title": "Competition Format",
+      "formats": {
+        "round_robin_desc": "Everyone plays everyone. The classic, essential system.",
+        "groups_playoffs_title": "Groups + Playoffs",
+        "groups_playoffs_desc": "Group stage followed by knockout rounds.",
+        "conferences_groups_title": "Conferences + Groups",
+        "conferences_groups_desc": "2 Conferences (East and West) with internal groups and an inter-conference stage.",
+        "custom_manual_title": "100% Manual Schedule",
+        "custom_badge": "Custom",
+        "custom_manual_desc": "Freely build the rounds and pairings team by team."
+      },
+      "settings_title": "Format Settings",
+      "manual_mode_title": "✏️ Manual Mode Enabled",
+      "manual_mode_desc": "Exactly the rounds and matches you set up below will be created. You can edit the pairings freely.",
+      "assignment_mode_label": "Team Assignment Method",
+      "assignment_modes": {
+        "random": "🎲 Random",
+        "manual": "✏️ Manual"
+      },
+      "match_generation_label": "Match Generation",
+      "match_generation": {
+        "auto": "⚡ Automatic",
+        "manual": "✏️ Manual (Design)"
+      },
+      "groups_count_title": "Number of Groups",
+      "groups_count_per_conf": "Groups per conference",
+      "groups_count_total": "Total number of groups",
+      "double_round_groups_title": "Home and Away (Groups)",
+      "double_round_groups_desc": "Each pairing is played twice in the group stage.",
+      "double_round_title": "Home and Away",
+      "double_round_desc": "Two matches against each opponent.",
+      "summary": {
+        "title": "Estimated Summary",
+        "rounds": "Rounds:",
+        "per_group": "Per Group",
+        "total_teams": "Total Teams:"
+      },
+      "manual_assignment": {
+        "title": "Manual Team Assignment",
+        "desc": "Choose which conference and/or group each league team belongs to.",
+        "balance": "⚖️ Balance Teams",
+        "team_count": "{count} teams",
+        "min_teams_tooltip": "Minimum 2 teams per group",
+        "conf_east": "Conf. East",
+        "conf_west": "Conf. West"
+      },
+      "builder": {
+        "title": "Manual Schedule Designer",
+        "desc": "Create rounds and add matches by pairing teams however you like.",
+        "add_round": "Add Round",
+        "round_badge": "R{n}",
+        "round_name_placeholder": "Round Name",
+        "from": "From:",
+        "to": "To:",
+        "add_match": "Match",
+        "duplicates": "Teams repeated in this round: <1>{teams}</1>",
+        "group_prefix": "[Group {group}] ",
+        "vs": "VS",
+        "resting": "☕ Resting this round ({count}):"
+      },
+      "actions": {
+        "saving_groups": "Saving Groups...",
+        "save_groups_only": "Save Groups Only (Step 1)",
+        "saving_round": "Saving Round...",
+        "save_publish_round": "Save and Publish Round",
+        "generate": "Generate Bloody Schedule"
+      }
+    },
+    "sponsorship_rules": {
+      "sponsor_names": {
+        "bugman": "Bugman's XXXXXX Ale",
+        "orca_cola": "Refreshing Orca-Cola",
+        "sanguinaria": "Sanguinaria Sports Gear",
+        "karaz_bank": "Dwarf Bank of Karaz-a-Karak",
+        "oggie_pies": "Oggie's Halfling Pies",
+        "nuln_alchemists": "Nuln Associated Alchemists",
+        "nehekhara_insurance": "Nehekhara Mortuary Insurance",
+        "moulder_potions": "Clan Moulder Potions & Brews",
+        "zharr_armour": "Zharr-Naggrund Heavy Armour",
+        "troll_jerky": "Ogre-Bite Troll Jerky",
+        "tor_elyr_fashion": "Tor Elyr Elven Fashion",
+        "blackforge_tools": "Blackforge Smithing Tools",
+        "shallya_balms": "Shallya's Miracle Balms",
+        "khorne_cauldron": "Khorne's Boiling Cauldron",
+        "marienburg_apothecaries": "Marienburg Apothecaries & Ointments",
+        "averland_boots": "Averland Winged Boots",
+        "stirland_sausages": "Stirland Sausages & Black Puddings",
+        "mootland_tobacco": "Mootland Pipeweed & Snuff",
+        "khemri_hourglasses": "Khemri Hourglasses",
+        "eshin_poison": "Clan Eshin Refined Poison",
+        "von_carstein_tonics": "Von Carstein Invigorating Tonics",
+        "karak_kadrin_boots": "Karak Kadrin Sturdy Footwear"
+      }
+    }
+  },
+  "tournament": {
+    "view": {
+      "bracket": "Bracket",
+      "list": "List"
+    },
+    "formats": {
+      "swiss": "Swiss League",
+      "round_robin": "Round Robin",
+      "single_elim": "Single Elimination",
+      "groups_elim": "Groups + Elimination"
+    },
+    "tabs": {
+      "participants": "👥 Participants",
+      "rounds": "⚔️ Rounds",
+      "standings": "🏅 Standings",
+      "stats": "📊 Stats",
+      "rules": "📋 Rules"
+    },
+    "rounds": {
+      "round_n": "Round {n}",
+      "final": "Final",
+      "semifinals": "Semifinals",
+      "quarterfinals": "Quarterfinals",
+      "active": "Round open",
+      "completed": "Round completed",
+      "empty": "No rounds generated yet."
+    },
+    "details": {
+      "back": "Tournaments",
+      "delete": "Delete Tournament",
+      "delete_confirm": "Are you sure you want to DELETE the tournament {name} and all its information (teams, matches, etc)? This action is irreversible.",
+      "generate_round": "Generate Round {n}",
+      "generating": "Generating...",
+      "finish": "Finish Tournament",
+      "finish_confirm": "Finish the tournament?",
+      "loading": "Loading data...",
+      "enrollment": {
+        "title": "Enrollment",
+        "already_joined": "You are already participating in this tournament.",
+        "hint": "Create a team adapted to the tournament rules to participate.",
+        "leave": "Leave tournament",
+        "leave_confirm": "Leave the tournament with this team?",
+        "create_team": "Create Team for this Tournament",
+        "empty": "No teams enrolled yet.",
+        "invite_hint": "Share code {code} for others to join.",
+        "create_another_team": "Create another team"
+      },
+      "table": {
+        "team": "Team",
+        "race": "Race",
+        "tier": "Tier",
+        "primary": "Primary",
+        "secondary": "Secondary",
+        "stars": "Stars",
+        "cas": "CAS",
+        "cas_diff": "CAS Diff",
+        "tier_badge": "T{tier}",
+        "cas_diff_title": "Casualty Difference"
+      },
+      "matches": {
+        "add_result": "+ Result",
+        "bye": "BYE",
+        "bye_completed": "BYE",
+        "cas_score": "{home} - {away} CAS",
+        "vs": "vs"
+      },
+      "rules": {
+        "skills_title": "Skill Points",
+        "restrictions_title": "Restrictions",
+        "stars_label": "Star Players",
+        "stars_banned": "BANNED",
+        "stars_max_cost": "max {cost}k gp",
+        "stars_allowed": "Allowed",
+        "banned_stars": "Banned stars",
+        "banned_inducements": "Banned inducements",
+        "custom_rules_title": "Additional Organizer Rules",
+        "tournament_draft_rules": "Draft Rules (Tier {tier})",
+        "banned": "BANNED",
+        "allowed": "Allowed",
+        "max_cost": "max {cost}k",
+        "primaries": "Primaries",
+        "secondaries": "Secondaries",
+        "stars": "Stars",
+        "star_players": "Star Players",
+        "allowed_stars": "Allowed Star Players",
+        "combos": "Combos"
+      },
+      "standings": {
+        "tiebreaker_title": "Tiebreaker criteria:",
+        "tiebreaker_info": "Pts > TD Diff > TD For > Head-to-Head > CAS Diff > CAS For > Fewer TD Against > Fewer CAS Against"
+      },
+      "fallback": {
+        "team_name": "Team {id}",
+        "unknown_race": "Unknown"
+      },
+      "alerts": {
+        "no_participants": "There are no registered participants in the tournament.",
+        "export_naf_error": "Error exporting NAF results: {message}",
+        "banner_upload_error": "Error uploading banner: {message}",
+        "generic_error": "Error: {message}",
+        "delete_error": "Error deleting the tournament: {message}",
+        "participant_limit": "This tournament has reached the participant limit ({max}) for its creator's plan. Upgrade the tournament's plan to add more."
+      },
+      "export": {
+        "coach_fallback": "Coach {n}"
+      },
+      "banner": {
+        "alt": "Tournament banner",
+        "change": "Change Banner",
+        "add": "📷 Add Tournament Banner"
+      },
+      "my_team": {
+        "label": "Your team in this tournament",
+        "fallback_name": "My Team",
+        "view_roster": "📋 View My Team's Roster"
+      },
+      "header": {
+        "teams_count": "👥 {count} teams",
+        "budget": "💰 {amount}k gp"
+      },
+      "export_naf": "📥 Export NAF XML",
+      "stats": {
+        "top_scorers_title": "Top Scoring Teams",
+        "top_scorers_subtitle": "Total Touchdowns Scored",
+        "most_violent_title": "Most Violent Teams",
+        "most_violent_subtitle": "Casualties (CAS) Inflicted"
+      }
+    },
+    "creator": {
+      "formats": {
+        "swiss_label": "Swiss System",
+        "swiss_desc": "Pairing by points, no repeat opponents",
+        "round_robin_desc": "Everyone plays everyone",
+        "single_elim_desc": "Single-elimination bracket",
+        "groups_elim_desc": "Group stage followed by playoffs"
+      },
+      "tier_n": "Tier {n}",
+      "errors": {
+        "limit_reached": "You have reached your plan's limit of created tournaments ({max}). Upgrade your subscription to create more.",
+        "banner_upload": "Error uploading the banner: {message}",
+        "create": "Error creating the tournament: {message}"
+      },
+      "back": "← Back",
+      "title": "Create Tournament",
+      "subtitle": "Set up the rules for your Fantasy Football tournament",
+      "general": {
+        "title": "1. General Information",
+        "name_label": "Tournament Name *",
+        "description_label": "Description",
+        "description_placeholder": "Describe the tournament...",
+        "banner_label": "Banner / Header Image (optional)",
+        "banner_preview_alt": "Banner preview",
+        "budget_label": "Draft Budget",
+        "budget_option": "{amount}k",
+        "max_teams_label": "Max. Teams (empty = no limit)",
+        "max_teams_placeholder": "No limit"
+      },
+      "format": {
+        "title": "2. Format"
+      },
+      "tiers": {
+        "title": "3. Tier Rules",
+        "hint": "Set the number of skills and Star Players allowed for each Tier.",
+        "preset_label": "Tier List Preset",
+        "presets": {
+          "official_2026": "Official (March 2026 - 3 Tiers)",
+          "legacy": "Legacy / NAF (2021-2025 - 4 Tiers)",
+          "custom": "Custom (edit each faction's tier individually)"
+        },
+        "custom_title": "Assign Custom Tiers",
+        "primary": "Primary Skills",
+        "secondary": "Secondary Skills",
+        "max_stars": "Max. Star Players",
+        "teams_count": "{count} teams ▸"
+      },
+      "custom": {
+        "title": "4. Custom Rules",
+        "stars_title": "★ Star Players",
+        "stars_desc": "Full ban or cost limit",
+        "max_star_cost_label": "Maximum Star Player cost (gp, empty = no limit)",
+        "max_star_cost_placeholder": "e.g. 200000",
+        "banned_stars_label": "Individually Banned Star Players",
+        "star_search_placeholder": "🔍 Search Star Player...",
+        "banned_inducements_label": "Banned Inducements",
+        "skill_limits_title": "⚔️ Skill Stacking Limits",
+        "max_primary_label": "Max. Primary Skills per Player",
+        "max_secondary_label": "Max. Secondary Skills per Player",
+        "max_combos_label": "Max. Combos (Primary + Secondary) per Player",
+        "max_players_with_combo_label": "How many players may have a combo?",
+        "custom_rules_label": "Additional Rules (free text)",
+        "custom_rules_placeholder": "Describe any additional tournament rules here...",
+        "banned_stars_count": "{count} banned | {count} banned"
+      },
+      "actions": {
+        "creating": "Creating...",
+        "submit": "🏆 Create Tournament"
+      }
+    },
+    "dashboard": {
+      "status": {
+        "open": "Open",
+        "active": "In progress"
+      },
+      "card": {
+        "no_description": "No description.",
+        "teams_count": "👥 {count} teams",
+        "budget": "💰 {amount}k gp",
+        "view": "View tournament →"
+      },
+      "join": {
+        "db_error": "Database error: {message}",
+        "invalid_code": "Invalid invite code.",
+        "finished": "This tournament has already finished.",
+        "validate_error": "Error validating the code.",
+        "title": "Find Tournament",
+        "hint": "Enter the tournament's invite code.",
+        "submit": "Go to tournament →"
+      },
+      "subtitle": "Organise and play Fantasy Football tournaments",
+      "create_button": "🏆 Create Tournament",
+      "loading": "Preparing the stadium...",
+      "empty_title": "There are no active tournaments yet.",
+      "empty_subtitle": "Create a tournament or join with an invite code.",
+      "empty_join": "🔑 Access code",
+      "empty_create": "Create tournament →",
+      "owned_section": "Tournaments You Organise",
+      "other_section": "Other Tournaments"
+    },
+    "team_builder": {
+      "errors": {
+        "team_limit": "You have reached your plan's limit of active teams ({max}). Upgrade your subscription to create more.",
+        "create": "Error creating the team"
+      },
+      "back": "← Back to tournament",
+      "title": "Create Tournament Team",
+      "subtitle": "Create a team bound by the specific rules of <1>{name}</1>.",
+      "name_placeholder": "e.g. The Bonebreakers",
+      "race_label": "Race (FF2025 Factions)",
+      "race_placeholder": "-- Select a faction --",
+      "race_option": "{race} (Tier {tier})",
+      "rules": {
+        "title": "Applied Rules (Initial Draft)",
+        "budget": "Starting Budget",
+        "budget_value": "{amount}k gp",
+        "max_primary": "Max. Primary Skills",
+        "max_secondary": "Max. Secondary Skills",
+        "max_stars": "Max. Star Players",
+        "select_race_hint": "Select a race to see the allowed skills.",
+        "info": "ℹ️ Once the team is created and registered, go to the team tab in your Profile to hire players and Star Players and assign skills using these allowances."
+      },
+      "view_plans": "View subscription plans →",
+      "actions": {
+        "creating": "Creating...",
+        "submit": "Create and Register"
+      }
+    },
+    "brackets": {
+      "bye": "BYE",
+      "tbd": "TBD"
+    }
+  },
+  "team": {
+    "roster": {
+      "back": "Back",
+      "to_league": "Go to League",
+      "title": "Team Roster",
+      "treasury": "Treasury",
+      "tv": "Team Value",
+      "delete_team": "Delete Team",
+      "export_pdf": "Export Roster (PDF)",
+      "close_roster": "Close Initial Roster",
+      "sign_player": "Sign Player",
+      "sign_star": "Sign Star",
+      "roster_closed_msg": "Initial roster closed",
+      "min_players_error": "Cannot close initial roster. You need a minimum of 11 players in your squad (currently {count}).",
+      "join_league": "Enroll",
+      "join_title": "Enroll Team",
+      "team_name_label": "Team Name",
+      "team_name_placeholder": "The Bone Crushers",
+      "team_race_label": "Team Race",
+      "saving": "Saving...",
+      "delete_confirm": "Are you sure you want to DELETE team {name}? This action is irreversible and will delete all players and team history.",
+      "errors": {
+        "save_team": "Error saving team profile.",
+        "save_signings": "Error saving new player signings.",
+        "delete_players": "Error deleting dismissed players.",
+        "delete_team": "Error deleting team: ",
+        "logo_upload": "Error uploading the logo: {message}",
+        "logo_save": "Error saving the logo to the database: {message}",
+        "generic": "Error: {message}",
+        "mistakes_roll_server": "There was an error recording the roll on the server: {message}",
+        "mistakes_roll_save": "Error saving the roll: {message}",
+        "unknown": "Unknown error",
+        "invalid_player_name": "❌ Please enter a valid player name.",
+        "invalid_number": "❌ Please enter a valid shirt number between 1 and 99.",
+        "number_taken": "❌ Error: Number #{number} is already assigned to another active player on the team.",
+        "number_exists": "❌ Error: An active player already has that number.",
+        "roster_limit": "❌ Error: The roster has reached the maximum of {max} active players.",
+        "roster_limit_sevens": "❌ Error: The roster has reached the maximum of {max} active players for Sevens / BB7.",
+        "sevens_positional_limit": "❌ Error: In Sevens / BB7 only a maximum of 4 positional players (specialists / non-Linemen) is allowed on the whole team.",
+        "positional_blocked": "❌ You cannot hire \"{position}\" because a player in this position was fired while at the maximum allowed. At least 1 full match must be played before hiring one again.",
+        "big_guy_limit_chaos_chosen": "❌ Error: Chaos Chosen teams may only have a maximum of 1 Big Guy in total.",
+        "big_guy_limit_underworld": "❌ Error: Underworld Denizens teams may only have a maximum of 1 Big Guy in total.",
+        "big_guy_limit_chaos_renegades": "❌ Error: Chaos Renegades teams may only have a maximum of 3 Big Guys in total.",
+        "big_guy_limit_old_world_alliance": "❌ Error: Old World Alliance teams may only have a maximum of 1 Big Guy (Ogre or Treeman) in total.",
+        "save_player": "Error saving player {name}: {message}",
+        "save_advancement": "Error saving the player advancement: {message}",
+        "no_gold": "Not enough gold"
+      },
+      "table": {
+        "no": "#",
+        "name": "Name",
+        "pos": "Pos",
+        "skills": "Skills",
+        "spp": "SPP",
+        "fal": "FAL",
+        "fal_title": "Fouls Committed",
+        "status": "Status",
+        "cost": "Cost",
+        "tv": "TV",
+        "actions": "Actions",
+        "injury_penalty_ma": "Injury penalty: -{value} MA",
+        "injury_penalty_st": "Injury penalty: -{value} ST",
+        "injury_penalty_ag": "Injury penalty: -1 AG (difficulty +{value})",
+        "injury_penalty_pa": "Injury penalty: -1 PA (difficulty +{value})",
+        "injury_penalty_av": "Injury penalty: -{value} AV"
+      },
+      "staff": {
+        "title": "Staff & Equipment",
+        "rerolls": "Team Rerolls",
+        "coaches": "Assistant Coaches",
+        "cheerleaders": "Cheerleaders",
+        "apothecary": "Apothecary",
+        "fans": "Dedicated Fans",
+        "dedicated_fans": "Dedicated Fans",
+        "fans_note_open": "5,000 GP each (minimum 1)",
+        "fans_note_closed": "Cannot hire/dismiss fans with closed roster",
+        "buy_title": "Buy for {cost}",
+        "sell_title": "Sell for {cost}",
+        "no_funds": " (Insufficient funds)",
+        "no_apothecary_funds": "You don't have enough gold to hire an apothecary.",
+        "max_rerolls_alert": "The maximum allowed is 8 Team Rerolls.",
+        "reroll_note_closed": "{cost} GP (×2) · {revert} GP to undo",
+        "reroll_note_open": "{cost} GP each · max. 8",
+        "unit_cost": "{cost} GP each",
+        "inducements": {
+          "bribe": {
+            "name": "Bribe",
+            "description": "Allows avoiding an expulsion (2+)."
+          },
+          "chef": {
+            "name": "Halfling Chef",
+            "description": "Steals rerolls from the rival (3+)."
+          },
+          "assistant_coaches": {
+            "name": "Assistants",
+            "description": "+1 to coaching events."
+          },
+          "cheerleaders": {
+            "name": "Cheerleaders",
+            "description": "+1 to cheerleader events."
+          },
+          "apothecary": {
+            "name": "Apothecary",
+            "description": "Allows rerolling an injury."
+          },
+          "rerolls": {
+            "name": "Extra Reroll",
+            "description": "Extra reroll for the match."
+          },
+          "kicking_coach": {
+            "name": "Kicking Coach",
+            "description": "+1 to kickoff."
+          },
+          "master_chef": {
+            "name": "Master Chef",
+            "description": "Roll 3D6 to steal rerolls."
+          },
+          "assistant_physio": {
+            "name": "Assistant Physio",
+            "description": "+1 to Apothecary rolls."
+          },
+          "weather_mage": {
+            "name": "Weather Mage",
+            "description": "Allows changing the weather."
+          },
+          "bloodweiser": {
+            "name": "Bloodweiser Keg",
+            "description": "+1 to wake up KO players."
+          },
+          "prayers": {
+            "name": "Prayers to Nuffle",
+            "description": "Roll on the prayers table."
+          },
+          "biertrinker": {
+            "name": "Josef Bugman",
+            "description": "Optional Star Player."
+          }
+        },
+        "weather": {
+          "sweltering_heat": {
+            "name": "Sweltering Heat",
+            "description": "D3 random players from each team on the field go to the bench at the end of each drive."
+          },
+          "very_sunny": {
+            "name": "Very Sunny",
+            "description": "-1 to all PASS rolls."
+          },
+          "perfect": {
+            "name": "Perfect",
+            "description": "No effects."
+          },
+          "pouring_rain": {
+            "name": "Pouring Rain",
+            "description": "-1 to pick up, catch, or intercept the ball."
+          },
+          "blizzard": {
+            "name": "Blizzard",
+            "description": "-1 to Rush (GFI). Only Quick or Short passes allowed."
+          }
+        },
+        "kickoff": {
+          "get_the_ref": {
+            "name": "Get the Ref!",
+            "description": "Each team receives a free Bribe for this match."
+          },
+          "time_out": {
+            "name": "Time Out!",
+            "description": "If the kicking team is on turn 6, 7, or 8, both move back 1 turn. Otherwise, both move forward 1 turn."
+          },
+          "solid_defence": {
+            "name": "Solid Defence",
+            "description": "The kicking team can reposition D3+3 Open players."
+          },
+          "high_kick": {
+            "name": "High Kick",
+            "description": "An Open player from the receiving team can place themselves where the ball lands."
+          },
+          "cheering_fans": {
+            "name": "Cheering Fans",
+            "description": "The team with more cheerleaders (roll D6 + cheerleaders) receives a Prayer to Nuffle."
+          },
+          "brilliant_coaching": {
+            "name": "Brilliant Coaching",
+            "description": "The team with more assistants (roll D6 + assistants) wins 1 extra Reroll for this drive."
+          },
+          "changing_weather": {
+            "name": "Changing Weather",
+            "description": "Immediately roll on the Weather table. If Perfect, the ball deviates."
+          },
+          "quick_snap": {
+            "name": "Quick Snap",
+            "description": "The receiving team can move D3+3 Open players 1 square."
+          },
+          "blitz": {
+            "name": "Blitz!",
+            "description": "The kicking team can activate D3+3 Open players (move, 1 blitz, 1 pass, etc.) before the turn."
+          },
+          "throw_a_rock": {
+            "name": "Throw a Rock",
+            "description": "A fan throws a rock. Roll D6 + FAME. The lowest receives a hit on a random player (direct Injury)."
+          }
+        },
+        "apothecary_note_sevens": "BB7 / Sevens cost: 80,000 GP",
+        "apothecary_note": "50,000 GP",
+        "apothecary_not_allowed": "{race} teams cannot hire an Apothecary.",
+        "fans_note_creation": "Maximum 3 Dedicated Fans at team creation",
+        "max": "Limit"
+      },
+      "player": {
+        "number_abbr": "No.",
+        "spp": "SPP",
+        "tv_abbr": "TV",
+        "no_skills": "No skills",
+        "none": "None",
+        "spp_skill": "Skill learned with SPP",
+        "hatred_skill": "Acquired grudge / hatred",
+        "improve": "Improve",
+        "dismiss": "Dismiss",
+        "dismiss_confirm": "Dismiss {name}? Cost ({cost} GP) will be recovered.",
+        "dismiss_confirm_no_refund": "Dismiss {name}? No gold will be recovered to the treasury.",
+        "max_positional_alert": "You have reached the maximum allowed for {position} ({qty}).",
+        "no_funds_alert": "Not enough funds for this signing.",
+        "empty_list": "No players in roster.",
+        "journal": "📖 Career Journal",
+        "status": {
+          "ACTIVE": "ACTIVE",
+          "MNG": "MNG",
+          "DEAD": "DEAD"
+        },
+        "edit_details_full_title": "Edit player details (name and number)",
+        "edit_name_number_title": "Edit name or number",
+        "captain_title": "Team captain",
+        "captain_badge": "👑 Captain",
+        "veteran_title": "BB7 Veteran Lineman (-1 MA. Re-roll a failed pick-up, catch or pass, or an own Player Down result when blocking)",
+        "veteran_badge": "⭐ Veteran",
+        "lineman_title": "The team's basic Lineman",
+        "lineman_badge": "🛡️ Lineman",
+        "stat_injured_title": "Modified by injury",
+        "stat_improved_title": "Improved through experience",
+        "unspent_spp": "Unspent SPP",
+        "spp_minus_title": "Remove 1 SPP",
+        "spp_plus_title": "Add 1 SPP",
+        "free_skill_title": "Grant 1 free primary skill to this Lineman",
+        "free_skill_btn": "🎁 Free Skill",
+        "veteran_remove_title": "Remove Veteran status",
+        "veteran_assign_title": "Designate as the Veteran Lineman (-1 MA, re-roll pick-up, catch, pass or own block result)",
+        "veteran_make_btn": "⭐ Make Veteran",
+        "captain_remove_title": "Remove captaincy",
+        "captain_assign_title": "Designate as Team Captain",
+        "captain_make_btn": "👑 Make Captain",
+        "edit_name_number_click_title": "Click to change name or number",
+        "edit_details_title": "Edit player details",
+        "rename": "Rename Player"
+      },
+      "add_player": {
+        "title": "Sign New Player",
+        "name_label": "Player Name",
+        "number_label": "Number",
+        "position_label": "Position / Player Type",
+        "select_position": "Select a position...",
+        "qty_available": "{qty} available",
+        "sign": "Sign Player",
+        "initial_skills": "Initial Skills",
+        "player_count": "{count} player{plural} in roster",
+        "free_raise_option": "Recruit for free via special rule (0 GP treasury)",
+        "free_raise_badge": "Free Recruitment available!",
+        "sevens_roster_count": "Sevens roster: <1>{count} / 11</1>",
+        "sevens_positionals_count": "Positionals: <1>{count} / 4</1>",
+        "blocked_dismissal": "🔒 (Locked: 1 match after firing)",
+        "blocked_specialist_cap": "🔒 (4-positional cap reached in Sevens)",
+        "lineman_available": "🛡️ Lineman ({qty} available)"
+      },
+      "free_raise_banner": {
+        "title": "Free Recruitment Available!",
+        "desc": "You have {count} free recruit{plural} earned from a rival match casualty (Masters of Undeath / Nurgle).",
+        "action": "Recruit Free Player"
+      },
+      "confirm_modal": {
+        "title": "Confirm Changes",
+        "desc": "Do you want to save all changes made to the roster?",
+        "closed_warning": "WARNING: Initial roster is CLOSED. Any changes will only be reflected if you have enough treasury.",
+        "closing_warning": "YOU ARE ABOUT TO CLOSE THE ROSTER. This action is final and the cost of Team Rerolls will double."
+      },
+      "save_bar": {
+        "title": "Unsaved changes",
+        "desc": "You have made modifications to the roster.",
+        "revert": "Discard",
+        "save": "Save All"
+      },
+      "stars": {
+        "title": "Hire Star Player",
+        "limit": "Tournament Limit: {count} / {total}",
+        "hired": "Already hired",
+        "cost_varies": "Varies",
+        "catalog_hint": "Open stars catalog"
+      },
+      "stadium": {
+        "news": "Stadium News",
+        "news_desc": "The stadium atmosphere and facilities can influence match development and your income.",
+        "resident_title": "Home Stadium",
+        "home_advantage": "🛡️ Home advantage: when this team plays at home, on a 5+ on 1D6 its players pushed into the crowd go to the Reserves box without injury, and the opponent receives +50k GP Petty Cash."
+      },
+      "standings": {
+        "savings": "Your Savings",
+        "savings_desc": "This gold is what you will use to hire players, staff, or recover from losses."
+      },
+      "mistakes": {
+        "pending": "Expensive Mistakes Pending",
+        "desc": "Your treasury is too high and you risk losing gold due to administrative errors.",
+        "hint": "You must roll for Expensive Mistakes before playing your next match.",
+        "rolling": "Rolling dice...",
+        "roll": "Roll for Expensive Mistakes",
+        "result_title": "Expensive Mistakes Result",
+        "loss_label": "Loss: -{amount}k gold",
+        "result_save_hint": "The result has been applied and automatically saved to the team."
+      },
+      "reroll_double_cost": "New rerolls cost {cost} GP (double).",
+      "tv_value": "TV Value",
+      "tv_breakdown": {
+        "title": "TV Breakdown",
+        "players": "Players ({count})",
+        "rerolls": "Rerolls ({count})",
+        "coaches": "Coaches ({count})",
+        "cheerleaders": "Cheerleaders ({count})",
+        "apothecary": "Apothecary",
+        "fans": "Followers ({count})",
+        "no_count": "— don't count",
+        "total": "Total TV",
+        "ctv": "CTV (excluding MNG)"
+      },
+      "advancement": {
+        "title": "Player Development",
+        "spp_available": "SPP Available",
+        "advancements": "Advancements",
+        "options_title": "Advancement Options",
+        "tournament_allocation": "Tournament Allocation (Tier {tier})",
+        "free_draft": "Free (Draft)",
+        "details_title": "Advancement Details",
+        "roll_primary_btn": "🎲 Roll 2 Random Skills",
+        "select_rolled_hint": "Select one of the rolled skills:",
+        "choose_skill_placeholder": "— Choose a skill —",
+        "characteristic_roll_hint": "Roll 1D16 and select the result obtained/chosen:",
+        "choose_stat_placeholder": "— Improvement Result —",
+        "stat_options": {
+          "MA": "+1 MA (Movement) [+20k TV]",
+          "AV": "+1 AV (Armor) [+10k TV]",
+          "PA": "-1 PA (Passing) [+20k TV] (roll 8-13)",
+          "AG": "-1 AG (Agility) [+40k TV] (roll 8-13)",
+          "ST": "+1 ST (Strength) [+80k TV] (roll 14-15)"
+        },
+        "confirm_btn": "Confirm Advancement",
+        "saving": "Saving...",
+        "no_skills_left": "No skills available in this category.",
+        "select_skill_error": "Please select or roll a skill.",
+        "select_stat_error": "Please select the improved characteristic.",
+        "types": {
+          "random_primary": "Random Primary Skill (Choose from 2)",
+          "chosen_primary": "Chosen Primary Skill",
+          "chosen_secondary": "Chosen Secondary Skill",
+          "characteristic": "Characteristic Improvement (+10k-80k TV)",
+          "tournament_primary": "Tournament Primary Skill",
+          "tournament_secondary": "Tournament Secondary Skill"
+        },
+        "select_category_error": "Please select a category first",
+        "banned_option_error": "This option exceeds the skill limits configured for the tournament.",
+        "choose_category_placeholder": "Choose a category..."
+      },
+      "journal": {
+        "title": "📖 Career Journal",
+        "loading": "Reading ancient scrolls...",
+        "empty": "This player has not yet stepped on the bloodied turf.",
+        "hired": "Signed by the team",
+        "total_spp": "Total SPP Accumulated: {count}",
+        "injury": "⚠️ Injury:",
+        "stat_up": "Stat Improvement: {stat}",
+        "skill_up": "New Skill: {skill}",
+        "stats": {
+          "played": "Games",
+          "tds": "TDs",
+          "cas": "Cas",
+          "comp": "Comp",
+          "int": "Int",
+          "mvp": "MVP"
+        }
+      },
+      "tabs": {
+        "roster": "Roster",
+        "analytics": "Analytics"
+      },
+      "injuries": {
+        "niggling": "Niggling Injury x{count}",
+        "ma_loss": "Movement loss: -{value} MA",
+        "st_loss": "Strength loss: -{value} ST",
+        "ag_loss": "Agility loss: -{value} AG",
+        "pa_loss": "Passing loss: -{value} PA",
+        "av_loss": "Armour loss: -{value} AV"
+      },
+      "alerts": {
+        "unsaved_leave": "You have unsaved roster changes. Are you sure you want to leave?"
+      },
+      "treasury_admin": {
+        "adjust_prompt": "Adjust Treasury (current: {current} GP).\nEnter the exact new value in GP, or type +50000 / -50000 to modify it:",
+        "modify_title": "Modify team Treasury",
+        "adjust_btn": "Adjust",
+        "mistakes_risk_title": "Expensive Mistakes risk",
+        "adjust_prompt_short": "Adjust Treasury (GP):",
+        "invalid_amount": "Please enter a valid amount in GP (whole number >= 0).",
+        "manual_adjust_title": "Adjust Treasury manually (Commissioners / Admin)",
+        "edit_btn": "Edit",
+        "note_closed": "Funds available for post-match signings and Inducements.",
+        "note_open": "Remaining budget for team creation."
+      },
+      "pdf_default_coach": "Coach",
+      "sevens_banner": {
+        "title": "Blood Bowl Sevens / BB7 mode (7v7)",
+        "desc": "Active rules: rosters of 7 to 11 players and a maximum of 4 positionals (Linemen do not count towards this cap and can be hired freely up to 11). Team Re-rolls: 100k. Apothecary: 80k. You may designate 1 Veteran Lineman (-1 MA, re-roll a pick-up, catch, pass or own Player Down result)."
+      },
+      "draft_banner": {
+        "title": "Draft detected",
+        "desc": "We found changes you didn't save the last time you edited this team.",
+        "restore": "Restore"
+      },
+      "header": {
+        "logo_alt": "Team logo",
+        "change_logo": "Change",
+        "upload_logo": "Upload Logo",
+        "fouls_count": "FOULS: {count}",
+        "ctv_title": "Current Team Value (excluding MNG players)"
+      },
+      "coach_view_profile_title": "Click to view the coach profile",
+      "buy_inducements": "+ Buy Inducements",
+      "draft": {
+        "league_rules": "League Draft Rules (Tier {tier})"
+      },
+      "coach_view_sheet": "View Profile ↗",
+      "sponsors": {
+        "title": "Active Sponsors",
+        "recently_acquired": "Recently acquired",
+        "matches_active": "Matches active: {count}"
+      },
+      "inducements": {
+        "title": "Buy Tournament Inducements",
+        "desc": "Buy permanent Inducements for your team using the draft Treasury.",
+        "qty": "Quantity hired:"
+      },
+      "edit_player_title": "Edit Player",
+      "edit_player": {
+        "name_placeholder": "Player name",
+        "number_label": "Shirt Number (1-99)"
+      },
+      "free_lineman_modal": {
+        "title": "Free Lineman Skill",
+        "player": "Player: <1>{name}</1> ({position})",
+        "desc": "Choose 1 <1>Primary Skill</1> for this Lineman. This advancement adds +20k to their TV and costs 0 SPP.",
+        "category": "Category: {category}"
+      }
+    },
+    "game_day": {
+      "title": "Game Day Assistant",
+      "match_mode": "Match Mode",
+      "tab_roster": "Roster",
+      "tab_calc": "Calculator",
+      "tab_tables": "Tables",
+      "prob_success": "Success Probability",
+      "difficulty": "Difficulty (Target Roll)",
+      "reroll": "Re-roll",
+      "loner": "Loner",
+      "common_actions": "Common Actions",
+      "roll": "Result",
+      "weather_title": "🌤️ Weather (2D6)",
+      "kickoff_title": "⚡ Kickoff Event (2D6)",
+      "injury_title": "💀 Injury Table (D16)",
+      "injuries": {
+        "bh": "Badly Hurt (BH)",
+        "bh_desc": "No long-term effects.",
+        "mng": "Serious Injury (MNG)",
+        "mng_desc": "Misses the next game.",
+        "niggling": "Permanent Injury",
+        "niggling_desc": "MNG + Niggling Injury (+1 to Injury rolls).",
+        "ma": "Broken Bone (-MA)",
+        "ma_desc": "MNG + Permanent MA reduction.",
+        "pa": "Broken Bone (-PA)",
+        "pa_desc": "MNG + Permanent PA reduction.",
+        "av": "Broken Bone (-AV)",
+        "av_desc": "MNG + Permanent AV reduction.",
+        "ag": "Broken Neck (-AG)",
+        "ag_desc": "MNG + Permanent AG reduction.",
+        "st": "Smashed Collar Bone (-ST)",
+        "st_desc": "MNG + Permanent ST reduction.",
+        "dead": "DEAD",
+        "dead_desc": "The player is deceased. Long live their replacement!"
+      },
+      "header_title": "Game Day Assistant",
+      "close": "×",
+      "footer_rerolls": "Re-rolls: {count}",
+      "footer_live": "Live Match Assistant",
+      "presets": {
+        "gfi": "GFI (Rush)",
+        "dodge_ag3": "Dodge (AG 3+)",
+        "dodge_ag4": "Dodge (AG 4+)",
+        "catch": "Catch (3+)",
+        "foul": "Foul (2+)"
+      },
+      "weather": {
+        "r2_desc": "D3 players go to the Reserves after each drive.",
+        "r3_desc": "-1 to PASS rolls.",
+        "r11_desc": "-1 to Pick-up/Catch/Interception.",
+        "r12_desc": "-1 to Rush. Only Quick or Short passes."
+      },
+      "kickoff": {
+        "r2_desc": "Each team receives a Bribe.",
+        "r3_desc": "Turn markers move forward or back.",
+        "r4_desc": "Defence re-sets up to D3+3 players.",
+        "r5_desc": "One open player may move under the ball to catch it.",
+        "r6_desc": "A Prayer to Nuffle for the team that cheers loudest.",
+        "r7_desc": "Extra Team Re-roll for the team with the best coaching.",
+        "r8_desc": "Re-roll the Weather.",
+        "r9_desc": "D3+3 receiving players move 1 square.",
+        "r10_desc": "D3+3 kicking players get a free activation before the kick-off.",
+        "r11_desc": "A fan injures a random player.",
+        "r12": "Nuffle Wills It",
+        "r12_desc": "A Prayer to Nuffle for the team with less FAME."
+      }
+    },
+    "player_journal_modal": {
+      "alerts": {
+        "hatred_exists": "This player already has Hatred towards this keyword.",
+        "remove_hatred_confirm": "Are you sure you want to remove {skill}?"
+      },
+      "errors": {
+        "save_hatred": "Error saving Hatred: {message}",
+        "remove_hatred": "Error removing Hatred: {message}",
+        "rename": "Error renaming player: {message}"
+      },
+      "stats": {
+        "title": "Lifetime Stats",
+        "unspent_spp": "Unspent SPP",
+        "total_accumulated": "Lifetime Total",
+        "total_spp": "{count} total SPP"
+      },
+      "tabs": {
+        "timeline": "📜 History",
+        "medical": "🩺 Medical Record"
+      },
+      "timeline": {
+        "critical_injury": "Critical Injury",
+        "hatred_acquired": "Hatred Acquired",
+        "career_milestone": "Career Milestone"
+      },
+      "medical": {
+        "current_health": "Current Health Status",
+        "general_diagnosis": "General Diagnosis",
+        "status_active": "💚 Healthy / Fit",
+        "status_mng": "🩹 Injured (Miss Next Game)",
+        "status_dead": "💀 Dead",
+        "niggling_title": "Niggling Injuries",
+        "niggling_value": "🤕 x{count} (+{count} to Injury rolls)",
+        "niggling_none": "🤕 None",
+        "stat_sequelae_title": "Characteristic Reductions",
+        "no_sequelae": "No lasting effects detected"
+      },
+      "hatred": {
+        "title": "Hatred & Psychological Scars",
+        "desc": "Grudge acquired after suffering serious injuries against certain opponents. (+0 TV)",
+        "add_btn": "Channel Hatred",
+        "empty": "This player has not yet developed Hatred towards any race or keyword.",
+        "not_eligible": "Only players with a history of injuries or lasting effects can acquire Hatred.",
+        "remove_title": "Remove Hatred",
+        "select_tag_title": "Select Hatred Keyword",
+        "select_tag_placeholder": "-- Select keyword / race --",
+        "custom_placeholder": "e.g. Star Player, Wood Elf...",
+        "assign_btn": "Assign Hatred"
+      },
+      "injury_log": {
+        "title": "Injury History",
+        "empty": "This player has no serious injuries recorded in official matches.",
+        "match_vs": "Match vs {opponent}",
+        "diagnosis": "DIAGNOSIS"
+      }
+    },
+    "player_advancement_modal": {
+      "random_roll_warning": "⚠️ Rolling will record 2 skills and lock the roll. If you close the window, one will be assigned at random.",
+      "restored_roll": {
+        "title": "🎲 Previous roll restored",
+        "desc": "This player's previous roll has been recovered. You must make your choice to complete it."
+      },
+      "anti_cheat_warning": "⚠️ Anti-cheat: if you close this window now, one will be assigned to you at random.",
+      "roll_stat_btn": "Roll 1D16 for Characteristic",
+      "dice_result": "Dice Result",
+      "roll_result": {
+        "secondary": "Secondary Skill",
+        "ma_av_secondary": "Movement (MA), Armour (AV) or Secondary Skill",
+        "pa_ag_secondary": "Passing (PA), Agility (AG) or Secondary Skill",
+        "st_secondary": "Strength (ST) or Secondary Skill"
+      },
+      "choose_improvement_placeholder": "Choose your improvement...",
+      "stat_option": {
+        "ma": "+1 Movement (MA)",
+        "av": "+1 Armour (AV)",
+        "pa": "-1 Passing (PA)",
+        "ag": "-1 Agility (AG)",
+        "st": "+1 Strength (ST)"
+      },
+      "optgroup_alt_secondary": "Alternative Secondary Skill"
+    },
+    "player_card": {
+      "status": {
+        "on_pitch": "ON PITCH",
+        "sent_off": "SENT OFF"
+      },
+      "delete_title": "Delete player",
+      "status_click_title": "Click to change status ({status})",
+      "stats_title": "STATS",
+      "stats": {
+        "touchdowns": "Touchdowns",
+        "long_pass": "Long Pass",
+        "short_pass": "Short Pass",
+        "casualties_caused": "Casualties (inflicted)",
+        "badly_hurt": "Badly Hurt",
+        "seriously_hurt": "Seriously Hurt",
+        "dead": "Dead"
+      },
+      "permanent_injury_label": "🔧 Lasting Injury",
+      "permanent_injury": {
+        "none": "NONE",
+        "ma": "-1 MA (MOVEMENT)",
+        "av": "-1 AV (ARMOUR)",
+        "ag": "+1 AG (AGILITY)",
+        "pa": "+1 PA (PASSING)",
+        "st": "-1 ST (STRENGTH)"
+      }
+    },
+    "roster_pdf_generator": {
+      "title": "NAF TEAM ROSTER",
+      "team_label": "Team:",
+      "race_label": "Race:",
+      "coach_label": "Coach:",
+      "active_tv_label": "Current Team Value:",
+      "tv_amount": "TV {amount} GP",
+      "total_tv_label": "Total Team Value:",
+      "treasury_label": "Treasury:",
+      "gp_amount": "{amount} GP",
+      "club_assets": "CLUB ASSETS",
+      "assets": {
+        "rerolls": "Team Re-rolls",
+        "unit_cost": "{count} {'@'} {cost} GP",
+        "assistant_coaches": "Assistant Coaches",
+        "cheerleaders": "Cheerleaders",
+        "apothecary": "Apothecary",
+        "apothecary_yes": "Yes {'@'} 50k",
+        "fans": "Dedicated Fans"
+      },
+      "player_list": "PLAYER LIST",
+      "table": {
+        "ma": "MA",
+        "st": "ST",
+        "ag": "AG",
+        "pa": "PA",
+        "av": "AV",
+        "cost": "Cost"
+      },
+      "captain_tag": " (C)",
+      "player_dead": "{name}{captain} (DEAD)",
+      "player_mng": "{name}{captain} (MNG)",
+      "legend_dead": "* DEAD = Dead (0 cost in TV)",
+      "legend_mng": "* MNG = Miss Next Game (0 cost in TV)",
+      "coach_signature": "Coach Signature",
+      "ref_signature": "Commissioner Signature",
+      "file_name": "roster_{team}_{date}.pdf",
+      "alerts": {
+        "success": "Roster exported successfully!\n\nThe file \"{fileName}\" has been saved to your Downloads folder.",
+        "error": "Error generating the roster PDF: {error}",
+        "unknown_error": "Unknown error"
+      },
+      "skills_join": "{starting} + {advanced}"
+    },
+    "fantasy_football_advancements": {
+      "levels": {
+        "rookie": "Rookie",
+        "experienced": "Experienced",
+        "veteran": "Veteran",
+        "emerging_star": "Emerging Star",
+        "star": "Star",
+        "super_star": "Super Star",
+        "legend": "Legend"
+      }
+    }
+  },
+  "match": {
+    "wizard": {
+      "title": "Register Match",
+      "step_label": "Step {current} of 6 — {label}",
+      "steps": {
+        "teams": "Teams & Inducements",
+        "pre_match": "Pre-match",
+        "players": "Match Record & Players",
+        "sponsorships": "Sponsorships",
+        "winnings": "Winnings & Purchases",
+        "finalize": "Finalize",
+        "bb7_post_match": "BB7 Sequence"
+      },
+      "step1": {
+        "home_team": "Home Team",
+        "away_team": "Away Team",
+        "select_placeholder": "— Select Team —",
+        "expensive_mistakes": "Expensive Mistakes",
+        "inducements_title": "💰 Inducement Catalog (FF2025)",
+        "select_teams_hint": "Select two different teams to load the inducement catalog.",
+        "treasury": "Treasury: {count}k",
+        "spent": "Spent: {count}k",
+        "common_inducements": "Inducements",
+        "star_players": "Star Players",
+        "select_star": "+ Select Star Player",
+        "total_cost": "Total Cost:",
+        "free_petty_cash": "Free Petty Cash:",
+        "adjusted_tv": "Adjusted TV:",
+        "roster_not_closed": "Roster not closed",
+        "team_base_tv": "Team base TV",
+        "mng_deduction": "Missing players (MNG)",
+        "journeymen_added": "Journeymen added",
+        "match_effective_tv": "Effective match TV"
+      },
+      "step2": {
+        "weather_title": "🌤️ Weather",
+        "re_roll": "Reroll",
+        "roll_weather": "Roll Weather",
+        "no_weather": "No weather roll yet.",
+        "kickoff_title": "⚡ Kickoff Event",
+        "roll_event": "Roll Event",
+        "no_event": "No kickoff event yet.",
+        "attendance_title": "📣 Attendance (Fans)",
+        "roll_attendance": "Roll Attendance",
+        "fans_base": "Fans base"
+      },
+      "step3": {
+        "scoreboard": "Scoreboard",
+        "home": "Home",
+        "away": "Away",
+        "win": "{team} Wins",
+        "draw": "Draw"
+      },
+      "step4": {
+        "hint": "Record each player's stats. Dead or MNG players will be updated automatically.",
+        "active_roster": "Active Roster",
+        "search_placeholder": "Search #, name...",
+        "clear": "Clear",
+        "no_players": "No players found",
+        "table": {
+          "player": "Player",
+          "tds": "TD",
+          "comp": "Comp.",
+          "superb_pass": "Superb Pass",
+          "cas": "Cas.",
+          "int": "Int",
+          "foul": "Fal.",
+          "injury": "Injury",
+          "mvp": "MVP",
+          "spp": "SPP",
+          "sprint_fall": "Rush Fall (GFI)"
+        },
+        "injury_options": {
+          "ok": "— OK —",
+          "badly_hurt": "Badly Hurt",
+          "mng": "Miss Next Game",
+          "niggling": "Niggling",
+          "stat_loss": "Stat Loss",
+          "dead": "Dead 💀"
+        },
+        "stat_loss_title": "Which stat?",
+        "hatred_title": "Hatred",
+        "no_hatred": "— No Hatred —",
+        "recommended_hatred": "⭐ Hatred: {tag} (Opponent)",
+        "custom_tag": "Other tag...",
+        "mvp_title": {
+          "remove": "Remove MVP",
+          "taken": "MVP already taken",
+          "choose": "Choose MVP"
+        },
+        "stat_loss": {
+          "ma": "-1 Movement (MA)",
+          "st": "-1 Strength (ST)",
+          "ag": "-1 Agility (AG)",
+          "pa": "-1 Passing Ability (PA)",
+          "av": "-1 Armour Value (AV)"
+        }
+      },
+      "step5": {
+        "final_score": "Final Score",
+        "total_attendance": "Total Attendance",
+        "base_winnings": "Base Winnings",
+        "no_stall_bonus": "No-stall bonus (+1 GP)",
+        "no_stall": "No stall",
+        "spp_earned": "SPP earned",
+        "casualties": "Casualties",
+        "dead_icon": "💀 Dead",
+        "raise_dead_title": "🧟 Raise the Dead! (Masters of Undeath)",
+        "raise_dead_subtitle": "Opposition player {deadPlayer} ({position}, ST {st}) was killed in the match. Your Necromancer can raise them for your ranks.",
+        "raise_dead_checkbox": "Recruit rookie player for free for {team} (0 GP)",
+        "raise_dead_choose": "Choose player to raise:",
+        "raise_dead_zombie": "🧟 ZOMBIE (Zombie Lineman)",
+        "raise_dead_zombie_stats": "MA 4 {'|'} ST 3 {'|'} AG 4+ {'|'} AV 9+",
+        "raise_dead_skeleton": "💀 SKELETON (Skeleton Lineman)",
+        "raise_dead_skeleton_stats": "MA 5 {'|'} ST 3 {'|'} AG 4+ {'|'} AV 8+",
+        "nurgle_rot_title": "🪰 Nurgle's Rot!",
+        "nurgle_rot_subtitle": "Opposition player {deadPlayer} ({position}, ST {st}) was killed and infected. They can join your team as a rookie Rotter.",
+        "nurgle_rot_checkbox": "Recruit rookie Rotter for free for {team} (0 GP)",
+        "nurgle_rot_stats": "MA 5 {'|'} ST 3 {'|'} AG 4+ {'|'} AV 9+",
+        "free_recruit_name_label": "New player's name:",
+        "free_recruit_default_zombie": "Zombie (ex-{deadPlayer})",
+        "free_recruit_default_skeleton": "Skeleton (ex-{deadPlayer})",
+        "free_recruit_default_rotter": "Rotter (ex-{deadPlayer})"
+      },
+      "step6": {
+        "title": "🏁 Match Cleanup",
+        "fan_reaction_label": "Fan Reaction",
+        "fan_reaction_title": "📣 Fan Reaction",
+        "roll_fans": "Roll Fans",
+        "pending_roll": "Roll Pending",
+        "roll_hint": "Roll to see if fans increase or decrease",
+        "base": "Base",
+        "final": "Final",
+        "warning": "Review all data before finalizing. Once saved, player changes (SPP, injuries, etc.) and treasury will be permanent for the league."
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "back": "← Back",
+        "next": "Next →",
+        "saving": "Saving...",
+        "finalize": "✓ Finalize Report"
+      },
+      "alerts": {
+        "save_events_error": "Error saving player events: ",
+        "save_error": "Error saving: ",
+        "already_completed": "⚠️ The match has already been finalised by the other coach from another device. Saving has been cancelled to avoid duplicating stats."
+      }
+    },
+    "setup": {
+      "defaults": {
+        "home_team_name": "Home",
+        "away_team_name": "Away"
+      },
+      "header": {
+        "title_main": "FANTASY FOOTBALL",
+        "title_sub": "MANAGER"
+      },
+      "team_config": {
+        "title": "Set Up the Teams",
+        "home_name_placeholder": "e.g. Orcs of Doom",
+        "away_name_placeholder": "e.g. Reikland Reavers"
+      },
+      "inducements": {
+        "title_overdog": "Inducements (Phase 1: Overdog)",
+        "title_underdog": "Inducements (Phase 2: Underdog)",
+        "hint_overdog": "The team with the higher Team Value spends Treasury first (max 50k).",
+        "hint_underdog": "The underdog receives Petty Cash and may spend Treasury (max 50k).",
+        "treasury": "Treasury:",
+        "spent_max": "Spent (max 50k):",
+        "petty_cash": "Petty Cash:",
+        "current_tv": "Current TV:",
+        "star_players_max": "Star Players (Max 2)",
+        "remove_star": "X",
+        "hire_star": "+ Hire Star Player",
+        "star_option": "{name} ({cost}k)",
+        "next_phase": "Next Phase >>",
+        "finish": "Finish Inducements",
+        "prayers_note": "* Prayers to Nuffle is now a 10k inducement (2025 rules)."
+      },
+      "weather": {
+        "title": "🎲 Roll the Weather",
+        "reroll": "🔄 Re-roll"
+      },
+      "common": {
+        "roll_result": "Roll result",
+        "rolling_2d6": "Rolling 2D6...",
+        "roll_2d6": "Roll: {roll} (2D6)"
+      },
+      "fame": {
+        "title_done": "⭐ Fans",
+        "title_rolling": "🎲 Roll Fans",
+        "calculating": "Calculating...",
+        "breakdown": "(D3[{roll}] + {fans} Fans)",
+        "reroll": "🔄 Re-roll Fans",
+        "calculating_fans": "Calculating Fans..."
+      },
+      "coin_toss": {
+        "title_done": "🪙 Coin Toss Result",
+        "title_rolling": "🪙 Coin Toss",
+        "subtitle_done": "Who chooses to kick or receive?",
+        "tossing": "Tossing...",
+        "winner_choose": "Choose to kick or receive!",
+        "retoss": "🔄 Toss Again"
+      },
+      "kickoff": {
+        "title": "🎲 Kick-off Event",
+        "reroll": "🔄 Re-roll Event"
+      },
+      "nav": {
+        "back": "BACK",
+        "start": "⚔️ KICK OFF!",
+        "continue": "CONTINUE"
+      }
+    },
+    "scoreboard": {
+      "round": "Round {round}/16",
+      "turn": "Turn {turn}",
+      "first_half": "1st Half",
+      "second_half": "2nd Half",
+      "active": "⚔ ACTIVE ⚔",
+      "vs": "VS"
+    },
+    "team_panel": {
+      "team_name_placeholder": "Team name",
+      "team_tv": "Team TV",
+      "touchdowns": "Touchdowns",
+      "fouls": "Fouls",
+      "players_on_pitch": "Players ({onPitch}/{total} on the pitch)",
+      "add_player": "➕ Add Player"
+    },
+    "game_controls": {
+      "change_turn": "🔄 Change Turn",
+      "next_round": "⏭️ Next Round",
+      "end_match": "📜 End of Match",
+      "reset": "💀 Reset"
+    },
+    "dice_roll": {
+      "die_alt": "Die {value}",
+      "total": "Total: {sum}"
+    },
+    "post_match_sequence": {
+      "title": "Post-Game Sequence (BB 2025)",
+      "fans": {
+        "title": "Dedicated Fans Update",
+        "rolling_hint": "Rolling to see how the fans react...",
+        "roll_button": "🎲 Roll Dice",
+        "count": "{count} Fans",
+        "to_winnings": "Calculate Winnings 💰"
+      },
+      "winnings": {
+        "title": "Match Winnings",
+        "formula": "(Dedicated Fans + Touchdowns) x 10,000",
+        "amount": "+{amount}k",
+        "breakdown": "({fans} Fans + {tds} TDs) * 10k",
+        "auto_run": "Auto-Run",
+        "to_summary": "Continue to Summary ➡️"
+      },
+      "summary": {
+        "title": "MATCH SUMMARY",
+        "mvp": "MVP: #{numbers}",
+        "fans": "Fans: {count}",
+        "winnings": "Winnings: {amount}k",
+        "generate_pdf": "📄 Generate PDF"
+      }
+    },
+    "state": {
+      "default_player_name": "Player {number}",
+      "default_home_team": "Home",
+      "default_away_team": "Away"
+    },
+    "pdf_generator": {
+      "title": "MATCH REPORT",
+      "setup_rolls": "PRE-MATCH ROLLS",
+      "weather_line": "Weather (2D6): {roll} - {name}",
+      "fame_line": "FAME {team}: {value}",
+      "coin_toss_line": "Coin Toss: {team} wins",
+      "kickoff_line": "Kick-off Event (2D6): {roll} - {name}",
+      "general_info": "GENERAL INFORMATION",
+      "round_line": "Round: {round} / 16",
+      "turn_line": "Turn: {turn}",
+      "half_line": "Half: {half}",
+      "half_first": "First",
+      "half_second": "Second",
+      "active_team_line": "Active team: {team}",
+      "final_score": "FINAL SCORE",
+      "score_line": "{team}: {tds} TD",
+      "mvps_title": "MATCH MVPs",
+      "mvp_line": "{team}: Player #{numbers}",
+      "post_match_title": "POST-GAME RESULTS",
+      "winnings_label": "Winnings (Treasury):",
+      "winnings_line": "{team}: +{amount} gp",
+      "dedicated_fans_label": "Dedicated Fans:",
+      "fans_line": "{team}: {message} (Total: {total})",
+      "mistakes_line": "{team}: {message} (-{amount} gp)",
+      "team_value_line": "Team Value: {value}",
+      "fouls_line": "Fouls: {count}",
+      "inducement_item": "{name} ({count})",
+      "inducements_line": "Inducements: {list}",
+      "players_title": "Players:",
+      "player_line": "#{number} {name}",
+      "status": {
+        "on_pitch": "On the pitch",
+        "ko": "KO",
+        "cas": "Casualty",
+        "sent_off": "Sent off"
+      },
+      "status_line": "Status: {status}",
+      "stats": {
+        "td": "TD: {value}",
+        "long_passes": "Long Passes: {value}",
+        "short_passes": "Short Passes: {value}",
+        "injuries": "Injuries: {value}",
+        "minor_injuries": "Minor Inj.: {value}",
+        "serious_injuries": "Serious Inj.: {value}",
+        "dead": "Dead: {value}",
+        "mvp": "MVP: {value}"
+      },
+      "file_name": "match_report_fantasy_football_{date}_{time}.pdf",
+      "alerts": {
+        "success": "PDF generated successfully!\n\nThe file \"{fileName}\" has been downloaded.\n\nLook for it in your Downloads folder.",
+        "error": "Error generating the PDF: {error}",
+        "unknown_error": "Unknown error"
+      }
+    }
+  },
+  "dashboards": {
+    "live": {
+      "title": "Live Matches",
+      "status": "LIVE NOW!",
+      "coach": "Coach",
+      "resume": "RESUME",
+      "cancel": "CANCEL",
+      "cancel_confirm": "Are you sure you want to cancel this live match? All unsaved progress for this session will be lost."
+    },
+    "leagues": {
+      "title": "Leagues",
+      "subtitle": "Manage your bloodthirsty competitions",
+      "creator_badge": "Creator",
+      "no_description": "No description of the carnage.",
+      "founded": "Founded: {date}",
+      "manage": "Manage →",
+      "loading": "Contacting the Referees' Guild...",
+      "empty_title": "No active leagues yet.",
+      "empty_subtitle": "Create a league or join one with an invite code.",
+      "join_button_short": "🔑 Code",
+      "join_button_full": "🔑 Join with Code",
+      "join_link": "Found a league →",
+      "create_button": "New League",
+      "owned_section": "Leagues You Run",
+      "joined_section": "Leagues You Play In",
+      "create_link": "Found a league →",
+      "alerts": {
+        "create_error": "Error creating the league: "
+      },
+      "join_modal": {
+        "title": "Join a League",
+        "placeholder": "CODE",
+        "error_invalid": "Invalid or expired invite code.",
+        "error_already_in": "You are already in this league.",
+        "error_generic": "Error joining the league.",
+        "validate": "Validate Code",
+        "searching": "Searching...",
+        "close": "Close"
+      },
+      "create_modal": {
+        "title": "Found a New League",
+        "name_label": "Competition Name",
+        "name_placeholder": "e.g. Cup of the Damned",
+        "desc_label": "Description / Rules",
+        "desc_placeholder": "Describe the carnage that awaits them...",
+        "submit": "Found League",
+        "cancel": "Cancel"
+      }
+    },
+    "coach": {
+      "career_title": "Coach Profile",
+      "career_record": "Career Record",
+      "record_legend": "W-D-L",
+      "total_cas": "Total Casualties",
+      "total_tds": "Total TDs",
+      "total_fouls": "Total Fouls",
+      "fouls_title": "Fouls Committed",
+      "trophy_room": "Trophy Room",
+      "collectible": "Collectibles",
+      "rewards_hint": "Win leagues and tournaments to fill your trophy cabinet.",
+      "motivation": "In Blood Bowl, winning is the second most important thing. The first is making sure your opponent doesn't get up.",
+      "current_teams": "My Current Teams",
+      "teams_count": "{count} active teams",
+      "open_roster": "View Roster",
+      "empty_teams_title": "You don't have any active teams yet.",
+      "empty_teams_desc": "Go to the Teams section to found your first club and start your legend.",
+      "open_coach_profile": "View Coach Profile",
+      "favorite_race": "Favourite Race",
+      "member_since": "Member Since",
+      "back_to_profile": "Back to Profile",
+      "default_name": "Coach",
+      "default_title": "Nuffle's Chosen Candidate",
+      "pro_badge": "Pro Coach",
+      "uploading": "Uploading...",
+      "change_photo": "Change Photo",
+      "username_placeholder": "Coach Name",
+      "title_placeholder": "Coach Title",
+      "motto_placeholder": "Motto or battle cry...",
+      "bio_placeholder": "Tell us your league story...",
+      "save_changes": "Save Profile",
+      "avatar_updated": "Avatar updated!"
+    },
+    "teams": {
+      "title": "My Teams",
+      "subtitle": "Manage your Blood Bowl clubs",
+      "loading": "Loading teams...",
+      "empty_title": "You don't have any teams yet.",
+      "empty_subtitle": "Create one from the 'My Teams' section or join a league.",
+      "improve_badge": "Level up",
+      "tv_label": "Team Value (TV)",
+      "treasury_label": "Treasury",
+      "record_label": "Record",
+      "wins": "{count}W",
+      "draws": "{count}D",
+      "losses": "{count}L",
+      "played": "{count}P",
+      "back_to_teams": "Back to Teams",
+      "league_label": "League: {name}",
+      "tournament_label": "Tournament: {name}"
+    },
+    "live_matches": {
+      "vs": "VS"
+    }
+  },
+  "glossary": {
+    "title": "Rule Glossary",
+    "sections": {
+      "skills": "Skills",
+      "weather": "Weather",
+      "kickoff": "Kick-off",
+      "injuries": "Injury Table",
+      "prayers": "Prayers to Nuffle",
+      "stars": "Star Players",
+      "inducements": "Inducements"
+    },
+    "special_rule_title": "Special Rule",
+    "search_placeholder": "Search skill or effect...",
+    "all_categories": "All",
+    "empty_search": "No skills found matching your search...",
+    "back_title": "Back",
+    "categories": {
+      "G": "General",
+      "A": "Agility",
+      "S": "Strength",
+      "P": "Passing",
+      "M": "Mutation",
+      "D": "Devious",
+      "T": "Traits"
+    },
+    "back_button": "←",
+    "close_button": "✕",
+    "weather_table": {
+      "r2_desc": "D3 players are exhausted and go to the Reserves after each drive.",
+      "r3_desc": "The sun dazzles the players: -1 to all PASS rolls.",
+      "r4_10": "Perfect Conditions",
+      "r4_10_desc": "Ideal conditions for a clean massacre.",
+      "r11_desc": "The ball is slippery: -1 to Pick-up, Catch and Interception.",
+      "r12_desc": "Zero visibility and frozen ground: -1 to Rush (GFI). Only Quick or Short passes."
+    },
+    "kickoff_table": {
+      "r2_desc": "Each team receives a free Bribe.",
+      "r3_desc": "The turn marker moves back or forward depending on whether the receiving team has already played its turn.",
+      "r4_desc": "The team that is NOT kicking may reposition D3+3 players (not on the sideline or in the opponent's half).",
+      "r5_desc": "The receiving team may choose any player to catch the ball before it bounces.",
+      "r6_desc": "The team that wins the fans roll (or both, on a tie) receives a Prayer to Nuffle.",
+      "r7_desc": "Each team rolls 1D6 + Assistant Coaches. The highest gains a free Team Re-roll for this drive.",
+      "r8_desc": "Re-roll on the Weather table. The new weather applies immediately.",
+      "r9_desc": "The receiving team may activate D3+3 players to move 1 square for free.",
+      "r10": "Charge!",
+      "r10_desc": "Formerly Blitz. The kicking team may activate D3+3 players to move or Block before the kick-off.",
+      "r11": "Dodgy Snack",
+      "r11_desc": "A random opposing player suffers -1 MA and -1 AV for the rest of the drive.",
+      "r12": "Nuffle's Favour",
+      "r12_desc": "A Prayer to Nuffle for the team that is losing or has the lower TV."
+    },
+    "injury_table": {
+      "r1_6": "Badly Hurt",
+      "r1_6_desc": "The player leaves the pitch but may return next drive.",
+      "r7_8_desc": "Misses the rest of the match and the Next Game in the league.",
+      "r9": "Niggling Injury",
+      "r9_desc": "Long-term injury. +1 to future rolls on this table.",
+      "r10": "Movement Reduction (-1 MA)",
+      "r10_desc": "Permanent leg injury. MA reduced by 1.",
+      "r11": "Agility Reduction (-1 AG)",
+      "r11_desc": "Damaged reflexes. AG worsens by 1 (e.g. from 3+ to 4+).",
+      "r12": "Armour Reduction (-1 AV)",
+      "r12_desc": "Weak spots in their protection. AV reduced by 1.",
+      "r13": "Passing Reduction (-1 PA)",
+      "r13_desc": "Damaged eyesight or arm. PA worsens by 1.",
+      "r14": "Strength Reduction (-1 ST)",
+      "r14_desc": "Disaster! Strength permanently reduced by 1.",
+      "r15_16": "DEAD",
+      "r15_16_desc": "The player dies on the spot. Their legend ends here."
+    },
+    "prayers_table": {
+      "r1": "Treacherous Trapdoor",
+      "r1_desc": "A random opposing player falls through a trapdoor and is out for the drive.",
+      "r2": "Friends with the Ref",
+      "r2_desc": "You immediately gain a Bribe.",
+      "r3": "Stiletto",
+      "r3_desc": "A random player gains Stab for the rest of the match.",
+      "r4": "Iron Man",
+      "r4_desc": "A random player gains Dauntless for the rest of the match.",
+      "r5": "Knuckle Dusters",
+      "r5_desc": "A random player gains Mighty Blow (+1) for the rest of the match.",
+      "r6": "Bad Habits",
+      "r6_desc": "The opponent has -1 to using Team Re-rolls on their next turn.",
+      "r7": "Greasy Cleats",
+      "r7_desc": "Opponents suffer -1 to their Dodge rolls.",
+      "r8": "Blessed Statue of Nuffle",
+      "r8_desc": "Your players randomly gain +1 to Stand Firm.",
+      "r9": "Moles under the Pitch",
+      "r9_desc": "The pitch becomes difficult terrain for the opponent.",
+      "r10": "Perfect Passing",
+      "r10_desc": "Your throwers gain +1 to Passing rolls.",
+      "r11": "Fan Interaction",
+      "r11_desc": "Your fans throw objects, giving -1 to opposing Armour.",
+      "r12": "Necessary Violence",
+      "r12_desc": "The team gains +1 to Injury rolls from Blocks.",
+      "r13": "Fouling Frenzy",
+      "r13_desc": "Your Fouls do not cause immediate sending-off during this drive.",
+      "r14": "Throw a Rock",
+      "r14_desc": "A fan hits an opposing player (direct Injury roll).",
+      "r15": "Under Scrutiny",
+      "r15_desc": "The ref is watching the opponent: when a player is sent off, they cannot use Bribes.",
+      "r16": "Intensive Training",
+      "r16_desc": "A random player gains a random secondary skill for this match."
+    },
+    "table": {
+      "search_placeholder": "Search this table (result, name, effects)...",
+      "dice_used": "Dice Used: {dice}",
+      "roll": "Roll",
+      "no_results": "No results found for \"{term}\""
+    },
+    "stars": {
+      "search_placeholder": "Search Star Players, skills...",
+      "cost": "💰 {cost} GP",
+      "skills_traits": "Skills & Traits",
+      "special_rule_line": "{title}: {name}"
+    },
+    "inducements": {
+      "search_placeholder": "Search Inducements, effects...",
+      "cost": "💰 {cost} GP",
+      "in_game_effect": "In-Game Effect",
+      "max_allowed": "Max Allowed: {max}"
+    }
+  },
+  "game": {
+    "skills": {
+      "Block": "Block",
+      "Block_desc": "The player is not knocked down on a 'Both Down' result. In Season 3 (FF2025), it is considered an elite skill.",
+      "Dauntless": "Dauntless",
+      "Dauntless_desc": "Allows you to equal your Strength to that of a stronger opponent with a 1D6 + Strength roll.",
+      "Defensive": "Defensive",
+      "Defensive_desc": "Agility/General skill from Season 3. During the opponent's turn, any rival marked by this player loses the use of 'Guard' and 'Put the Boot In'.",
+      "Fend": "Fend",
+      "Fend_desc": "The opponent cannot use 'Follow Up' after pushing this player.",
+      "Frenzy": "Frenzy",
+      "Frenzy_desc": "Forces a second block if the opponent was pushed but not knocked down.",
+      "Kick": "Kick",
+      "Kick_desc": "Reduces Kick-off deviation to only 1D6 squares.",
+      "Kick-off Return": "Kick-off Return",
+      "Kick-off Return_desc": "Allows moving up to 3 squares for free after the ball lands if not near the lines.",
+      "Pass Block": "Pass Block",
+      "Pass Block_desc": "Allows moving 3 squares to intercept or mark the receiver during a rival Pass action.",
+      "Pro": "Pro",
+      "Pro_desc": "Season 3: Now used with a 3+ on 1D6 (previously 4+). Allows rerolling a failed roll once per turn.",
+      "Steady Footing": "Steady Footing",
+      "Steady Footing_desc": "New Season 3. On a 6 on 1D6, the player avoids becoming Prone or Falling over (Ward Save). Does not cause a Turnover if it occurs in their turn.",
+      "Strip Ball": "Strip Ball",
+      "Strip Ball_desc": "The opponent drops the ball when pushed, unless they have Sure Hands.",
+      "Sure Hands": "Sure Hands",
+      "Sure Hands_desc": "Allows rerolling failed pick-up attempts. Immune to Strip Ball. In Season 3 some versions allow rerolling Catch/Hand-off (depending on race).",
+      "Tackle": "Tackle",
+      "Tackle_desc": "Negates the rival's use of Dodge when dodging out of your tackle zone.",
+      "Taunt": "Taunt",
+      "Taunt_desc": "New Season 3. After being pushed or knocked down by a block, forces the opponent to Follow Up if able.",
+      "Wrestle": "Wrestle",
+      "Wrestle_desc": "On a 'Both Down' result, both players fall Prone without an armor roll and without a Turnover (usually).",
+      "Catch": "Catch",
+      "Catch_desc": "Allows rerolling any failed Catch roll.",
+      "Diving Catch": "Diving Catch",
+      "Diving Catch_desc": "Can catch the ball in adjacent squares. +1 to catch accurate passes.",
+      "Diving Tackle": "Diving Tackle",
+      "Diving Tackle_desc": "Season 3: Now also works against Jump and Leap actions. Subtracts -2 from the rival's roll if you go Prone.",
+      "Dodge": "Dodge",
+      "Dodge_desc": "Reroll one failed dodge per turn. Avoid falling on a 'Stumble' block result.",
+      "Hit and Run": "Hit and Run",
+      "Hit and Run_desc": "New Season 3. After blocking, you can move 1 square for free ignoring Tackle Zones if the rival was moved.",
+      "Jump Up": "Jump Up",
+      "Jump Up_desc": "Standing up is free. Blocking from the ground requires an Agility test with +1.",
+      "Leap": "Leap",
+      "Leap_desc": "Season 3: Reduces modifiers for tackle zones when leaping or jumping by 1 (max -1 total).",
+      "Safe Pair of Hands": "Safe Pair of Hands",
+      "Safe Pair of Hands_desc": "If the player falls with the ball, it doesn't bounce; it is placed in an adjacent square of your choice.",
+      "Side Step": "Side Step",
+      "Side Step_desc": "The player chooses the square they are pushed into.",
+      "Sprint": "Sprint",
+      "Sprint_desc": "Allows attempting a third GFI (Rush).",
+      "Sure Feet": "Sure Feet",
+      "Sure Feet_desc": "Allows rerolling a failed GFI (Rush).",
+      "Nerves of Steel": "Nerves of Steel",
+      "Nerves of Steel_desc": "Ignore enemy tackle zones for passing or catching.",
+      "Regeneration": "Regeneration",
+      "Regeneration_desc": "4+ chance to ignore a permanent injury suffered.",
+      "Right Stuff": "Right Stuff",
+      "Right Stuff_desc": "This player can be thrown by a teammate with 'Throw Team-mate'.",
+      "Stunty": "Stunty",
+      "Stunty_desc": "Ignore tackle zones when dodging. Suffers severe penalties to Injury rolls.",
+      "Titchy": "Canijo",
+      "Titchy_desc": "The player is tiny. Receives +1 to Dodge, but rivals don't suffer tackle zone penalties from them.",
+      "Always Hungry": "Always Hungry",
+      "Always Hungry_desc": "The player might try to eat their teammate when throwing them.",
+      "Really Stupid": "Really Stupid",
+      "Really Stupid_desc": "Fails their activation on 1-3 on 1D6, unless there is a non-stupid teammate adjacent to guide them (then only fails on 1).",
+      "Bone Head": "Bone Head",
+      "Bone Head_desc": "Chance to become dazed and lose activation on a 1 on 1D6.",
+      "Animal Savagery": "Animal Savagery",
+      "Animal Savagery_desc": "Roll 1D6 when activating. On a 1, the player attacks an adjacent teammate (or stays still if no one is there) to act.",
+      "Bloodlust (2+)": "Bloodlust (2+)",
+      "Bloodlust (2+)_desc": "The player must bite a Thrall teammate after their action if they roll less than 2 on 1D6. If no Thralls, the player leaves the field.",
+      "Decay": "Decay",
+      "Decay_desc": "Due to bodily rot, the player takes two rolls on the Casualty table for each injury suffered.",
+      "Unchannelled Fury": "Unchannelled Fury",
+      "Unchannelled Fury_desc": "Roll 1D6 when activating. On 1-3 (or 1 if Blitzing), the player becomes furious but stays still, losing their activation.",
+      "Arm Bar": "Arm Bar",
+      "Arm Bar_desc": "Season 3: +1 to Armor/Injury roll if the rival fails Dodge/Jump/Leap. Gains SPP for these casualties.",
+      "Brawler": "Brawler",
+      "Brawler_desc": "Season 3: Reroll a 'Both Down' result in any block (except Blitz).",
+      "Break Tackle": "Break Tackle",
+      "Break Tackle_desc": "Season 3: Grants a modifier to Dodge. +1 (Strength 4 or less), +2 (Strength 5+).",
+      "Grab": "Grab",
+      "Grab_desc": "Choose any free square when pushing. Negates Side Step.",
+      "Guard": "Guard",
+      "Guard_desc": "Season 3: Offers offensive/defensive assistance even when marked. Now also assists in Fouls!",
+      "Juggernaut": "Juggernaut",
+      "Juggernaut_desc": "In a Blitz, converts 'Both Down' to a push. Negates Wrestle and Stand Firm.",
+      "Mighty Blow (+1)": "Mighty Blow (+1)",
+      "Mighty Blow (+X)": "Mighty Blow (+X)",
+      "Mighty Blow (+X)_desc": "Adds (+X) to Armor or Injury rolls after knocking down a rival.",
+      "Multiple Block": "Multiple Block",
+      "Multiple Block_desc": "Blocks two opponents at the same time with a -2 penalty to Strength.",
+      "Stand Firm": "Stand Firm",
+      "Stand Firm_desc": "Avoids being pushed.",
+      "Strong Arm": "Strong Arm",
+      "Strong Arm_desc": "Adds +1 to Long Passes or Bomb rolls.",
+      "Thick Skull": "Thick Skull",
+      "Thick Skull_desc": "Reduces the effect of KOs in the injury table.",
+      "Accurate": "Accurate",
+      "Accurate_desc": "Adds +1 to Pass rolls.",
+      "Cannoneer": "Cannoneer",
+      "Cannoneer_desc": "Adds +1 to Long Pass or Bomb rolls.",
+      "Cloud Burster": "Cloud Burster",
+      "Cloud Burster_desc": "Forces the rival to ignore interception modifiers on long passes.",
+      "Dump-off": "Dump-off",
+      "Dump-off_desc": "Quick pass when being blocked out of your turn.",
+      "Hail Mary Pass": "Hail Mary Pass",
+      "Hail Mary Pass_desc": "Throws the ball anywhere with 2+. Always deviates.",
+      "Leader": "Leader",
+      "Leader_desc": "Gives an extra team reroll while you are playing.",
+      "On the Ball": "On the Ball",
+      "On the Ball_desc": "Move 3 squares when the rival passes. +1 to catch the ball from the pass.",
+      "Pass": "Pass",
+      "Pass_desc": "Reroll a failed pass.",
+      "Give and Go": "Give and Go",
+      "Give and Go_desc": "Allows continuing a move after releasing the ball.",
+      "Running Pass": "Running Pass",
+      "Running Pass_desc": "Season 3: Known as 'Give and Go'. Allows continuing a move after releasing the ball.",
+      "Safe Pass": "Safe Pass",
+      "Safe Pass_desc": "Retain the ball instead of fumbling it.",
+      "Big Hand": "Big Hand",
+      "Big Hand_desc": "Ignore tackle zones for picking up the ball from the ground.",
+      "Claws": "Claws",
+      "Claws_desc": "Armor Breaks on a natural 8+. Abrogated by Iron Hard Skin.",
+      "Disturbing Presence": "Disturbing Presence",
+      "Disturbing Presence_desc": "Penalizes nearby rival passes and catches with -1.",
+      "Extra Arms": "Extra Arms",
+      "Extra Arms_desc": "Adds +1 to catch, pick up, or intercept.",
+      "Foul Appearance": "Foul Appearance",
+      "Foul Appearance_desc": "Rival must roll 2+ to be able to block you.",
+      "Horns": "Horns",
+      "Horns_desc": "Adds +1 to Strength when performing a Blitz.",
+      "Iron Hard Skin": "Iron Hard Skin",
+      "Iron Hard Skin_desc": "Season 3: Immune to Armor modifiers and negates the rival's Claws skill.",
+      "Monstrous Mouth": "Monstrous Mouth",
+      "Monstrous Mouth_desc": "Season 3: Reroll Catch. Immune to Strip Ball. Allows 'Chomp' action to damage the rival.",
+      "Prehensile Tail": "Prehensile Tail",
+      "Prehensile Tail_desc": "Opponents suffer -1 to dodge out of your reach.",
+      "Tentacles": "Tentacles",
+      "Tentacles_desc": "Season 3: Blocks rival movement with a 6+ roll on 1D6 (modified by Strength).",
+      "Two Heads": "Two Heads",
+      "Two Heads_desc": "Adds +1 to Dodge rolls.",
+      "Very Long Legs": "Very Long Legs",
+      "Very Long Legs_desc": "Skill heavily affected by Season 3 Jump/Leap changes. +1 to Intercept.",
+      "Dirty Player (+1)": "Dirty Player (+1)",
+      "Dirty Player (+X)": "Dirty Player (+X)",
+      "Dirty Player (+X)_desc": "Season 3: Relocated to Devious. Adds (+X) to Armor/Injury in Fouls.",
+      "Eye Gouge": "Eye Gouge",
+      "Eye Gouge_desc": "Season 3. If you push a rival, they cannot assist in any block until their next turn.",
+      "Fumblerooski": "Fumblerooski",
+      "Fumblerooski_desc": "Season 3: Relocated to Devious. Leave the ball on the ground without causing a Turnover.",
+      "Lethal Flight": "Lethal Flight",
+      "Lethal Flight_desc": "Season 3. If you are thrown and collide with a rival, add +1 to their Armor or Injury roll.",
+      "Pile Driver": "Pile Driver",
+      "Pile Driver_desc": "Season 3: Relocated to Devious. Allows performing a free Foul after knocking down a rival.",
+      "Quick Foul": "Quick Foul",
+      "Quick Foul_desc": "Season 3. Perform a Foul without immediately ending your activation.",
+      "Saboteur": "Saboteur",
+      "Saboteur_desc": "Season 3. If you are knocked down, the rival also has a chance to fall with you via sabotage.",
+      "Shadowing": "Shadowing",
+      "Shadowing_desc": "Season 3: Relocated to Devious. Now activates with a natural 4+ on 1D6.",
+      "Sneaky Git": "Sneaky Git",
+      "Sneaky Git_desc": "Season 3: Relocated to Devious. Reduces expulsion risk and allows moving after the foul.",
+      "Violent Innovator": "Violent Innovator",
+      "Violent Innovator_desc": "Season 3. Gain SPP for casualties caused with special actions (Stab, Projectile Vomit, etc.).",
+      "Hatred": "Hatred",
+      "Hatred (Target)": "Hatred",
+      "Hatred (Target)_desc": "When this player blocks an opposition player with the specified keyword/tag in parentheses, they may re-roll a single Block die.",
+      "Animosity (Target)": "Animosity",
+      "Animosity (Target)_desc": "The player may refuse to pass or hand off the ball to a teammate of a specific race (or all races). Requires a 2+ test.",
+      "Ball & Chain": "Ball & Chain",
+      "Ball & Chain_desc": "Destructive and random movement. Cannot mark or catch.",
+      "Bloodlust (X+)": "Bloodlust",
+      "Bloodlust (X+)_desc": "The player must bite a Thrall teammate after their action if they roll less than X on 1D6. If no Thralls, the player leaves the field.",
+      "Bullseye": "Bullseye",
+      "Bullseye_desc": "New Season 3. Drastically improves accuracy when throwing teammates (Throw Team-mate).",
+      "Drunkard": "Drunkard",
+      "Drunkard_desc": "The player has -1 to GFI (Rush) rolls and cannot use Passing skills.",
+      "Hypnotic Gaze": "Hypnotic Gaze",
+      "Hypnotic Gaze_desc": "Special Action: The player can try to hypnotize an adjacent rival with an AG test. If successful, the rival loses their tackle zones.",
+      "Insignificant": "Insignificant",
+      "Insignificant_desc": "This player is so small they don't count towards the field limit if they are a secondary Snotling (Swarming rules).",
+      "Loner (X+)": "Loner",
+      "Loner (X+)_desc": "To use a team RR with this player, you must roll X+ on 1D6.",
+      "No Hands": "No Hands",
+      "No Hands_desc": "The player cannot pick up, catch, or intercept the ball, nor perform actions requiring hands.",
+      "Pick-me-up": "Pick-me-up",
+      "Pick-me-up_desc": "At the end of the opposition's team turn, you may roll a D6 for each Prone, non-Stunned teammate within 3 squares of this standing player. On a 5+, that teammate may immediately stand up.",
+      "Plague Ridden": "Plague Ridden",
+      "Plague Ridden_desc": "If this player causes a casualty on a human opponent, there is a chance they turn into a new Rotter for your team.",
+      "Pogo Stick": "Pogo Stick",
+      "Pogo Stick_desc": "Allows the player to perform leaps (Leap) more easily and ignore some movement penalties.",
+      "Projectile Vomit": "Proyectil de vómito",
+      "Projectile Vomit_desc": "Attacks an adjacent rival with acid vomit. If you hit, you perform a direct armor roll.",
+      "Punt": "Punt",
+      "Punt_desc": "New Season 3. Allows kicking the ball forward as a special tactical action.",
+      "Secret Weapon": "Secret Weapon",
+      "Secret Weapon_desc": "The player will be sent off by the referee at the end of the half they played in, unless you use a Bribe.",
+      "Stab": "Stab",
+      "Stab_desc": "Uses a dagger to attack the rival's armor directly instead of blocking.",
+      "Swarming": "Swarming",
+      "Swarming_desc": "At the start of a drive, you can place D3 extra players with this skill on the field above the 11-player limit.",
+      "Take Root": "Take Root",
+      "Take Root_desc": "If you roll a 1 when activating, the player takes root and their Movement is reduced to 0 for the rest of the half.",
+      "Throw Team-mate": "Throw Team-mate",
+      "Throw Team-mate_desc": "Season 3: No longer considered a Pass action; allows throwing teammates with 'Right Stuff'.",
+      "Timber!": "Timber!",
+      "Timber!_desc": "Helps Treemen stand up. They receive a bonus for each adjacent teammate.",
+      "Unsteady": "Poco firme",
+      "Unsteady_desc": "This player may not declare Secure the Ball Actions.",
+      "Trickster": "Trickster",
+      "Trickster_desc": "When an opposing player attempts a Block action against this player, or a Special action that directly targets this player (except a Block action caused by the Ball & Chain Special action), this player may use this Trait. Before determining how many dice are rolled, this player may be removed from the pitch and placed in any other unoccupied square adjacent to the opposing player performing the action.",
+      "Sidestep": "Sidestep",
+      "Mighty Blow": "Mighty Blow",
+      "Dirty Player": "Dirty Player",
+      "Lone Fouler": "Lone Fouler",
+      "Lone Fouler_desc": "Season 3. Allows re-rolling a failed Armour roll when making a Foul if there are no offensive or defensive assists.",
+      "Put the Boot In": "Put the Boot In",
+      "Put the Boot In_desc": "Season 3. Grants offensive assists on Foul actions regardless of how many opponents are marking this player.",
+      "My ball": "My Ball",
+      "My ball_desc": "This player may not voluntarily Pass or Hand-off the ball to a team-mate."
+    },
+    "races": {
+      "Amazon": "Amazon",
+      "Black Orc": "Black Orc",
+      "Chaos Chosen": "Chaos Chosen",
+      "Chaos Dwarf": "Chaos Dwarf",
+      "Chaos Renegade": "Chaos Renegade",
+      "Dark Elf": "Dark Elf",
+      "Dwarf": "Dwarf",
+      "Elven Union": "Elven Union",
+      "Gnome": "Gnome",
+      "Goblin": "Goblin",
+      "Halfling": "Halfling",
+      "High Elf": "High Elf",
+      "Human": "Human",
+      "Imperial Nobility": "Imperial Nobility",
+      "Khorne": "Khorne",
+      "Lizardman": "Lizardman",
+      "Necromantic Horror": "Necromantic Horror",
+      "Norse": "Norse",
+      "Nurgle": "Nurgle",
+      "Ogre": "Ogre",
+      "Old World Alliance": "Old World Alliance",
+      "Orc": "Orc",
+      "Shambling Undead": "Shambling Undead",
+      "Skaven": "Skaven",
+      "Slann": "Slann",
+      "Snotling": "Snotling",
+      "Tomb Kings": "Tomb Kings",
+      "Underworld Denizens": "Underworld Denizens",
+      "Vampire": "Vampire",
+      "Wood Elf": "Wood Elf"
+    },
+    "tags": {
+      "Human": "Human",
+      "Orc": "Orc",
+      "Dwarf": "Dwarf",
+      "Elf": "Elf",
+      "Undead": "Undead",
+      "Goblin": "Goblin",
+      "Halfling": "Halfling",
+      "Skaven": "Skaven",
+      "Chaos": "Chaos",
+      "Lizardman": "Lizardman",
+      "Ogre": "Ogre",
+      "Troll": "Troll",
+      "Gnome": "Gnome",
+      "Snotling": "Snotling",
+      "Vampire": "Vampire",
+      "Norse": "Norse",
+      "Amazon": "Amazon",
+      "Khorne": "Khorne",
+      "Nurgle": "Nurgle",
+      "Necromantic": "Necromantic",
+      "Tomb Kings": "Tomb Kings",
+      "Big Guy": "Big Guy",
+      "Treeman": "Treeman"
+    },
+    "special_rules": {
+      "akhorne": {
+        "name": "Blind Rage",
+        "desc": "Akhorne may choose to re-roll the D6 when rolling for the Dauntless Skill."
+      },
+      "anqi": {
+        "name": "Savage Blow",
+        "desc": "Once per game, when Anqi performs a Block Action against an opposition player he may choose to re-roll any number of the Block Dice."
+      },
+      "barik": {
+        "name": "Blast It!",
+        "desc": "Whenever Barik makes a Hail Mary Pass, he may re-roll any Scatter results for determining where the ball lands, and any team-mate attempting to catch the ball applies a +1 modifier to the roll."
+      },
+      "bilerot": {
+        "name": "Putrid Regurgitation",
+        "desc": "Once per half, Bilerot may use the Projectile Vomit Special Action. This may still be used even if Bilerot has already performed a Block Action this Turn."
+      },
+      "boa": {
+        "name": "Look into my Eyes",
+        "desc": "Once per game, if Boa begins his activation Marking an opposition player in possession of the ball, he may roll a D6. On a 1, nothing happens. On a 2+ the opposition player losses possession of the ball, Boa immediately gains possession of the ball, and Boa’s activation immediately ends."
+      },
+      "bomber": {
+        "name": "Kaboom!",
+        "desc": "Once per game, if an opposition player catches a bomb thrown by Bomber, you can choose to have it explode rather than the opposition player immediate attempting to throw it again."
+      },
+      "karina": {
+        "name": "Tasty Morsel",
+        "desc": "Once per game, when Karina fails a Bloodlust roll, she may choose to bite an opposition player with a ST of 3 or lower as if they were a Thrall Lineman team-mate. Karina may not bite Star Players with this special rule."
+      },
+      "cindy": {
+        "name": "All You Can Eat",
+        "desc": "Once per game, Ciindy may perform two Throw Bomb Special Actions rather than one; though she must commit to doing so before making the first Action. If she does, immediately after performing the second Throw Bomb Special Action, roll a D6. On a 1-3, Cindy is immediately Sent-off."
+      },
+      "luthor": {
+        "name": "Star of the Show",
+        "desc": "Once per game, when Count Luthor scores a Touchdown, his controlling coach gains one Team Re-roll until the end of the following Drive. If this Team Re-roll has not been used by the end of the next Drive, it is lost."
+      },
+      "deeproot": {
+        "name": "Reliable",
+        "desc": "If Deeproot makes a Fumbled Throw when performing a Throw Team-mate Action, the player that was being thrown will Bounce as normal but will automatically land safely."
+      },
+      "dribl_drull": {
+        "name": "A Sneaky Pair",
+        "desc": "- Dribl & Drull mist be hired as a pair. , Additionally, whenever Dribl or Drull perform either a Foul Action or a Stab Special Action against an opposition player Marked by both Dribl & Drull, they may apply a +1 modifier to the roll."
+      },
+      "eldril": {
+        "name": "Mesmerizing Gaze",
+        "desc": "Once per half, Eldril may re-roll the dice when performing a Hypnotic Gaze Special Action."
+      },
+      "estelle": {
+        "name": "Baleful Hex",
+        "desc": "Once per game, at the beginning of Estelle’s activation, she may select an opposition player within 5 squares and roll a D6. On a 2+, the selected player becomes Distracted and cannot be activated during their team’s next Turn."
+      },
+      "fungus": {
+        "name": "Whirling Dervish",
+        "desc": "Once per Activation, Fungus may re-roll the D6 when determining which direction he moves in."
+      },
+      "glart": {
+        "name": "Frenzied Rush",
+        "desc": "Once per half, when Glart declares a Blitz Action he may gain the Frenzy Skill until the end of his activation. Glatt may not use the Grab Skill during a Turn in which he uses this special rule."
+      },
+      "gloriel": {
+        "name": "Shot to Nothing",
+        "desc": "Once per game, when Gloriel is activated she may use this special rule. If she does, Gloriel gains the Hail Mary Pass Skill until the end of her activation."
+      },
+      "glotl": {
+        "name": "Primal Savagery",
+        "desc": "One per game, when Glotl fails an Animal Savagery roll, it may lash out at an opposition player rather than a team-mate.,"
+      },
+      "grak_crumble": {
+        "name": "I'll Carry You - Grak & Grumbleberry must be hired as a pair.",
+        "desc": "Additionally, once per half, if Grak begins his activation adjacent to Crumbleberry he may pick up Crumbleberry; temporarily remove Crumbleberry from the pitch. At the end of Grak’s activation, place Crumbleberry in an unoccupied square adjacent to Grak. Additional, whilst Crumbleberry is being carried by Grak, Grak gains the Break Tackle and Dodge Skills."
+      },
+      "grashnak": {
+        "name": "Gored by the Bull",
+        "desc": "Once per game wen Grashnak performs a Block Action as part of a Blitz Action, he may roll one additional Block Dice against the opposition player regardless of their ST, to a maximum of three Block Dice. If Grashnak performs a second Block Action due to the Frenzy Skill, the second Block Action will also benefit from this rule."
+      },
+      "gretchen": {
+        "name": "Incorporeal",
+        "desc": "Once per game, when Gretchen is activated she can use this special rule. Until the end of her activation, Gretchen does not have to make Dodge rolls for leaving a square within an opposition player’s Tackle Zone."
+      },
+      "griff": {
+        "name": "Consummate Professional",
+        "desc": "Once per game, Griff may apple a +1 modifier to an Agility Test he has made. This modifier may be applied after the roll has been made."
+      },
+      "grim": {
+        "name": "Slayer",
+        "desc": "Once per game, when an opposition Big Guy is Knocked Down as a result of a Block Action performed by Grim, you may apply an additional +1 modifier to either the Armour Roll or the Injury Roll. This modifier may be applied after the roll has been made."
+      },
+      "grombrindal": {
+        "name": "Wisdom of the White Dwarf",
+        "desc": "Once per game, when Grombrindal is activated he may select one team-mate within 2 squares. The selected team-mate gains one of the following Skills until the end of turn: Break Tackle, Dauntless, Mighty Blow, Sure Feet"
+      },
+      "guffle": {
+        "name": "Quick Bite",
+        "desc": "Once per game, if Guffle is Marking an opposition player who catches the ball, he may immediately make an Armour Roll against that player. If the target’s Armour is broken, Guffle immediately gains possession of the ball. No Turnover is caused as a result of using this special rule."
+      },
+      "hakflem": {
+        "name": "Treacherous",
+        "desc": "Once per game, if Hakflem is adjacent to a teammate who is in possession of the ball when he is activated, then Hakflem can choose to gain possession of the ball. If he does, then the team-mate will immediately be Knocked Down. This will not cause a Turnover even if the team-mate suffers a Casualty."
+      },
+      "helmut": {
+        "name": "Old Pro",
+        "desc": "Once per game, Helmut may use his Pro Skill to re-roll a single dice rolled as art of an Armour Roll."
+      },
+      "hthark": {
+        "name": "Unstoppable Momentum",
+        "desc": "Whenever H’Thark performs a Block Action as part of a Blitz Action, he may re-roll a single Block Dice."
+      },
+      "ivan": {
+        "name": "Dwarfen Scourge",
+        "desc": "Once per game, when an opposition player is Knocked Down as a result of a Block Action performed by Ivan, you may apply an additional +1 modifier to the Armour Roll or Injury roll. If this is against a Dwarf player this may instead be a +2 modifier.,"
+      },
+      "ivar": {
+        "name": "Raiding Party",
+        "desc": "Once per Drive, when Ivar begins his activation he may select one Open team-mate within 5 squares. The selected player may immediately move 1 square though they must end this move Marking an opposition player."
+      },
+      "jeremiah": {
+        "name": "The Flashing Blade",
+        "desc": "Once per game, at the start of his activation, Jeremiah may declare a Stab Special Action against an opposition player he is Marking. After performing the Stab Special Action, Jeremiah may then perform a Move Action before his activation ends."
+      },
+      "jordell": {
+        "name": "Swift as the Breeze",
+        "desc": "Once per game, Jordell can choose to pass a single Dodge, Leap, or Rush Test on a 2+, regardless of any modifiers."
+      },
+      "josef": {
+        "name": "Dwarfen Grit",
+        "desc": "Once per game, when Josef's armour is broken as the result of an Armour Roll, you may choose to have the Armour Roll re-rolled."
+      },
+      "karla": {
+        "name": "Indomitable",
+        "desc": "Once per game, when Karla successfully rolls to use her Dauntless Skill, she may increase her ST characteristic to double that of the target of the Block Action."
+      },
+      "kiroth": {
+        "name": "Black Ink",
+        "desc": "Once per game, at the start of any of his activations, Kiroth can select an opposition player he is Marking. The selected player becomes Distracted until they are next activated."
+      },
+      "kreek": {
+        "name": "I'll Be Back!",
+        "desc": "The first time in a game that Kreek would be Sent-off as per the Secret Weapon Trait, he is not Sent-off and may instead continue as part of the game. Kreek’s coach may not Argue the Call when Kreek uses this special rule."
+      },
+      "borak": {
+        "name": "Lord of Chaos",
+        "desc": "Once per game, when Lord Borak performs a Block Action he may re-roll a single Block Dice."
+      },
+      "swift_twins": {
+        "name": "Working In Tandem -The Swift Twins must be hired as a pair.",
+        "desc": "Additionally, if Lucien performs a Block Action against an opposition player who is also Marked be Valen, Lucien may re-roll a single Block Dice. Additionally, if Valen performs a Pass Action that targets a square containing Lucien, then Valen suffers no modifiers to the PA Test for the range of the Pass Action."
+      },
+      "maple": {
+        "name": "Vicious Vines",
+        "desc": "Once per half, when Maple declares a Block Action he may do so against an opposition player who is 2 squares away following all the normal rules for performing a Block Action, though he may not follow-up."
+      },
+      "max": {
+        "name": "Maximum Carnage",
+        "desc": "Once per game, after Max performs a Chainsaw Attack Special Action he may immediately perform another Chainsaw Attack Special Action that targets a different opposition player."
+      },
+      "zug": {
+        "name": "Crushing Blow",
+        "desc": "Once per game, when an opposition player is Knocked Down as the result of a Block Action performed by Zug, you may apply an additional +1 modifier to the Armour Roll. This modifier may be apple after the Armour Roll has been made."
+      },
+      "morg": {
+        "name": "The Ballista",
+        "desc": "Once per game, when Morg performs a Throw Team-mate Action, he may re-roll the Passing Ability Test."
+      },
+      "nobbla": {
+        "name": "Kick 'em While They're Down!",
+        "desc": "Once per game, Nobbla may use the Chainsaw Attack Special Action against a Prone or Stunned opposition player. This does not count as a Foul Action and so Nobbla cannot be Sent-off when using this special rule."
+      },
+      "puggy": {
+        "name": "Halfling Luck",
+        "desc": "Once per game, Puggy may re-roll a single dice that was rolled either as a signal dice roll, a multiple dice roll, or a dice pool, though this cannot be a dice that was rolled as a part of an Armour Roll, Injury Roll or Casualty Roll.,"
+      },
+      "rashnak": {
+        "name": "Toxin Connoisseur",
+        "desc": "Once per game, when Rashnak successfully breaks an opposition player’s armour as a result of a Stab Special Action, you may apply an additional +1 modifier to the Injury Roll. This modifier may be applied after the roll has been made."
+      },
+      "ripper": {
+        "name": "Thinking Man's Troll",
+        "desc": "Once per half, Ripper may re-roll a single dice that was rolled either as a signal dice roll, a multiple dice roll, or a dice pool, though this cannot be a dice that was rolled as a part of an Armour Roll, Injury Roll or Casualty Roll."
+      },
+      "rodney": {
+        "name": "Catch of the Day",
+        "desc": "Once per half, if Rodney is Standing and begins his activation within 3 squares of a ball which is on the ground he may roll a d6. On a 1-2 nothing happens. On a 3+ Rodney immediately gains possession of the ball."
+      },
+      "roxanna": {
+        "name": "Slashing Nails",
+        "desc": "Once per half, when Roxanna declares a Blitz Action, she gains the Claws Skill until the end of her activation."
+      },
+      "rumbelow": {
+        "name": "Ram",
+        "desc": "Once per game, when an opposition player is Knocked Down as a result of a Block Action performed by Rumbelow, you may apply an additional +1 modifier to either the Armour Roll or the Injury Roll. This modifier may be applied after the roll has been made."
+      },
+      "scrappa": {
+        "name": "Yoink!",
+        "desc": "Once per game, when Scrappa attempts to Intercept a Pass Action he may roll a D6. On a 2+, Scrappa doesn’t need to roll to Intercept; instead, he will automatically Intercept the Pass Action and gains control of the ball."
+      },
+      "scyla": {
+        "name": "Fury of the Blood God",
+        "desc": "Once per game, if Scyla rolls a 1 for his Unchannelled Fury roll after declaring a Block Action then, instead of applying the usual effects of Unchanneled Fury, Scyla may perform two Block Actions instead. The first Block Action must be fully resolved, including the use of the Frenzy Skill, before the second one is performed."
+      },
+      "skitter": {
+        "name": "Master Assassin",
+        "desc": "Oncer per game, when Skitter performs a Stab Special Action, he may choose to re-roll the Armour Roll."
+      },
+      "skrorg": {
+        "name": "Pump Up the Crowd",
+        "desc": "Once per game, when Skrorg causes an opposition player to be removed as a Casualty as the result of a Block Action, Skrorg’s controlling coach gains one Team Re-roll until the end of the current Drive. If this Team Re-roll has not been used by the end of the Drive, it is lost."
+      },
+      "skrull": {
+        "name": "Strong Passing Game",
+        "desc": "Once per game, when Skrull performs a Pass Action he may modify the result of the Passing Ability Test by the value of his ST characteristic, to a maximum of 6."
+      },
+      "swiftvine": {
+        "name": "Furious Outburst",
+        "desc": "Once per half, so long as she is Standing at the start of her activation, Swiftvine can place herself adjacent to a Standing opposition player within 3 squares of her and immediately make a Stab Special Action against them. She may then place herself in an unoccupied square within 3 squares of her new position. Her action then immediately ends. This counts as the team’s Blitz Action for the turn."
+      },
+      "thorsson": {
+        "name": "Beer Barrel Bash!",
+        "desc": "Once per Drive, at the start of his activation, Thorsson may select an opposition player within three squares and roll a D6. On a 3+, the selected player is immediately Knocked Down. On a 2, nothing happens. On a 1, Thorsson Falls Over. After using this special rule, Thorsson’s activation immediately ends."
+      },
+      "varag": {
+        "name": "Krump and Smash",
+        "desc": "Once per game, when an opposition player is Knocked Down as a result of a Block Action performed by Varag, he may re-roll the Armour Roll."
+      },
+      "wilhelm": {
+        "name": "Savage Mauling",
+        "desc": "Once per game, when Wilhelm makes in Injury Roll against an opposition player, he may choose to re-roll the result."
+      },
+      "willow": {
+        "name": "Woodland Fury",
+        "desc": "Once per game, when Willow performs a Block Action that would result in her being Knocked Down, she can choose to re-roll a single Block Dice."
+      },
+      "withergrasp": {
+        "name": "Watch Out!",
+        "desc": "The first time each Drive that Withergrasp is the target of a block Action performed by an opposition player, he counts as having the Dodge Skill."
+      },
+      "zolcath": {
+        "name": "Excuse Me, Are You a Zoat",
+        "desc": "?, Once per game, when Zolcatch is activated he may select an opposition player within 3 squares. The selected player immediately loses their Tackle Zone until they are next activated."
+      },
+      "zzharg": {
+        "name": "\"Blastin' Solves Everything\"",
+        "desc": "Once per half, at the start of his activation, Zzharg may select a Standing opposition player within 3 squares and roll a D6. On a 3+, the selected player is hit. On a 2, the opposition coach selects a player (from either team, but not Zzharg) within 3 squares of the originally selected player to be hit instead. On a 1, Zzharg is hit instead. Make an Armour Roll for whichever player is hit. Zzharg’s activation then immediately ends."
+      }
+    },
+    "hall_of_fame": {
+      "unknown_player": "Unknown",
+      "unknown_team": "Unknown",
+      "coaches_title": "Coach Finder",
+      "coaches_subtitle": "Explore the Community's profiles",
+      "tabs": {
+        "records": "🏆 Global Records",
+        "coaches": "👥 Coaches"
+      },
+      "player_team_race": "{team} • {race}",
+      "no_passers": "No standout passers yet.",
+      "pas_label": "PASS",
+      "team_record": "{wins}W - {losses}L • {race}",
+      "rate_label": "Win Rate",
+      "spp_accumulated": "SPP Accumulated",
+      "coaches": {
+        "search_placeholder": "Search coach by name...",
+        "loading": "Summoning the list of coaches...",
+        "empty": "No coaches found with that name.",
+        "avatar_alt": "Avatar",
+        "anonymous": "Anonymous Coach",
+        "default_title": "Nuffle's Hopeful"
+      },
+      "profile": {
+        "loading": "Unrolling the coach's scrolls...",
+        "close": "×",
+        "default_title": "Nuffle Veteran",
+        "motto": "“{motto}”",
+        "default_bio": "This coach prefers to keep their strategies under wraps. Discretion is key before kick-off.",
+        "wdl_record": "W-D-L Record",
+        "wdl_values": "{wins} - {draws} - {losses}",
+        "casualties": "Casualties",
+        "fouls": "Fouls",
+        "no_stats": "No stats yet",
+        "teams_title": "Coach's Teams",
+        "no_teams": "No registered teams",
+        "games_played": "{count} GP",
+        "no_trophies": "Empty trophy cabinet. Time to win some championships!"
+      },
+      "naf": {
+        "title": "Official NAF Stats ({name})",
+        "sync_info": "NAF ID: #{number} • Synced: {date}",
+        "never": "Never",
+        "glicko": "Global Glicko",
+        "ranked_games": "NAF Games",
+        "record_win": "Record / Win %",
+        "win_ratio": "{ratio}% WR",
+        "race_ranking": "ELO Ranking by Race",
+        "race_record": "{record} ({ratio}%)",
+        "race_matches": "{count} G",
+        "pending_sync": "NAF stats pending sync by the coach."
+      }
+    },
+    "team": "My Team",
+    "opponent": "Opponent",
+    "fantasy_football_rules_2025": {
+      "dedicated_fans": {
+        "roll_prefix": "Roll: {roll}. ",
+        "won_up": "Your fans are ecstatic! (+1 Dedicated Fan)",
+        "won_same": "Your fans are happy, but their numbers don't grow.",
+        "lost_down": "Your fans are disappointed... (-1 Dedicated Fan)",
+        "lost_same": "Your fans forgive the defeat.",
+        "draw": "Draw: your fans stay the same."
+      },
+      "expensive_mistakes": {
+        "safe": "Treasury safe (< 100k)",
+        "types": {
+          "crisis_averted": "Crisis Averted",
+          "minor_incident": "Minor Incident",
+          "major_incident": "Major Incident",
+          "catastrophe": "Catastrophe"
+        },
+        "crisis_averted": "Crisis Averted!",
+        "minor_incident": "Minor Incident: unexpected expenses...",
+        "major_incident": "Major Incident: the treasury has been embezzled!",
+        "catastrophe": "CATASTROPHE!: the treasurer has run off with almost everything."
+      },
+      "kickoff_2025": {
+        "get_the_ref": {
+          "name": "Get the Ref",
+          "desc": "Each team immediately receives a free Bribe. It must be used before the end of the match or it is lost."
+        },
+        "time_out": {
+          "name": "Time-out",
+          "desc": "If the kicking team's turn marker is on turn 6, 7 or 8 of the half, both coaches move their turn marker back one space. Otherwise, both move their marker forward one space."
+        },
+        "solid_defence": {
+          "name": "Solid Defence",
+          "desc": "D3+3 Open players on the kicking team may be set up again, following the normal set-up restrictions."
+        },
+        "high_kick": {
+          "name": "High Kick",
+          "desc": "One Open player on the receiving team may immediately be placed in the square where the ball will land."
+        },
+        "cheering_fans": {
+          "name": "Cheering Fans",
+          "desc": "Both coaches roll 1D6 and add their Cheerleaders. The coach with the higher result (or both, on a tie) gets an extra offensive assist on the first Block action of their next turn."
+        },
+        "brilliant_coaching": {
+          "name": "Brilliant Coaching",
+          "desc": "Both coaches roll 1D6 and add their Assistant Coaches. The winner (or both, on a tie) gains an extra Team Re-roll for this drive."
+        },
+        "changing_weather": {
+          "name": "Changing Weather",
+          "desc": "Roll again on the Weather table and apply the result. If the result is Perfect Conditions, the ball scatters (Scatter 3) in the air before landing."
+        },
+        "quick_snap": {
+          "name": "Quick Snap",
+          "desc": "The receiving team selects D3+3 Open players. They may move one square in any direction, even into the opponent's half."
+        },
+        "charge": {
+          "name": "Charge!",
+          "desc": "The kicking team selects D3+3 Open players and activates them one at a time to perform a free Move action. One player may perform a free Blitz, one a free Throw Team-mate and one a free Kick Team-mate."
+        },
+        "dodgy_snack": {
+          "name": "Dodgy Snack",
+          "desc": "Both coaches roll 1D6. The lower (or both, on a tie) picks a random player and rolls 1D6: on a 2+ their MA and AV are reduced by 1 for this drive due to indigestion. On a 1, they go straight to the Reserves box because they're stuck in the toilet."
+        },
+        "pitch_invasion": {
+          "name": "Pitch Invasion",
+          "desc": "Both coaches roll 1D6 + Fan Factor. The coach with the lower result (or both, on a tie) picks D3 random players on the pitch: they are Placed Prone and become Stunned."
+        },
+        "unknown": {
+          "name": "Unknown Event",
+          "desc": "Something strange is happening..."
+        }
+      }
+    },
+    "fantasy_football_tables": {
+      "kickoff": {
+        "time_out": {
+          "desc": "If the kicking team's turn marker is on turn 6, 7 or 8 of the half, both coaches move their turn marker back one space. Otherwise, both move their marker forward one space."
+        },
+        "solid_defence": {
+          "desc": "D3+3 Open players on the kicking team may be set up again, following the normal set-up restrictions."
+        },
+        "high_kick": {
+          "desc": "One Open player on the receiving team may immediately be placed in the square where the ball will land."
+        },
+        "cheering_fans": {
+          "desc": "Both coaches roll 1D6 and add their Cheerleaders. The coach with the higher result (or both, on a tie) gets an extra offensive assist on the first Block action of their next turn."
+        },
+        "brilliant_coaching": {
+          "desc": "Both coaches roll 1D6 and add their Assistant Coaches. The winner (or both, on a tie) gains an extra Team Re-roll for this drive."
+        },
+        "changing_weather": {
+          "desc": "Immediately roll on the Weather table. If the result is Perfect Conditions, the ball scatters (Scatter 3) in the air before landing."
+        },
+        "quick_snap": {
+          "desc": "The receiving team selects D3+3 Open players. They may move one square in any direction, even into the opponent's half."
+        },
+        "charge": {
+          "name": "Charge!",
+          "desc": "The kicking team selects D3+3 Open players and activates them one at a time to perform a free Move action. One player may perform a free Blitz, one a free Throw Team-mate and one a free Kick Team-mate."
+        },
+        "dodgy_snack": {
+          "name": "Dodgy Snack",
+          "desc": "Both coaches roll 1D6. The lower (or both, on a tie) picks a random player and rolls 1D6: on a 2+ their MA and AV are reduced by 1 for this drive due to indigestion. On a 1, they go straight to the Reserves box because they're stuck in the toilet."
+        },
+        "pitch_invasion": {
+          "name": "Pitch Invasion",
+          "desc": "Both coaches roll 1D6 + Fan Factor. The coach with the lower result (or both, on a tie) picks D3 random players on the pitch: they are Placed Prone and become Stunned."
+        }
+      }
+    },
+    "fantasy_football_data": {
+      "inducements": {
+        "bloodweiser_keg": {
+          "name": "Bloodweiser Kegs",
+          "desc": "Each keg adds +1 to rolls to recover KO'd players."
+        },
+        "bribes": {
+          "name": "Bribes",
+          "desc": "Lets you try to cancel a sending-off on a 2+ on 1D6."
+        },
+        "extra_training": {
+          "name": "Extra Team Training",
+          "desc": "Extra Team Re-rolls for this match only."
+        },
+        "wandering_apothecary": {
+          "name": "Wandering Apothecary",
+          "desc": "An additional Apothecary for the match. Can be used on any player."
+        },
+        "mortuary_assistant": {
+          "name": "Mortuary Assistant",
+          "desc": "Lets you re-roll a FAILED \"Raise the Dead\" result."
+        },
+        "plague_doctor": {
+          "name": "Plague Doctor",
+          "desc": "Lets you re-roll a \"Badly Hurt\" result on one of your own players (once)."
+        },
+        "halfling_master_chef": {
+          "name": "Halfling Master Chef",
+          "desc": "Steals 1D3 Team Re-rolls from the opponent on a 4+ per die at the start of each half."
+        },
+        "prayers_to_nuffle": {
+          "name": "Prayers to Nuffle",
+          "desc": "One random prayer from the Prayers to Nuffle table."
+        },
+        "biased_referee": {
+          "name": "Biased Referee",
+          "desc": "The ref ignores Fouls on natural doubles and gives +1 to Argue the Call."
+        },
+        "part_time_assistant": {
+          "name": "Part-time Assistant Coach",
+          "desc": "Extra Assistant Coaches for the match."
+        },
+        "temp_agency_cheerleader": {
+          "name": "Temp Agency Cheerleader",
+          "desc": "Extra Cheerleaders for the match."
+        },
+        "hireling_sports_wizard": {
+          "name": "Hireling Sports-Wizard",
+          "desc": "Casts a Fireball (4+), a Lightning Bolt (2+) or a Zap! (transformation 2+) once per match."
+        },
+        "weather_mage": {
+          "name": "Weather Mage",
+          "desc": "Lets you change the weather once per match (4+)."
+        }
+      },
+      "star_players": {
+        "griff_oberwald": {
+          "desc": "Legendary Human Blitzer"
+        },
+        "morg_n_thorg": {
+          "desc": "Star Ogre"
+        },
+        "hakflem_skuttlespike": {
+          "desc": "Mutated Skaven Gutter Runner"
+        },
+        "varag_ghoul_chewer": {
+          "desc": "Brutal Orc Blitzer"
+        },
+        "deeproot_strongbranch": {
+          "desc": "Ancient Treeman"
+        },
+        "bomber_dribblesnot": {
+          "desc": "Goblin Bomma"
+        },
+        "karla_von_kill": {
+          "desc": "Amazon Blitzer"
+        },
+        "roxanna_darknail": {
+          "desc": "Witch Elf"
+        },
+        "kreek_rustgouger": {
+          "desc": "Skaven Ball & Chain"
+        },
+        "black_gobbo": {
+          "desc": "Sneaky Goblin"
+        },
+        "akhorne_the_squirrel": {
+          "desc": "Angry Squirrel"
+        },
+        "gloriel_summerbloom": {
+          "desc": "Wood Elf Thrower"
+        },
+        "gretchen_wachter": {
+          "desc": "The Black Widow"
+        },
+        "helmut_wulf": {
+          "desc": "Human Chainsaw"
+        },
+        "karta_svensson": {
+          "desc": "Norse"
+        },
+        "skrull_halfheight": {
+          "desc": "Undead Dwarf"
+        },
+        "willow_rosebark": {
+          "desc": "Dryad"
+        },
+        "zolcath_the_zoat": {
+          "desc": "Zoat"
+        },
+        "glart_smashrip": {
+          "desc": "Bloated Skaven"
+        }
+      },
+      "hatred_with_tag": "{label} ({tag})"
+    },
+    "stadium_rules": {
+      "categories": {
+        "unusual": {
+          "name": "Unusual Surface",
+          "desc": "The pitch has highly unusual conditions that affect falls and how the ball bounces."
+        },
+        "rundown": {
+          "name": "Run-down Stadium",
+          "desc": "Shoddy facilities whose owners care more about blood than upkeep."
+        },
+        "normal": {
+          "name": "Completely Normal",
+          "desc": "A regulation pitch, well-kept facilities and no special attributes."
+        },
+        "luxury": {
+          "name": "Luxury Stadium",
+          "desc": "VIP boxes, first-class amenities and a wealthy crowd ready to spend."
+        },
+        "peculiar": {
+          "name": "Peculiar Local Crowd",
+          "desc": "The local crowd has unique customs and reactions that shape the match."
+        }
+      },
+      "attributes": {
+        "unusual": {
+          "1": {
+            "name": "Ankle-deep Water",
+            "desc": "The pitch is flooded under several centimetres of water. Whenever a player falls over, their Armour roll suffers a -1. In addition, when a Stunned player rolls over at the end of either team's turn, roll a D6. On a 1 they have ended up face down in the water and remain Stunned for another turn.",
+            "short": "-1 to Armour rolls when falling. Stunned players stay Stunned on a 1 on 1D6."
+          },
+          "2": {
+            "name": "Sloping Pitch",
+            "desc": "The stadium is built on a steep slope. At the start of the first drive, roll a D6. On a 4+ the slope runs down towards the kicking team's End Zone; on a 1-3 it runs down towards the receiving team's. When the ball bounces, use the Throw-in template instead of the Random Direction template, oriented so that 3-4 points downhill. Players may attempt one additional Rush as long as that move takes them closer to the downhill End Zone. After half-time the teams swap ends and the slope runs the other way.",
+            "short": "Ball bounces using the Throw-in template pointing downhill. +1 Rush towards the downhill End Zone."
+          },
+          "3": {
+            "name": "Ice",
+            "desc": "When the ball bounces, it moves two squares instead of one, in the direction given by a D8 on the Random Direction template. When a player falls over or is Knocked Down, they slide one square in a direction determined the same way. If that square is occupied, they stay where they are. If they slide off the pitch, they risk injury by the crowd as normal. If they slide into the square containing the ball, the ball bounces. Players are assumed to wear suitable gear for the ice, so their normal movement is unaffected.",
+            "short": "The ball bounces 2 squares. Fallen players slide 1 square in a random D8 direction."
+          },
+          "4": {
+            "name": "Astrogranite",
+            "desc": "This artificial surface is extremely grippy. Whenever a player falls over or is Knocked Down on it, their Armour roll gets +1. In addition, if a player falls over after failing a Rush, roll a D6. On a 4+ they stay on their feet but may not attempt any more Rushes that activation. On a 1-3 they fall over as normal.",
+            "short": "+1 to Armour rolls from falls. Failed Rush: a 4+ on 1D6 avoids falling over."
+          },
+          "5": {
+            "name": "Uneven Ground",
+            "desc": "The pitch is full of bumps and holes. All players have -1 MA for the match, never going below MA3. In exchange, all players may attempt one more Rush than normal during their activation. Most can make three Rushes, and those with a skill like Sprint can make four.",
+            "short": "-1 MA to all players (minimum MA3). In exchange, +1 Rush allowed per activation."
+          },
+          "6": {
+            "name": "Solid Stone",
+            "desc": "The pitch is polished stone, like the marble of Dwarf stadiums. When the ball bounces, it moves two squares instead of one, in the direction given by a D8 on the Random Direction template. In addition, whenever a player falls over or is Knocked Down on the stone, their Armour roll gets +1.",
+            "short": "The ball bounces 2 squares in a D8 direction. +1 to Armour when falling or Knocked Down."
+          }
+        },
+        "rundown": {
+          "1": {
+            "name": "Apathetic Officials",
+            "desc": "At the start of each half, each team receives a free Bribe Inducement. If a team does not use the first-half Bribe, it starts the second half with two.",
+            "short": "1 free Bribe for each team at the start of each half (they stack)."
+          },
+          "2": {
+            "name": "Dilapidated Stands",
+            "desc": "The stands are uncomfortable and dangerous, and the fans may leave. At the end of each drive, both coaches roll a D6. On a 2+ their fans stick around. On a 1 they start to leave and that team's Fan Factor drops by 1, but never below 0.",
+            "short": "End of drive: roll 1D6 per team. On a 1, its Fan Factor drops by 1."
+          },
+          "3": {
+            "name": "Uncovered Trapdoors",
+            "desc": "The pitch's trapdoors are just open holes. Any player who enters a trapdoor square, voluntarily or pushed, is removed from play and treated exactly as if they had been pushed into the crowd. If the ball comes to rest in a trapdoor square, a stadium employee returns it to the pitch and the ball immediately scatters from that square.",
+            "short": "Open trapdoor squares: falling into or entering one removes the player as if pushed into the crowd."
+          },
+          "4": {
+            "name": "Faded Lines",
+            "desc": "The pitch barely has any markings. When the kicking team sets up for a drive, it may decide that its Line of Scrimmage is the normal one, one row further back in its own half, or one row further forward into the opponent's half. That line acts as a temporary halfway line for that kick-off. The receiving team must respect it when setting up, and it is also used to decide whether there is a touchback. In addition, neither team has to respect the two-players-per-Wide-Zone limit during set-up.",
+            "short": "The kicking team may move the Line of Scrimmage by 1 square. No 2-player limit in the Wide Zones."
+          },
+          "5": {
+            "name": "Desperate for Publicity",
+            "desc": "The owners want to improve their stadium's reputation and pay teams to play there. In Step 1 of the post-game sequence, make a single D6 roll; each team adds that result multiplied by 10,000 gold pieces to its winnings.",
+            "short": "Post-game: an extra 1D6 × 10,000 gp in winnings for each team."
+          },
+          "6": {
+            "name": "Poorly Built Dungeons",
+            "desc": "The cells where sent-off players are locked up are far from secure. In Step 2 of the end-of-drive sequence, each coach rolls a D6 for each of their sent-off players, whatever the reason. On a 5+ that player escapes and returns to the Reserves box.",
+            "short": "End of drive: on a 5+ on 1D6, a sent-off player escapes the cell and returns to the Reserves."
+          }
+        },
+        "luxury": {
+          "1": {
+            "name": "Built-in Merchandise Stalls",
+            "desc": "The teams get a cut of what's sold in the stadium. In Step 1 of the post-game sequence, each coach rolls a D3 and adds that result multiplied by 10,000 gp to their winnings.",
+            "short": "Post-game: each coach rolls 1D3 × 10,000 gp extra for their winnings."
+          },
+          "2": {
+            "name": "Reputation for Spectacle",
+            "desc": "Promoters give the teams money to make the match a spectacle. In Step 4 of the pre-game sequence, each coach rolls a D6. Add the two results together and multiply by 10,000; each team receives that amount in cash to spend on Inducements.",
+            "short": "Pre-game: (home 1D6 + away 1D6) × 10,000 gp in cash for both teams' Inducements."
+          },
+          "3": {
+            "name": "Broadcast Studio",
+            "desc": "Matches in this stadium are broadcast live and the sport's big names want to be seen. In Step 4 of the pre-game sequence, Star Players, Mercenary Players, (In)Famous Coaching Staff, named Wizards and Biased Referees can be hired for D3 × 10,000 gp less than normal, with a minimum price of 10,000 gp. The discount is rolled separately for each Inducement you want to hire.",
+            "short": "Star/special Inducements get a 1D3 × 10,000 gp discount (minimum 10,000 gp)."
+          },
+          "4": {
+            "name": "In-house Medics",
+            "desc": "In Step 4 of the pre-game sequence, each team that can hire an Apothecary receives a free Wandering Apothecary Inducement. Teams that cannot have an Apothecary receive something else according to their special rule: with “Masters of Undeath” they get a free Mortuary Assistant; with “Favoured of Nurgle” they get a free Plague Doctor.",
+            "short": "1 free Wandering Apothecary (or Mortuary Assistant / Plague Doctor if they can't have an Apothecary)."
+          },
+          "5": {
+            "name": "Enclosed Pitch",
+            "desc": "The pitch is surrounded by a high wall or sunk into a pit, with the crowd far above. No player can be pushed into the crowd for any reason. If a push would take them off the pitch, the player hits the wall and is Knocked Down in the square they occupy. The ball cannot bounce into the crowd either, although it can still end up there from a deviating kick-off or a Pass action. When a bounce would send it off the pitch, it rebounds off the wall: the direction is determined with the Throw-in template as usual, but the ball only travels one square from the wall instead of 2D6. Players thrown by a team-mate can still land in the crowd as normal.",
+            "short": "Perimeter walls: pushes into the crowd Knock the player Down in their square with no crowd injury."
+          },
+          "6": {
+            "name": "Luxury Seating",
+            "desc": "The crowd is comfortable and in a good mood, and the teams feel it. In every start-of-drive sequence except the first, between Steps 2 and 3, each coach rolls a D3 and adds their team's current Dedicated Fans. If the total exceeds their team's Fan Factor for this match, they gain an extra Team Re-roll for that drive. If it isn't used before the drive ends, it is lost.",
+            "short": "Start of drive (except the 1st): 1D3 + Dedicated Fans > Fan Factor grants 1 Team Re-roll for that drive."
+          }
+        },
+        "peculiar": {
+          "1": {
+            "name": "Drunken Maniacs",
+            "desc": "At the start of each drive, before rolling on the Kick-off Event table, roll a D6. In the first half, on a 1 you don't roll on that table and roll another D6 instead. In the second half the same happens on a 1 or 2. On that second D6, a 1 is resolved as “Get the Ref!”, a 2-3 as Time-out, a 4-5 as Officious Ref and a 6 as Pitch Invasion.",
+            "short": "Before the Kick-off: a 1 on 1D6 (1-2 in the 2nd half) replaces the event with an alternative drunken table."
+          },
+          "2": {
+            "name": "Rowdy Rabble",
+            "desc": "The crowd wants to join in and stadium security can barely hold them back. Each coach's Fan Factor increases by 1. If a player is pushed into the crowd, their Injury roll gets +1. If Pitch Invasion is ever rolled on the Kick-off Event table, the D3 that determines how many players are affected gets +1.",
+            "short": "+1 Fan Factor for both. +1 to crowd Injury rolls. +1 to players affected by Pitch Invasion."
+          },
+          "3": {
+            "name": "Know-it-alls",
+            "desc": "The crowd shouts every detail of the rulebook at the ref. If a player commits a Foul that removes their victim from the pitch but the ref doesn't send them off, roll a D6. On a 4+ the ref ignores the shouting. On a 1-3 they listen and the player is sent off.",
+            "short": "Injuring Foul without a sending-off: on a 1-3 on 1D6 the crowd pressures the ref and the fouler is sent off."
+          },
+          "4": {
+            "name": "Pacifists",
+            "desc": "The crowd likes watching violence, not taking part in it. If Pitch Invasion is rolled on the Kick-off table, re-roll it. If a player is pushed into the crowd, roll a D6. On a 4+ they suffer no injury and go straight to their team's Reserves box. On a 1-3 they are injured by the crowd as normal.",
+            "short": "Re-roll Pitch Invasion. Pushed into the crowd: on a 4+ on 1D6 the player goes to the Reserves uninjured."
+          },
+          "5": {
+            "name": "Fickle Crowd",
+            "desc": "Much of the crowd isn't all that interested. At the end of each drive, roll a D6. On a 2+ the fans stay a while longer. On a 1 they start to leave and both teams lose 1 Fan Factor, never going below 0. In addition, when the ball goes off the pitch, except on the last turn of the half, roll a D6. On a 4+ it is returned as normal. On a 1-3 nobody returns it until the end of the next team turn. In both cases the throw-in is taken as normal from the last square the ball occupied before leaving the pitch.",
+            "short": "End of drive: on a 1 on 1D6 both lose 1 Fan Factor. A ball out of bounds is returned late on a 1-3."
+          },
+          "6": {
+            "name": "Solemn and Silent",
+            "desc": "The crowd only allows itself polite applause. For the whole match, Cheerleaders have no effect on Kick-off Event table results. If a player is pushed into the crowd, they suffer no injury and may return to play at the start of their team's next turn. When they return this way, they are placed Prone in a square next to the sideline, as close as possible to the square they left from.",
+            "short": "Cheerleaders have no effect on the Kick-off. Players pushed into the crowd are not injured and return Prone at the sideline."
+          }
+        }
+      }
+    }
+  },
+  "hall_of_fame": {
+    "title": "Hall of Fame",
+    "subtitle": "Where legends never die",
+    "loading": "CONSULTING THE ARCHIVES OF THE WISE...",
+    "top_spp": "Legends (Top SPP)",
+    "top_scorers": "Top Scorers",
+    "top_violent": "Most Violent",
+    "top_teams": "Legendary Teams",
+    "fallen_legends": "Fallen Heroes",
+    "fallen_hint": "Those who gave their lives for the show",
+    "top_passers": "Top Passers",
+    "no_passers": "No standout passers yet."
+  },
+  "subscription": {
+    "calculator_locked": "Probability Calculator",
+    "calculator_locked_desc": "Calculate the probabilities of your rolls and blocks. Available with the Veteran plan.",
+    "view_plans": "View plans",
+    "hall_limited": "Showing top 3. Upgrade to the Veteran plan to view the full ranking.",
+    "fallen_locked_desc": "Discover the players who gave their lives on the pitch. Available with the Veteran plan.",
+    "chart_locked": "Chart available with Veteran plan",
+    "teams_count": "teams",
+    "increase_team_limit": "Increase team limit",
+    "team_limit_reached_alert": "You have reached the team limit for your plan ({limit}). Upgrade your subscription to create more.",
+    "my_plan": "My Plan",
+    "admin_granted": "Admin",
+    "upgrade": "Upgrade Plan",
+    "granted_by_admin": "Access granted by an administrator",
+    "tier_badge": {
+      "pro": "pro",
+      "premium": "premium"
+    },
+    "upgrade_required": "Premium Feature",
+    "feature_createLeague": "This feature requires the {tier} plan.",
+    "feature_createLeagueSpecialRules": "This feature requires the {tier} plan.",
+    "feature_createTournament": "This feature requires the {tier} plan.",
+    "feature_exportPdf": "This feature requires the {tier} plan.",
+    "feature_exportRosterPdf": "This feature requires the {tier} plan.",
+    "feature_advancedStats": "This feature requires the {tier} plan.",
+    "feature_probabilityCalculator": "This feature requires the {tier} plan.",
+    "feature_hallOfFameFull": "This feature requires the {tier} plan.",
+    "feature_unlimitedTeams": "This feature requires the {tier} plan.",
+    "upgrade_cta": "Upgrade your plan to unlock it!",
+    "later": "Later",
+    "pro": "PRO",
+    "premium": "PREMIUM"
+  },
+  "kofi": {
+    "buy_coffee": "Buy us a coffee on Ko-fi",
+    "card_title": "Enjoying the app?",
+    "card_desc": "Fantasy Football Manager is an independent project. If you'd like to support ongoing development and server costs, consider buying us a coffee!",
+    "button_text": "Support on Ko-fi",
+    "label": "Ko-fi"
+  },
+  "pricing": {
+    "title": "Choose your plan",
+    "subtitle": "Unlock the full potential of Fantasy Football Manager",
+    "back": "Back",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "popular": "⭐ Popular",
+    "equivalent_monthly": "Equivalent to {amount}€/mo",
+    "free_price": "Free",
+    "free_name": "Rookie",
+    "free_desc": "Start your coaching career",
+    "free_f1": "Up to 3 active teams",
+    "free_f2": "Participate in leagues",
+    "free_f3": "Participate in tournaments",
+    "free_f4": "Quick matches",
+    "free_roster_pdf": "Export Roster to PDF",
+    "free_f5": "Rule glossary",
+    "free_f6": "Basic Hall of Fame",
+    "pro_name": "Veteran",
+    "pro_desc": "Take your game to the next level",
+    "pro_f1": "Up to 10 active teams",
+    "pro_f2": "Create 1 league (max 10 participants)",
+    "pro_f3": "Create 1 tournament (max 20 participants)",
+    "pro_f4": "Custom rules, budgets and tiers",
+    "pro_f5": "Export match report PDFs and advanced stats",
+    "pro_f6": "Probability calculator",
+    "pro_f7": "Full Hall of Fame",
+    "premium_name": "Legend",
+    "premium_desc": "The ultimate commissioner pack",
+    "premium_f1": "Unlimited teams",
+    "premium_f2": "Create up to 2 leagues (unlimited participants)",
+    "premium_f3": "Create 1 tournament (unlimited participants)",
+    "premium_f4": "Custom rules, budgets and tiers",
+    "premium_f5": "Export match report PDFs and advanced stats",
+    "premium_f6": "Probability calculator",
+    "premium_f7": "Full Hall of Fame",
+    "processing": "Processing...",
+    "current_plan": "Current plan",
+    "subscribe": "Subscribe",
+    "cancel_anytime": "You can cancel anytime from your profile.",
+    "powered_by": "Secure payments processed by Stripe 🔒",
+    "checkout_error_generic": "An error occurred while connecting to the payment gateway.",
+    "alerts": {
+      "checkout_no_url": "Error starting the checkout process.\n\nDetails: {detail}\n\nIf you have just set up the environment variables in Vercel, make sure to trigger a new deployment (Redeploy) with those variables configured.",
+      "checkout_no_url_detail": "No URL was received."
+    },
+    "annual_discount": "-17%",
+    "price_amount": "€{price}",
+    "per_month": "/month",
+    "per_year": "/year",
+    "current_plan_check": "✓ {label}"
+  },
+  "coach": {
+    "dashboard": {
+      "unknown_team": "Unknown Team",
+      "errors": {
+        "select_image": "You must select an image.",
+        "naf_sync": "Error syncing with the NAF.",
+        "naf_sync_with_message": "Error syncing with the NAF: {message}"
+      },
+      "alerts": {
+        "naf_synced": "NAF profile synced successfully!"
+      },
+      "avatar_alt": "Coach Avatar",
+      "profile_form": {
+        "naf_label": "NAF Number (optional)",
+        "naf_placeholder": "e.g. 18970"
+      },
+      "naf_member": "NAF Member",
+      "naf_view_profile": "View Profile",
+      "tabs": {
+        "overview": "Overview",
+        "teams": "My Teams ({count})",
+        "competitions": "Leagues & Tournaments ({count})",
+        "pending_matches": "Pending Matches ({count})"
+      },
+      "overview": {
+        "no_trophies": "You have no trophies yet. Take part in leagues and tournaments to fill your trophy cabinet!"
+      },
+      "teams": {
+        "title": "Team Rosters",
+        "create": "+ Create New Team",
+        "league_link": "🏆 League: {name} →",
+        "view_league": "View League",
+        "record": "Record",
+        "open_roster": "📋 Open Team Roster",
+        "empty": "You haven't created any teams yet"
+      },
+      "competitions": {
+        "leagues_title": "My Active Leagues",
+        "mode": "Mode: {mode}",
+        "status_active": "In Progress",
+        "status_finished": "Finished",
+        "status_draft": "Draft",
+        "league_role": "League created or joined",
+        "enter_league": "🏆 Enter League",
+        "no_leagues": "You are not registered in any active league right now.",
+        "tournaments_title": "My Tournaments",
+        "format": "Format: {format}",
+        "format_knockout": "Knockout",
+        "status_open": "Open",
+        "no_tournaments": "You are not registered in any tournament right now."
+      },
+      "pending": {
+        "title": "Matches Still to Play",
+        "league_fallback": "Ongoing League",
+        "play_btn": "⚡ Play / Manage Match",
+        "empty": "You have no pending matches to play right now!"
+      }
+    },
+    "profile_modal": {
+      "loading": "Loading coach profile...",
+      "stats": {
+        "title": "Honours & Career Stats",
+        "touchdowns": "Touchdowns",
+        "draws_label": "Draws:",
+        "losses_label": "Losses:",
+        "cas_label": "Casualties (CAS):"
+      },
+      "trophies": {
+        "title": "Tournaments Won ({count})"
+      },
+      "teams": {
+        "title": "Coach's Teams ({count})",
+        "empty": "This coach has not registered any teams yet."
+      }
+    }
+  },
+  "teams": {
+    "dashboard": {
+      "finished_title": "League/Tournament finished. This team does not count towards your plan limit.",
+      "finished_badge": "🏁 Finished (No limit)"
+    }
+  },
+  "calculator": {
+    "tabs": {
+      "d6": "D6 Rolls",
+      "block": "Blocks (Pool)"
+    },
+    "d6": {
+      "target": "Target Roll",
+      "target_option": "{value}+",
+      "skill_reroll": "Skill Re-roll",
+      "skill_reroll_hint": "Dodge, Sure Feet, Catch, etc.",
+      "team_reroll": "Team Re-roll",
+      "team_reroll_hint": "Use one of your Team Re-rolls",
+      "skill_bonus": "Skill Bonus",
+      "team_bonus": "TRR Bonus"
+    },
+    "block": {
+      "dice_title": "Block Dice",
+      "dice_count": "{count}D",
+      "against": "⚠ Against",
+      "for": "Attacker chooses",
+      "attacker": "Attacker (You)",
+      "defender": "Defender (Opponent)",
+      "skill_block": "Block",
+      "skill_dodge": "Dodge",
+      "skill_tackle": "Tackle",
+      "success": "Success (Knock Down)",
+      "turnover": "Turnover (Fall)",
+      "footnote": "* Success counts Pow, Stumble (Pow/Dodge) if the target lacks Dodge, and Both Down if you have Block.",
+      "die": "Die | Dice"
+    }
+  },
+  "tools": {
+    "tactical_whiteboard": {
+      "token_labels": {
+        "player": "PLAY",
+        "blitzer": "⚡ BZ",
+        "thrower": "🎯 TH",
+        "catcher": "🏃 CT",
+        "blocker": "🛡️ BK",
+        "big_guy": "💪 BG",
+        "lineman": "LM"
+      },
+      "default_positions": {
+        "player": "Player",
+        "opponent": "Opponent"
+      },
+      "title": "📋 Tactical Whiteboard",
+      "subtitle": "Plan your tactics, cages and defensive setups for the next match.",
+      "tool": "Tool",
+      "tool_drag": "🖐️ Drag",
+      "tool_draw": "✏️ Draw",
+      "chalk_color": "Chalk Colour",
+      "load_roster": "Load Roster",
+      "select_team": "-- Select Team --",
+      "team_option": "{name} ({race})",
+      "load_players": "Load Players",
+      "formations": "Quick Formations",
+      "formation_cage": "📦 Form a Cage",
+      "formation_defense": "🛡️ Open Defence (Elf Spread)",
+      "formation_scrimmage": "⚔️ Strong Line of Scrimmage",
+      "clear_drawing": "Clear Drawing",
+      "reset_all": "Reset All",
+      "home_td": "HOME TD",
+      "away_td": "AWAY TD",
+      "ball_title": "Blood Bowl ball",
+      "token_title": "{name} (#{number})",
+      "legend_ball": "🏈 Ball"
+    }
+  },
+  "shell": {
+    "nav": {
+      "calculator": "Calculator",
+      "main": "Main navigation",
+      "collapse": "Collapse sidebar",
+      "expand": "Expand sidebar",
+      "close": "Close menu"
+    },
+    "user_menu": {
+      "open": "User menu",
+      "signed_in_as": "Signed in as"
+    },
+    "placeholder": {
+      "title": "Screen under construction",
+      "description": "This view has not been ported to the new front yet."
+    },
+    "not_found": {
+      "title": "Page not found",
+      "description": "This address does not exist or has moved.",
+      "back_home": "Back to home"
+    },
+    "errors": {
+      "session_expired": "Your session has expired. Please sign in again.",
+      "load_failed": "The data could not be loaded.",
+      "retry": "Retry"
+    }
+  }
+}

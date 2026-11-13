@@ -1,16 +1,14 @@
-import { defineConfig } from 'vitest/config'
-import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+import { defineConfig, mergeConfig } from 'vitest/config'
+import viteConfig from './vite.config'
 
-export default defineConfig({
-  test: {
-    globals: true,
-    environment: 'node',
-    include: ['tests/unit/**/*.{test,spec}.ts'],
-  },
-  resolve: {
-    alias: {
-      '~': path.resolve(import.meta.dirname, './app'),
-      '@': path.resolve(import.meta.dirname, './app'),
+export default mergeConfig(
+  viteConfig,
+  defineConfig({
+    test: {
+      environment: 'jsdom',
+      include: ['tests/unit/**/*.spec.ts'],
+      root: fileURLToPath(new URL('./', import.meta.url)),
     },
-  },
-})
+  }),
+)

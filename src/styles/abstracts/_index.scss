@@ -1,0 +1,5 @@
+// Solo variables, funciones y mixins: no genera CSS.
+// Vite lo inyecta en cada <style lang="scss">.
+@forward 'tokens';
+@forward 'functions';
+@forward 'mixins';
