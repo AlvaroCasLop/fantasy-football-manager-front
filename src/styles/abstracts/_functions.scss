@@ -1,0 +1,17 @@
+@use 'sass:map';
+@use 'tokens' as *;
+
+@function color($name) {
+  @if not map.has-key($colors, $name) {
+    @error 'Color desconocido: #{$name}';
+  }
+  @return var(--color-#{$name});
+}
+
+@function space($n) {
+  @return $n * $space-unit;
+}
+
+@function font-size($name) {
+  @return map.get($font-sizes, $name);
+}

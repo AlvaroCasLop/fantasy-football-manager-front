@@ -1,111 +1,116 @@
-# Blood Bowl Manager — Frontend de Gestión Deportiva
+# Blood Bowl Manager — Front
 
-Interfaz web de gestión deportiva con estética de fantasía oscura para **Blood Bowl** (Reglamento 2025). Diseñada con paneles compactos, tablas densas y legibles, estadísticas destacadas y un sistema de diseño táctico.
+SPA en Vue 3 para gestionar ligas y torneos de Blood Bowl. Consume la API FastAPI
+([fantasy-football-manager-api](https://fantasy-football-manager-api-production.up.railway.app/docs))
+y usa Supabase solo para autenticarse.
 
----
+## Stack
 
-## 🛠️ Stack Tecnológico
+| | |
+| --- | --- |
+| Framework | Vue 3 + Vite + TypeScript |
+| Rutas | Vue Router |
+| Estado | Pinia |
+| Traducciones | Vue I18n (es, en) |
+| Cliente de la API | orval, generado desde el OpenAPI del back |
+| Estilos | Sass (SCSS) con tokens propios, sin framework CSS |
+| Auth | Supabase Auth; el JWT va en cada petición a la API |
+| Tests | Vitest + Vue Test Utils, Playwright |
+| Iconos | lucide-vue-next |
 
-| Componente | Tecnología | Para qué |
-| :--- | :--- | :--- |
-| **Framework** | **Nuxt 4 + Vue 3** | SSR, rutas reactivas y arquitectura modular (`future.compatibilityVersion: 4`) |
-| **Lenguaje** | **TypeScript** | Tipado estricto en modelos de dominio y composables |
-| **Estilos** | **Tailwind CSS** | Paleta táctica: fondo `#111318`, sidebar `#171A21`, paneles `#1D212B`, bordes `#303644`, carmesí `#B8323C` |
-| **Componentes UI** | **shadcn-vue / Radix Vue** | Tablas, tarjetas, diálogos, insignias y botones |
-| **Iconos** | **Lucide Vue Next** | Iconografía deportiva y contextual coherente |
-| **Hosting** | **Vercel** | Despliegue SSR serverless optimizado (`vercel.json`) |
-| **Tests** | **Vitest + Playwright** | Pruebas unitarias de utilidades y pruebas de navegador E2E |
+## Arrancar
 
----
-
-## 🎨 Sistema de Diseño (Fantasía Oscura)
-
-- **Fondo principal**: `#111318` (`bg-ground`)
-- **Sidebar**: `#171A21` (`bg-sidebar`)
-- **Tarjetas y paneles**: `#1D212B` (`bg-surface`) con hover en `#242936`
-- **Bordes sutiles**: `#303644` (`border-border`)
-- **Texto principal**: `#F1F3F5` y secundario `#A1A8B5`
-- **Acento**: Carmesí `#B8323C` (`accent-crimson`)
-- **Indicadores**: Verde apagado (`#3FA26C`), ámbar (`#D97706`), peligro (`#B8323C`)
-
----
-
-## 📂 Rutas Implementadas
-
-| Ruta | Descripción |
-| :--- | :--- |
-| `/` | **Dashboard inicial** con 4 tarjetas de resumen, tabla de ligas recientes, próximos partidos y feed de actividad |
-| `/ligas` | Catálogo de competiciones con buscador por nombre y filtro por formato |
-| `/ligas/[slug]` | Ficha de liga con pestañas de Clasificación, Jornadas y Equipos inscritos |
-| `/equipos` | Franquicias federadas, búsqueda, filtro por raza y TV |
-| `/equipos/[id]` | Plantilla oficial (16 jugadores), línea de atributos (MA, ST, AG, PA, AV), habilidades, SPP, TV y tesorería |
-| `/entrenadores` | Directorio de técnicos federados, palmarés, lema y NAF ID |
-| `/partidos` | Calendario de enfrentamientos oficiales con filtros por estado |
-| `/partidos/[id]` | Acta oficial de encuentro (marcador, estadio, MVP y anotaciones) |
-| `/estadisticas` | Tablas de máximos anotadores (TD), carniceros del campo (bajas) y estrellas (SPP) |
-| `/configuracion` | Ajustes de reglamento BB2025, recompensas y endpoint de backend FastAPI |
-| `/login` | Inicio de sesión y registro de entrenadores |
-
----
-
-## 🚀 Cómo Arrancar el Proyecto
-
-### 1. Requisitos Previos
-- Node.js 18+ o 20+
-- npm o pnpm
-
-### 2. Configurar Variables de Entorno
-Copia el archivo `.env.example` a `.env`:
 ```bash
-cp .env.example .env
-```
-
-Variables recomendadas:
-```env
-NUXT_API_BASE=http://localhost:8000/api/v1
-SUPABASE_URL=https://your-project.supabase.co
-SUPABASE_KEY=your-anon-key
-```
-
-### 3. Instalar Dependencias
-```bash
+cp .env.example .env   # rellena la URL de la API y las claves de Supabase
 npm install
+npm run dev            # http://localhost:5173
 ```
 
-### 4. Modo Desarrollo
-```bash
-npm run dev
+## Scripts
+
+| Script | Qué hace |
+| --- | --- |
+| `npm run dev` | Servidor de desarrollo |
+| `npm run build` | Comprobación de tipos y build de producción |
+| `npm run preview` | Sirve el build |
+| `npm test` | Tests unitarios (Vitest) |
+| `npm run test:e2e` | Tests E2E (Playwright; la primera vez, `npx playwright install chromium`) |
+| `npm run api:generate` | Regenera el cliente de la API con orval |
+
+## Estructura
+
 ```
-La aplicación estará disponible en `http://localhost:3000`.
-
-### 5. Compilar para Producción
-```bash
-npm run build
+src/
+  api/
+    http.ts            fetch común: URL base, JWT de Supabase y errores (ApiError)
+    generated/         cliente generado por orval; no se edita a mano
+  components/
+    layout/            barra lateral, cabecera, menú de usuario, selector de idioma
+    ui/                componentes base (BaseButton, BaseInput, BaseAlert…)
+  composables/         lógica reutilizable (useAsyncData…)
+  i18n/                configuración y catálogos es/en
+  layouts/             AppLayout (con sesión) y AuthLayout (login)
+  lib/                 cliente de Supabase y utilidades
+  router/              rutas y guardas de sesión
+  stores/              stores de Pinia (auth)
+  styles/              tokens, mixins y estilos globales
+  views/               una vista por ruta
+tests/
+  unit/                Vitest
+  e2e/                 Playwright
 ```
 
----
+## Convenciones
 
-## 🧪 Pruebas Automatizadas
+### API
 
-- **Pruebas unitarias (Vitest)**:
-  ```bash
-  npm test
-  ```
-- **Pruebas E2E (Playwright)**:
-  ```bash
-  npm run test:e2e
-  ```
+- El cliente se genera desde `/openapi.json` del back: `npm run api:generate`. Por defecto
+  usa producción; para la API local, `VITE_OPENAPI_URL=http://localhost:8000/openapi.json`.
+- El código generado se versiona, para que el front compile sin tener el back levantado.
+  Si cambia el contrato, se regenera y se sube en el mismo PR.
+- Todas las funciones pasan por `apiFetch` (`src/api/http.ts`). Ahí se añade el token y,
+  si la respuesta no es 2xx, se lanza `ApiError` con el `detail` de FastAPI.
+- Los datos se piden siempre a la API, nunca a Supabase directamente.
 
----
+### Traducciones
 
-## 🧩 Funciones que Actualmente Utilizan Datos Ficticios Tipados
+- Catálogos en `src/i18n/locales/{es,en}.json`. Vienen del front React
+  (`scripts/import-locales.mjs`, ya ejecutado). Desde entonces son la fuente de verdad.
+- Las claves siguen `área.componente.texto`. Las del armazón nuevo van en `shell.*`.
+- Sintaxis de Vue I18n: `{var}`, plurales `uno | varios` con `t(clave, { count }, n)`, y
+  `{'@'}` o `{'|'}` para esos caracteres literales.
+- Algunos textos del catálogo llevan marcadores `<1>…</1>`, heredados de `Trans` de
+  React. Al portar su componente se resuelven con `<i18n-t>`.
+- Un test comprueba que es y en tienen las mismas claves.
+- Solo es va en el bundle; en se carga al elegirlo.
 
-Para garantizar que la interfaz sea plenamente interactiva sin depender de conexión a base de datos en esta fase, se utilizan datos de demostración tipados en `app/data/mockBloodBowlData.ts` orquestados mediante el composable `app/composables/useBloodBowl.ts`:
+### Estilos
 
-1. **Dashboard Stats**: Conteo de 4 ligas activas, 32 equipos, 86 partidos disputados y 12 pendientes.
-2. **Tabla de Ligas**: Competiciones demostrativas (*Liga del Viejo Mundo*, *Copa de los Reinos*, *Liga de la Ciudad Maldita*, *Torneo de los Condenados*). La acción de *Crear Liga* añade reactivamente nuevas ligas al estado de sesión.
-3. **Próximos Partidos**: Enfrentamientos ficticios entre franquicias emblemáticas (*Reikland Reavers* vs *Gouged Eye*, *Skavenblight Scramblers* vs *Dwarf Giants*, etc.).
-4. **Feed de Actividad**: Eventos de actas validadas, lesiones y altas de equipos.
-5. **Roster de Equipos**: Plantillas de ejemplo con atributos oficiales Blood Bowl 2025 (MA, ST, AG, PA, AV).
+- `src/styles/abstracts` contiene los tokens, `color()`, `space()`, `font-size()` y mixins
+  como `up('lg')`, `panel` o `focus-ring`. Se inyecta en cada `<style lang="scss">`, así que
+  no hace falta importarlo.
+- Los colores se publican como variables CSS (`--color-*`); en SCSS se usan con
+  `color('crimson')`.
+- Estilos `scoped` con BEM (`.league-card__name`).
 
-> **Migración a FastAPI**: Todos los componentes consumen el composable `useBloodBowl()`, permitiendo conectar los endpoints de `fantasy-football-manager-api` simplemente sustituyendo las fuentes del composable por `$fetch` sin reescribir la capa de presentación.
+### Rutas
+
+- El mapa de rutas sale de los flujos de usuario del front React.
+- Las rutas privadas exigen sesión; sin ella se redirige a `/login?redirect=…`.
+- Las vistas aún no portadas usan `PlaceholderView`.
+
+## Estado
+
+Portado:
+
+- Acceso: login, registro y recuperación de contraseña.
+- Armazón de la app: barra lateral, cabecera e idioma.
+- Lista de ligas, contra la API real.
+
+Lo demás es un placeholder con su ruta definida:
+
+- Perfil y equipos: perfil, equipos y plantilla.
+- Ligas: detalle con 9 pestañas y acta de partido.
+- Torneos: lista y detalle con 5 pestañas.
+- Herramientas: partida rápida, pizarra, calculadora y glosario.
+- Comunidad y planes: hall of fame, entrenadores y planes.
